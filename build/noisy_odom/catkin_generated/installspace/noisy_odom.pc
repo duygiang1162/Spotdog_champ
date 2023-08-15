@@ -1,0 +1,8 @@
+prefix=/home/ruyzang/spotdog/install
+
+Name: noisy_odom
+Description: Description of noisy_odom
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
