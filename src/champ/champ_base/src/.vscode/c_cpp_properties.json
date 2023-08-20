@@ -1,0 +1,25 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/ruyzang/spotdog/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/ruyzang/spotdog/src/champ/champ/include/**",
+        "/home/ruyzang/spotdog/src/champ/champ_base/include/**",
+        "/home/ruyzang/spotdog/src/champ/champ_config/include/**",
+        "/home/ruyzang/spotdog/src/yocs_velocity_smoother/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
