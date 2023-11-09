@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ruyzang/spotdog/src
+CMAKE_SOURCE_DIR = /home/duygiang/Spotdog_champ/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ruyzang/spotdog/build
+CMAKE_BINARY_DIR = /home/duygiang/Spotdog_champ/build
 
 # Include any dependencies generated for this target.
 include champ/champ_base/CMakeFiles/quadruped_controller_node.dir/depend.make
@@ -58,17 +58,17 @@ include champ/champ_base/CMakeFiles/quadruped_controller_node.dir/progress.make
 include champ/champ_base/CMakeFiles/quadruped_controller_node.dir/flags.make
 
 champ/champ_base/CMakeFiles/quadruped_controller_node.dir/src/quadruped_controller_node.cpp.o: champ/champ_base/CMakeFiles/quadruped_controller_node.dir/flags.make
-champ/champ_base/CMakeFiles/quadruped_controller_node.dir/src/quadruped_controller_node.cpp.o: /home/ruyzang/spotdog/src/champ/champ_base/src/quadruped_controller_node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruyzang/spotdog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object champ/champ_base/CMakeFiles/quadruped_controller_node.dir/src/quadruped_controller_node.cpp.o"
-	cd /home/ruyzang/spotdog/build/champ/champ_base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/quadruped_controller_node.dir/src/quadruped_controller_node.cpp.o -c /home/ruyzang/spotdog/src/champ/champ_base/src/quadruped_controller_node.cpp
+champ/champ_base/CMakeFiles/quadruped_controller_node.dir/src/quadruped_controller_node.cpp.o: /home/duygiang/Spotdog_champ/src/champ/champ_base/src/quadruped_controller_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duygiang/Spotdog_champ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object champ/champ_base/CMakeFiles/quadruped_controller_node.dir/src/quadruped_controller_node.cpp.o"
+	cd /home/duygiang/Spotdog_champ/build/champ/champ_base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/quadruped_controller_node.dir/src/quadruped_controller_node.cpp.o -c /home/duygiang/Spotdog_champ/src/champ/champ_base/src/quadruped_controller_node.cpp
 
 champ/champ_base/CMakeFiles/quadruped_controller_node.dir/src/quadruped_controller_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quadruped_controller_node.dir/src/quadruped_controller_node.cpp.i"
-	cd /home/ruyzang/spotdog/build/champ/champ_base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ruyzang/spotdog/src/champ/champ_base/src/quadruped_controller_node.cpp > CMakeFiles/quadruped_controller_node.dir/src/quadruped_controller_node.cpp.i
+	cd /home/duygiang/Spotdog_champ/build/champ/champ_base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/duygiang/Spotdog_champ/src/champ/champ_base/src/quadruped_controller_node.cpp > CMakeFiles/quadruped_controller_node.dir/src/quadruped_controller_node.cpp.i
 
 champ/champ_base/CMakeFiles/quadruped_controller_node.dir/src/quadruped_controller_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quadruped_controller_node.dir/src/quadruped_controller_node.cpp.s"
-	cd /home/ruyzang/spotdog/build/champ/champ_base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ruyzang/spotdog/src/champ/champ_base/src/quadruped_controller_node.cpp -o CMakeFiles/quadruped_controller_node.dir/src/quadruped_controller_node.cpp.s
+	cd /home/duygiang/Spotdog_champ/build/champ/champ_base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/duygiang/Spotdog_champ/src/champ/champ_base/src/quadruped_controller_node.cpp -o CMakeFiles/quadruped_controller_node.dir/src/quadruped_controller_node.cpp.s
 
 # Object files for target quadruped_controller_node
 quadruped_controller_node_OBJECTS = \
@@ -77,60 +77,60 @@ quadruped_controller_node_OBJECTS = \
 # External object files for target quadruped_controller_node
 quadruped_controller_node_EXTERNAL_OBJECTS =
 
-/home/ruyzang/spotdog/devel/lib/champ_base/quadruped_controller_node: champ/champ_base/CMakeFiles/quadruped_controller_node.dir/src/quadruped_controller_node.cpp.o
-/home/ruyzang/spotdog/devel/lib/champ_base/quadruped_controller_node: champ/champ_base/CMakeFiles/quadruped_controller_node.dir/build.make
-/home/ruyzang/spotdog/devel/lib/champ_base/quadruped_controller_node: /home/ruyzang/spotdog/devel/lib/libquadruped_controller.so
-/home/ruyzang/spotdog/devel/lib/champ_base/quadruped_controller_node: /opt/ros/noetic/lib/libtf.so
-/home/ruyzang/spotdog/devel/lib/champ_base/quadruped_controller_node: /opt/ros/noetic/lib/libtf2_ros.so
-/home/ruyzang/spotdog/devel/lib/champ_base/quadruped_controller_node: /opt/ros/noetic/lib/libactionlib.so
-/home/ruyzang/spotdog/devel/lib/champ_base/quadruped_controller_node: /opt/ros/noetic/lib/libtf2.so
-/home/ruyzang/spotdog/devel/lib/champ_base/quadruped_controller_node: /opt/ros/noetic/lib/liburdf.so
-/home/ruyzang/spotdog/devel/lib/champ_base/quadruped_controller_node: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
-/home/ruyzang/spotdog/devel/lib/champ_base/quadruped_controller_node: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
-/home/ruyzang/spotdog/devel/lib/champ_base/quadruped_controller_node: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
-/home/ruyzang/spotdog/devel/lib/champ_base/quadruped_controller_node: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
-/home/ruyzang/spotdog/devel/lib/champ_base/quadruped_controller_node: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/ruyzang/spotdog/devel/lib/champ_base/quadruped_controller_node: /opt/ros/noetic/lib/libclass_loader.so
-/home/ruyzang/spotdog/devel/lib/champ_base/quadruped_controller_node: /usr/lib/x86_64-linux-gnu/libPocoFoundation.so
-/home/ruyzang/spotdog/devel/lib/champ_base/quadruped_controller_node: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/ruyzang/spotdog/devel/lib/champ_base/quadruped_controller_node: /opt/ros/noetic/lib/libroslib.so
-/home/ruyzang/spotdog/devel/lib/champ_base/quadruped_controller_node: /opt/ros/noetic/lib/librospack.so
-/home/ruyzang/spotdog/devel/lib/champ_base/quadruped_controller_node: /usr/lib/x86_64-linux-gnu/libpython3.8.so
-/home/ruyzang/spotdog/devel/lib/champ_base/quadruped_controller_node: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
-/home/ruyzang/spotdog/devel/lib/champ_base/quadruped_controller_node: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/ruyzang/spotdog/devel/lib/champ_base/quadruped_controller_node: /opt/ros/noetic/lib/librosconsole_bridge.so
-/home/ruyzang/spotdog/devel/lib/champ_base/quadruped_controller_node: /opt/ros/noetic/lib/libmessage_filters.so
-/home/ruyzang/spotdog/devel/lib/champ_base/quadruped_controller_node: /opt/ros/noetic/lib/libroscpp.so
-/home/ruyzang/spotdog/devel/lib/champ_base/quadruped_controller_node: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/ruyzang/spotdog/devel/lib/champ_base/quadruped_controller_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
-/home/ruyzang/spotdog/devel/lib/champ_base/quadruped_controller_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
-/home/ruyzang/spotdog/devel/lib/champ_base/quadruped_controller_node: /opt/ros/noetic/lib/libroscpp_serialization.so
-/home/ruyzang/spotdog/devel/lib/champ_base/quadruped_controller_node: /opt/ros/noetic/lib/libxmlrpcpp.so
-/home/ruyzang/spotdog/devel/lib/champ_base/quadruped_controller_node: /opt/ros/noetic/lib/librosconsole.so
-/home/ruyzang/spotdog/devel/lib/champ_base/quadruped_controller_node: /opt/ros/noetic/lib/librosconsole_log4cxx.so
-/home/ruyzang/spotdog/devel/lib/champ_base/quadruped_controller_node: /opt/ros/noetic/lib/librosconsole_backend_interface.so
-/home/ruyzang/spotdog/devel/lib/champ_base/quadruped_controller_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/ruyzang/spotdog/devel/lib/champ_base/quadruped_controller_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
-/home/ruyzang/spotdog/devel/lib/champ_base/quadruped_controller_node: /opt/ros/noetic/lib/librostime.so
-/home/ruyzang/spotdog/devel/lib/champ_base/quadruped_controller_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
-/home/ruyzang/spotdog/devel/lib/champ_base/quadruped_controller_node: /opt/ros/noetic/lib/libcpp_common.so
-/home/ruyzang/spotdog/devel/lib/champ_base/quadruped_controller_node: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
-/home/ruyzang/spotdog/devel/lib/champ_base/quadruped_controller_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
-/home/ruyzang/spotdog/devel/lib/champ_base/quadruped_controller_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/ruyzang/spotdog/devel/lib/champ_base/quadruped_controller_node: champ/champ_base/CMakeFiles/quadruped_controller_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ruyzang/spotdog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/ruyzang/spotdog/devel/lib/champ_base/quadruped_controller_node"
-	cd /home/ruyzang/spotdog/build/champ/champ_base && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/quadruped_controller_node.dir/link.txt --verbose=$(VERBOSE)
+/home/duygiang/Spotdog_champ/devel/lib/champ_base/quadruped_controller_node: champ/champ_base/CMakeFiles/quadruped_controller_node.dir/src/quadruped_controller_node.cpp.o
+/home/duygiang/Spotdog_champ/devel/lib/champ_base/quadruped_controller_node: champ/champ_base/CMakeFiles/quadruped_controller_node.dir/build.make
+/home/duygiang/Spotdog_champ/devel/lib/champ_base/quadruped_controller_node: /home/duygiang/Spotdog_champ/devel/lib/libquadruped_controller.so
+/home/duygiang/Spotdog_champ/devel/lib/champ_base/quadruped_controller_node: /opt/ros/noetic/lib/libtf.so
+/home/duygiang/Spotdog_champ/devel/lib/champ_base/quadruped_controller_node: /opt/ros/noetic/lib/libtf2_ros.so
+/home/duygiang/Spotdog_champ/devel/lib/champ_base/quadruped_controller_node: /opt/ros/noetic/lib/libactionlib.so
+/home/duygiang/Spotdog_champ/devel/lib/champ_base/quadruped_controller_node: /opt/ros/noetic/lib/libtf2.so
+/home/duygiang/Spotdog_champ/devel/lib/champ_base/quadruped_controller_node: /opt/ros/noetic/lib/liburdf.so
+/home/duygiang/Spotdog_champ/devel/lib/champ_base/quadruped_controller_node: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
+/home/duygiang/Spotdog_champ/devel/lib/champ_base/quadruped_controller_node: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
+/home/duygiang/Spotdog_champ/devel/lib/champ_base/quadruped_controller_node: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
+/home/duygiang/Spotdog_champ/devel/lib/champ_base/quadruped_controller_node: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
+/home/duygiang/Spotdog_champ/devel/lib/champ_base/quadruped_controller_node: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/duygiang/Spotdog_champ/devel/lib/champ_base/quadruped_controller_node: /opt/ros/noetic/lib/libclass_loader.so
+/home/duygiang/Spotdog_champ/devel/lib/champ_base/quadruped_controller_node: /usr/lib/x86_64-linux-gnu/libPocoFoundation.so
+/home/duygiang/Spotdog_champ/devel/lib/champ_base/quadruped_controller_node: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/duygiang/Spotdog_champ/devel/lib/champ_base/quadruped_controller_node: /opt/ros/noetic/lib/libroslib.so
+/home/duygiang/Spotdog_champ/devel/lib/champ_base/quadruped_controller_node: /opt/ros/noetic/lib/librospack.so
+/home/duygiang/Spotdog_champ/devel/lib/champ_base/quadruped_controller_node: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+/home/duygiang/Spotdog_champ/devel/lib/champ_base/quadruped_controller_node: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
+/home/duygiang/Spotdog_champ/devel/lib/champ_base/quadruped_controller_node: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/duygiang/Spotdog_champ/devel/lib/champ_base/quadruped_controller_node: /opt/ros/noetic/lib/librosconsole_bridge.so
+/home/duygiang/Spotdog_champ/devel/lib/champ_base/quadruped_controller_node: /opt/ros/noetic/lib/libmessage_filters.so
+/home/duygiang/Spotdog_champ/devel/lib/champ_base/quadruped_controller_node: /opt/ros/noetic/lib/libroscpp.so
+/home/duygiang/Spotdog_champ/devel/lib/champ_base/quadruped_controller_node: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/duygiang/Spotdog_champ/devel/lib/champ_base/quadruped_controller_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
+/home/duygiang/Spotdog_champ/devel/lib/champ_base/quadruped_controller_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+/home/duygiang/Spotdog_champ/devel/lib/champ_base/quadruped_controller_node: /opt/ros/noetic/lib/libroscpp_serialization.so
+/home/duygiang/Spotdog_champ/devel/lib/champ_base/quadruped_controller_node: /opt/ros/noetic/lib/libxmlrpcpp.so
+/home/duygiang/Spotdog_champ/devel/lib/champ_base/quadruped_controller_node: /opt/ros/noetic/lib/librosconsole.so
+/home/duygiang/Spotdog_champ/devel/lib/champ_base/quadruped_controller_node: /opt/ros/noetic/lib/librosconsole_log4cxx.so
+/home/duygiang/Spotdog_champ/devel/lib/champ_base/quadruped_controller_node: /opt/ros/noetic/lib/librosconsole_backend_interface.so
+/home/duygiang/Spotdog_champ/devel/lib/champ_base/quadruped_controller_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/duygiang/Spotdog_champ/devel/lib/champ_base/quadruped_controller_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
+/home/duygiang/Spotdog_champ/devel/lib/champ_base/quadruped_controller_node: /opt/ros/noetic/lib/librostime.so
+/home/duygiang/Spotdog_champ/devel/lib/champ_base/quadruped_controller_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+/home/duygiang/Spotdog_champ/devel/lib/champ_base/quadruped_controller_node: /opt/ros/noetic/lib/libcpp_common.so
+/home/duygiang/Spotdog_champ/devel/lib/champ_base/quadruped_controller_node: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+/home/duygiang/Spotdog_champ/devel/lib/champ_base/quadruped_controller_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+/home/duygiang/Spotdog_champ/devel/lib/champ_base/quadruped_controller_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/duygiang/Spotdog_champ/devel/lib/champ_base/quadruped_controller_node: champ/champ_base/CMakeFiles/quadruped_controller_node.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/duygiang/Spotdog_champ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/duygiang/Spotdog_champ/devel/lib/champ_base/quadruped_controller_node"
+	cd /home/duygiang/Spotdog_champ/build/champ/champ_base && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/quadruped_controller_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-champ/champ_base/CMakeFiles/quadruped_controller_node.dir/build: /home/ruyzang/spotdog/devel/lib/champ_base/quadruped_controller_node
+champ/champ_base/CMakeFiles/quadruped_controller_node.dir/build: /home/duygiang/Spotdog_champ/devel/lib/champ_base/quadruped_controller_node
 
 .PHONY : champ/champ_base/CMakeFiles/quadruped_controller_node.dir/build
 
 champ/champ_base/CMakeFiles/quadruped_controller_node.dir/clean:
-	cd /home/ruyzang/spotdog/build/champ/champ_base && $(CMAKE_COMMAND) -P CMakeFiles/quadruped_controller_node.dir/cmake_clean.cmake
+	cd /home/duygiang/Spotdog_champ/build/champ/champ_base && $(CMAKE_COMMAND) -P CMakeFiles/quadruped_controller_node.dir/cmake_clean.cmake
 .PHONY : champ/champ_base/CMakeFiles/quadruped_controller_node.dir/clean
 
 champ/champ_base/CMakeFiles/quadruped_controller_node.dir/depend:
-	cd /home/ruyzang/spotdog/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ruyzang/spotdog/src /home/ruyzang/spotdog/src/champ/champ_base /home/ruyzang/spotdog/build /home/ruyzang/spotdog/build/champ/champ_base /home/ruyzang/spotdog/build/champ/champ_base/CMakeFiles/quadruped_controller_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/duygiang/Spotdog_champ/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/duygiang/Spotdog_champ/src /home/duygiang/Spotdog_champ/src/champ/champ_base /home/duygiang/Spotdog_champ/build /home/duygiang/Spotdog_champ/build/champ/champ_base /home/duygiang/Spotdog_champ/build/champ/champ_base/CMakeFiles/quadruped_controller_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : champ/champ_base/CMakeFiles/quadruped_controller_node.dir/depend
 

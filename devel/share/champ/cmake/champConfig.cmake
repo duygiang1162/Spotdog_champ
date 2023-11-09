@@ -67,14 +67,14 @@ set(champ_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(champ_SOURCE_PREFIX /home/ruyzang/spotdog/src/champ/champ)
-  set(champ_DEVEL_PREFIX /home/ruyzang/spotdog/devel)
+  set(champ_SOURCE_PREFIX /home/duygiang/Spotdog_champ/src/champ/champ)
+  set(champ_DEVEL_PREFIX /home/duygiang/Spotdog_champ/devel)
   set(champ_INSTALL_PREFIX "")
   set(champ_PREFIX ${champ_DEVEL_PREFIX})
 else()
   set(champ_SOURCE_PREFIX "")
   set(champ_DEVEL_PREFIX "")
-  set(champ_INSTALL_PREFIX /home/ruyzang/spotdog/install)
+  set(champ_INSTALL_PREFIX /home/duygiang/Spotdog_champ/install)
   set(champ_PREFIX ${champ_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(champ_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/ruyzang/spotdog/src/champ/champ/include;/home/ruyzang/spotdog/src/champ/champ/include/champ " STREQUAL " ")
+if(NOT "/home/duygiang/Spotdog_champ/src/champ/champ/include;/home/duygiang/Spotdog_champ/src/champ/champ/include/champ " STREQUAL " ")
   set(champ_INCLUDE_DIRS "")
-  set(_include_dirs "/home/ruyzang/spotdog/src/champ/champ/include;/home/ruyzang/spotdog/src/champ/champ/include/champ")
+  set(_include_dirs "/home/duygiang/Spotdog_champ/src/champ/champ/include;/home/duygiang/Spotdog_champ/src/champ/champ/include/champ")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/ruyzang/spotdog/src/champ/champ/include;/home/ruyzang/spotdog/src/
         message(FATAL_ERROR "Project 'champ' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'champ' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/ruyzang/spotdog/src/champ/champ/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'champ' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/duygiang/Spotdog_champ/src/champ/champ/${idir}'.  ${_report}")
     endif()
     _list_append_unique(champ_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/ruyzang/spotdog/devel/lib;/home/ruyzang/spotdog/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/duygiang/Spotdog_champ/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

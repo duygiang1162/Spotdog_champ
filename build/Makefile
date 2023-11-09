@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ruyzang/spotdog/src
+CMAKE_SOURCE_DIR = /home/duygiang/Spotdog_champ/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ruyzang/spotdog/build
+CMAKE_BINARY_DIR = /home/duygiang/Spotdog_champ/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruyzang/spotdog/build/CMakeFiles /home/ruyzang/spotdog/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/duygiang/Spotdog_champ/build/CMakeFiles /home/duygiang/Spotdog_champ/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruyzang/spotdog/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/duygiang/Spotdog_champ/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -294,7 +294,7 @@ _catkin_empty_exported_target: cmake_check_build_system
 
 # fast build rule for target.
 _catkin_empty_exported_target/fast:
-	$(MAKE) -f champ/champ/CMakeFiles/_catkin_empty_exported_target.dir/build.make champ/champ/CMakeFiles/_catkin_empty_exported_target.dir/build
+	$(MAKE) -f Spot_dog_config/CMakeFiles/_catkin_empty_exported_target.dir/build.make Spot_dog_config/CMakeFiles/_catkin_empty_exported_target.dir/build
 .PHONY : _catkin_empty_exported_target/fast
 
 #=============================================================================

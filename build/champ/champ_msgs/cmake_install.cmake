@@ -1,8 +1,8 @@
-# Install script for directory: /home/ruyzang/spotdog/src/champ/champ_msgs
+# Install script for directory: /home/duygiang/Spotdog_champ/src/champ/champ_msgs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ruyzang/spotdog/install")
+  set(CMAKE_INSTALL_PREFIX "/home/duygiang/Spotdog_champ/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,62 +39,62 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/champ_msgs/msg" TYPE FILE FILES
-    "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Velocities.msg"
-    "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/PID.msg"
-    "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Imu.msg"
-    "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Point.msg"
-    "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/PointArray.msg"
-    "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Joints.msg"
-    "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Contacts.msg"
-    "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/ContactsStamped.msg"
-    "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Pose.msg"
+    "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Velocities.msg"
+    "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/PID.msg"
+    "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Imu.msg"
+    "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Point.msg"
+    "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/PointArray.msg"
+    "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Joints.msg"
+    "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Contacts.msg"
+    "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/ContactsStamped.msg"
+    "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Pose.msg"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/champ_msgs/cmake" TYPE FILE FILES "/home/ruyzang/spotdog/build/champ/champ_msgs/catkin_generated/installspace/champ_msgs-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/champ_msgs/cmake" TYPE FILE FILES "/home/duygiang/Spotdog_champ/build/champ/champ_msgs/catkin_generated/installspace/champ_msgs-msg-paths.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/ruyzang/spotdog/devel/include/champ_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/duygiang/Spotdog_champ/devel/include/champ_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/ruyzang/spotdog/devel/share/roseus/ros/champ_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/duygiang/Spotdog_champ/devel/share/roseus/ros/champ_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/ruyzang/spotdog/devel/share/common-lisp/ros/champ_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/duygiang/Spotdog_champ/devel/share/common-lisp/ros/champ_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/ruyzang/spotdog/devel/share/gennodejs/ros/champ_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/duygiang/Spotdog_champ/devel/share/gennodejs/ros/champ_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs")
+  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ruyzang/spotdog/build/champ/champ_msgs/catkin_generated/installspace/champ_msgs.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/duygiang/Spotdog_champ/build/champ/champ_msgs/catkin_generated/installspace/champ_msgs.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/champ_msgs/cmake" TYPE FILE FILES "/home/ruyzang/spotdog/build/champ/champ_msgs/catkin_generated/installspace/champ_msgs-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/champ_msgs/cmake" TYPE FILE FILES "/home/duygiang/Spotdog_champ/build/champ/champ_msgs/catkin_generated/installspace/champ_msgs-msg-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/champ_msgs/cmake" TYPE FILE FILES
-    "/home/ruyzang/spotdog/build/champ/champ_msgs/catkin_generated/installspace/champ_msgsConfig.cmake"
-    "/home/ruyzang/spotdog/build/champ/champ_msgs/catkin_generated/installspace/champ_msgsConfig-version.cmake"
+    "/home/duygiang/Spotdog_champ/build/champ/champ_msgs/catkin_generated/installspace/champ_msgsConfig.cmake"
+    "/home/duygiang/Spotdog_champ/build/champ/champ_msgs/catkin_generated/installspace/champ_msgsConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/champ_msgs" TYPE FILE FILES "/home/ruyzang/spotdog/src/champ/champ_msgs/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/champ_msgs" TYPE FILE FILES "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/package.xml")
 endif()
 

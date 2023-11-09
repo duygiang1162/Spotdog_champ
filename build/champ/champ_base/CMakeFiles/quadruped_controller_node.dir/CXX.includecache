@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ruyzang/spotdog/devel/include/champ_msgs/ContactsStamped.h
+/home/duygiang/Spotdog_champ/devel/include/champ_msgs/ContactsStamped.h
 string
 -
 vector
@@ -24,7 +24,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/ruyzang/spotdog/devel/include/champ_msgs/Joints.h
+/home/duygiang/Spotdog_champ/devel/include/champ_msgs/Joints.h
 string
 -
 vector
@@ -40,7 +40,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ruyzang/spotdog/devel/include/champ_msgs/Point.h
+/home/duygiang/Spotdog_champ/devel/include/champ_msgs/Point.h
 string
 -
 vector
@@ -56,7 +56,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ruyzang/spotdog/devel/include/champ_msgs/PointArray.h
+/home/duygiang/Spotdog_champ/devel/include/champ_msgs/PointArray.h
 string
 -
 vector
@@ -80,7 +80,7 @@ champ_msgs/Point.h
 champ_msgs/Point.h
 -
 
-/home/ruyzang/spotdog/devel/include/champ_msgs/Pose.h
+/home/duygiang/Spotdog_champ/devel/include/champ_msgs/Pose.h
 string
 -
 vector
@@ -96,7 +96,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ruyzang/spotdog/src/champ/champ/include/champ/bla/basic_linear_algebra.h
+/home/duygiang/Spotdog_champ/src/champ/champ/include/champ/bla/basic_linear_algebra.h
 stdlib.h
 -
 string.h
@@ -104,11 +104,11 @@ string.h
 math.h
 -
 memory_delegate.h
-/home/ruyzang/spotdog/src/champ/champ/include/champ/bla/memory_delegate.h
+/home/duygiang/Spotdog_champ/src/champ/champ/include/champ/bla/memory_delegate.h
 
-/home/ruyzang/spotdog/src/champ/champ/include/champ/bla/memory_delegate.h
+/home/duygiang/Spotdog_champ/src/champ/champ/include/champ/bla/memory_delegate.h
 
-/home/ruyzang/spotdog/src/champ/champ/include/champ/body_controller/body_controller.h
+/home/duygiang/Spotdog_champ/src/champ/champ/include/champ/body_controller/body_controller.h
 geometry/geometry.h
 -
 quadruped_base/quadruped_base.h
@@ -118,13 +118,13 @@ quadruped_base/quadruped_leg.h
 kinematics/kinematics.h
 -
 
-/home/ruyzang/spotdog/src/champ/champ/include/champ/geometry/geometry.h
+/home/duygiang/Spotdog_champ/src/champ/champ/include/champ/geometry/geometry.h
 bla/basic_linear_algebra.h
-/home/ruyzang/spotdog/src/champ/champ/include/champ/geometry/bla/basic_linear_algebra.h
+/home/duygiang/Spotdog_champ/src/champ/champ/include/champ/geometry/bla/basic_linear_algebra.h
 math.h
 -
 
-/home/ruyzang/spotdog/src/champ/champ/include/champ/kinematics/kinematics.h
+/home/duygiang/Spotdog_champ/src/champ/champ/include/champ/kinematics/kinematics.h
 cmath
 -
 macros/macros.h
@@ -134,7 +134,7 @@ geometry/geometry.h
 quadruped_base/quadruped_base.h
 -
 
-/home/ruyzang/spotdog/src/champ/champ/include/champ/leg_controller/leg_controller.h
+/home/duygiang/Spotdog_champ/src/champ/champ/include/champ/leg_controller/leg_controller.h
 geometry/geometry.h
 -
 quadruped_base/quadruped_base.h
@@ -146,25 +146,25 @@ leg_controller/trajectory_planner.h
 leg_controller/phase_generator.h
 -
 
-/home/ruyzang/spotdog/src/champ/champ/include/champ/leg_controller/phase_generator.h
+/home/duygiang/Spotdog_champ/src/champ/champ/include/champ/leg_controller/phase_generator.h
 macros/macros.h
 -
 quadruped_base/quadruped_base.h
 -
 
-/home/ruyzang/spotdog/src/champ/champ/include/champ/leg_controller/trajectory_planner.h
+/home/duygiang/Spotdog_champ/src/champ/champ/include/champ/leg_controller/trajectory_planner.h
 geometry/geometry.h
 -
 quadruped_base/quadruped_leg.h
 -
 
-/home/ruyzang/spotdog/src/champ/champ/include/champ/macros/macros.h
+/home/duygiang/Spotdog_champ/src/champ/champ/include/champ/macros/macros.h
 sys/time.h
 -
 Arduino.h
 -
 
-/home/ruyzang/spotdog/src/champ/champ/include/champ/quadruped_base/quadruped_base.h
+/home/duygiang/Spotdog_champ/src/champ/champ/include/champ/quadruped_base/quadruped_base.h
 geometry/geometry.h
 -
 quadruped_base/quadruped_leg.h
@@ -172,21 +172,21 @@ quadruped_base/quadruped_leg.h
 quadruped_base/quadruped_components.h
 -
 
-/home/ruyzang/spotdog/src/champ/champ/include/champ/quadruped_base/quadruped_components.h
+/home/duygiang/Spotdog_champ/src/champ/champ/include/champ/quadruped_base/quadruped_components.h
 
-/home/ruyzang/spotdog/src/champ/champ/include/champ/quadruped_base/quadruped_joint.h
+/home/duygiang/Spotdog_champ/src/champ/champ/include/champ/quadruped_base/quadruped_joint.h
 quadruped_base/quadruped_components.h
 -
 
-/home/ruyzang/spotdog/src/champ/champ/include/champ/quadruped_base/quadruped_leg.h
+/home/duygiang/Spotdog_champ/src/champ/champ/include/champ/quadruped_base/quadruped_leg.h
 geometry/geometry.h
 -
 quadruped_base/quadruped_joint.h
 -
 
-/home/ruyzang/spotdog/src/champ/champ/include/champ/utils/urdf_loader.h
+/home/duygiang/Spotdog_champ/src/champ/champ/include/champ/utils/urdf_loader.h
 ros/ros.h
-/home/ruyzang/spotdog/src/champ/champ/include/champ/utils/ros/ros.h
+/home/duygiang/Spotdog_champ/src/champ/champ/include/champ/utils/ros/ros.h
 urdf/model.h
 -
 utils/xmlrpc_helpers.h
@@ -198,15 +198,15 @@ quadruped_base/quadruped_leg.h
 quadruped_base/quadruped_joint.h
 -
 
-/home/ruyzang/spotdog/src/champ/champ/include/champ/utils/xmlrpc_helpers.h
+/home/duygiang/Spotdog_champ/src/champ/champ/include/champ/utils/xmlrpc_helpers.h
 sstream
 -
 ros/ros.h
 -
 
-/home/ruyzang/spotdog/src/champ/champ_base/include/quadruped_controller.h
+/home/duygiang/Spotdog_champ/src/champ/champ_base/include/quadruped_controller.h
 ros/ros.h
-/home/ruyzang/spotdog/src/champ/champ_base/include/ros/ros.h
+/home/duygiang/Spotdog_champ/src/champ/champ_base/include/ros/ros.h
 champ_msgs/Joints.h
 -
 champ_msgs/Pose.h
@@ -228,7 +228,7 @@ geometry_msgs/Twist.h
 geometry_msgs/Pose.h
 -
 tf/transform_datatypes.h
-/home/ruyzang/spotdog/src/champ/champ_base/include/tf/transform_datatypes.h
+/home/duygiang/Spotdog_champ/src/champ/champ_base/include/tf/transform_datatypes.h
 sensor_msgs/JointState.h
 -
 trajectory_msgs/JointTrajectory.h
@@ -236,11 +236,11 @@ trajectory_msgs/JointTrajectory.h
 trajectory_msgs/JointTrajectoryPoint.h
 -
 
-/home/ruyzang/spotdog/src/champ/champ_base/src/quadruped_controller_node.cpp
+/home/duygiang/Spotdog_champ/src/champ/champ_base/src/quadruped_controller_node.cpp
 ros/ros.h
-/home/ruyzang/spotdog/src/champ/champ_base/src/ros/ros.h
+/home/duygiang/Spotdog_champ/src/champ/champ_base/src/ros/ros.h
 quadruped_controller.h
-/home/ruyzang/spotdog/src/champ/champ_base/src/quadruped_controller.h
+/home/duygiang/Spotdog_champ/src/champ/champ_base/src/quadruped_controller.h
 
 /opt/ros/noetic/include/geometry_msgs/Point.h
 string
@@ -844,6 +844,8 @@ ros/datatypes.h
 vector
 -
 map
+-
+memory
 -
 boost/array.hpp
 -

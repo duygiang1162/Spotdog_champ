@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ruyzang/spotdog/src
+CMAKE_SOURCE_DIR = /home/duygiang/Spotdog_champ/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ruyzang/spotdog/build
+CMAKE_BINARY_DIR = /home/duygiang/Spotdog_champ/build
 
 # Include any dependencies generated for this target.
 include champ/champ_base/CMakeFiles/state_estimation.dir/depend.make
@@ -58,17 +58,17 @@ include champ/champ_base/CMakeFiles/state_estimation.dir/progress.make
 include champ/champ_base/CMakeFiles/state_estimation.dir/flags.make
 
 champ/champ_base/CMakeFiles/state_estimation.dir/src/state_estimation.cpp.o: champ/champ_base/CMakeFiles/state_estimation.dir/flags.make
-champ/champ_base/CMakeFiles/state_estimation.dir/src/state_estimation.cpp.o: /home/ruyzang/spotdog/src/champ/champ_base/src/state_estimation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruyzang/spotdog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object champ/champ_base/CMakeFiles/state_estimation.dir/src/state_estimation.cpp.o"
-	cd /home/ruyzang/spotdog/build/champ/champ_base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/state_estimation.dir/src/state_estimation.cpp.o -c /home/ruyzang/spotdog/src/champ/champ_base/src/state_estimation.cpp
+champ/champ_base/CMakeFiles/state_estimation.dir/src/state_estimation.cpp.o: /home/duygiang/Spotdog_champ/src/champ/champ_base/src/state_estimation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duygiang/Spotdog_champ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object champ/champ_base/CMakeFiles/state_estimation.dir/src/state_estimation.cpp.o"
+	cd /home/duygiang/Spotdog_champ/build/champ/champ_base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/state_estimation.dir/src/state_estimation.cpp.o -c /home/duygiang/Spotdog_champ/src/champ/champ_base/src/state_estimation.cpp
 
 champ/champ_base/CMakeFiles/state_estimation.dir/src/state_estimation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/state_estimation.dir/src/state_estimation.cpp.i"
-	cd /home/ruyzang/spotdog/build/champ/champ_base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ruyzang/spotdog/src/champ/champ_base/src/state_estimation.cpp > CMakeFiles/state_estimation.dir/src/state_estimation.cpp.i
+	cd /home/duygiang/Spotdog_champ/build/champ/champ_base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/duygiang/Spotdog_champ/src/champ/champ_base/src/state_estimation.cpp > CMakeFiles/state_estimation.dir/src/state_estimation.cpp.i
 
 champ/champ_base/CMakeFiles/state_estimation.dir/src/state_estimation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/state_estimation.dir/src/state_estimation.cpp.s"
-	cd /home/ruyzang/spotdog/build/champ/champ_base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ruyzang/spotdog/src/champ/champ_base/src/state_estimation.cpp -o CMakeFiles/state_estimation.dir/src/state_estimation.cpp.s
+	cd /home/duygiang/Spotdog_champ/build/champ/champ_base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/duygiang/Spotdog_champ/src/champ/champ_base/src/state_estimation.cpp -o CMakeFiles/state_estimation.dir/src/state_estimation.cpp.s
 
 # Object files for target state_estimation
 state_estimation_OBJECTS = \
@@ -77,22 +77,22 @@ state_estimation_OBJECTS = \
 # External object files for target state_estimation
 state_estimation_EXTERNAL_OBJECTS =
 
-/home/ruyzang/spotdog/devel/lib/libstate_estimation.so: champ/champ_base/CMakeFiles/state_estimation.dir/src/state_estimation.cpp.o
-/home/ruyzang/spotdog/devel/lib/libstate_estimation.so: champ/champ_base/CMakeFiles/state_estimation.dir/build.make
-/home/ruyzang/spotdog/devel/lib/libstate_estimation.so: champ/champ_base/CMakeFiles/state_estimation.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ruyzang/spotdog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /home/ruyzang/spotdog/devel/lib/libstate_estimation.so"
-	cd /home/ruyzang/spotdog/build/champ/champ_base && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/state_estimation.dir/link.txt --verbose=$(VERBOSE)
+/home/duygiang/Spotdog_champ/devel/lib/libstate_estimation.so: champ/champ_base/CMakeFiles/state_estimation.dir/src/state_estimation.cpp.o
+/home/duygiang/Spotdog_champ/devel/lib/libstate_estimation.so: champ/champ_base/CMakeFiles/state_estimation.dir/build.make
+/home/duygiang/Spotdog_champ/devel/lib/libstate_estimation.so: champ/champ_base/CMakeFiles/state_estimation.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/duygiang/Spotdog_champ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /home/duygiang/Spotdog_champ/devel/lib/libstate_estimation.so"
+	cd /home/duygiang/Spotdog_champ/build/champ/champ_base && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/state_estimation.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-champ/champ_base/CMakeFiles/state_estimation.dir/build: /home/ruyzang/spotdog/devel/lib/libstate_estimation.so
+champ/champ_base/CMakeFiles/state_estimation.dir/build: /home/duygiang/Spotdog_champ/devel/lib/libstate_estimation.so
 
 .PHONY : champ/champ_base/CMakeFiles/state_estimation.dir/build
 
 champ/champ_base/CMakeFiles/state_estimation.dir/clean:
-	cd /home/ruyzang/spotdog/build/champ/champ_base && $(CMAKE_COMMAND) -P CMakeFiles/state_estimation.dir/cmake_clean.cmake
+	cd /home/duygiang/Spotdog_champ/build/champ/champ_base && $(CMAKE_COMMAND) -P CMakeFiles/state_estimation.dir/cmake_clean.cmake
 .PHONY : champ/champ_base/CMakeFiles/state_estimation.dir/clean
 
 champ/champ_base/CMakeFiles/state_estimation.dir/depend:
-	cd /home/ruyzang/spotdog/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ruyzang/spotdog/src /home/ruyzang/spotdog/src/champ/champ_base /home/ruyzang/spotdog/build /home/ruyzang/spotdog/build/champ/champ_base /home/ruyzang/spotdog/build/champ/champ_base/CMakeFiles/state_estimation.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/duygiang/Spotdog_champ/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/duygiang/Spotdog_champ/src /home/duygiang/Spotdog_champ/src/champ/champ_base /home/duygiang/Spotdog_champ/build /home/duygiang/Spotdog_champ/build/champ/champ_base /home/duygiang/Spotdog_champ/build/champ/champ_base/CMakeFiles/state_estimation.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : champ/champ_base/CMakeFiles/state_estimation.dir/depend
 

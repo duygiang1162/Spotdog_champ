@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ruyzang/spotdog/src
+CMAKE_SOURCE_DIR = /home/duygiang/Spotdog_champ/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ruyzang/spotdog/build
+CMAKE_BINARY_DIR = /home/duygiang/Spotdog_champ/build
 
 # Utility rule file for _champ_msgs_generate_messages_check_deps_Imu.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/ruyzang/spotdog/build
 include champ/champ_msgs/CMakeFiles/_champ_msgs_generate_messages_check_deps_Imu.dir/progress.make
 
 champ/champ_msgs/CMakeFiles/_champ_msgs_generate_messages_check_deps_Imu:
-	cd /home/ruyzang/spotdog/build/champ/champ_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py champ_msgs /home/ruyzang/spotdog/src/champ/champ_msgs/msg/Imu.msg geometry_msgs/Vector3:geometry_msgs/Quaternion
+	cd /home/duygiang/Spotdog_champ/build/champ/champ_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py champ_msgs /home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Imu.msg geometry_msgs/Quaternion:geometry_msgs/Vector3
 
 _champ_msgs_generate_messages_check_deps_Imu: champ/champ_msgs/CMakeFiles/_champ_msgs_generate_messages_check_deps_Imu
 _champ_msgs_generate_messages_check_deps_Imu: champ/champ_msgs/CMakeFiles/_champ_msgs_generate_messages_check_deps_Imu.dir/build.make
@@ -67,10 +67,10 @@ champ/champ_msgs/CMakeFiles/_champ_msgs_generate_messages_check_deps_Imu.dir/bui
 .PHONY : champ/champ_msgs/CMakeFiles/_champ_msgs_generate_messages_check_deps_Imu.dir/build
 
 champ/champ_msgs/CMakeFiles/_champ_msgs_generate_messages_check_deps_Imu.dir/clean:
-	cd /home/ruyzang/spotdog/build/champ/champ_msgs && $(CMAKE_COMMAND) -P CMakeFiles/_champ_msgs_generate_messages_check_deps_Imu.dir/cmake_clean.cmake
+	cd /home/duygiang/Spotdog_champ/build/champ/champ_msgs && $(CMAKE_COMMAND) -P CMakeFiles/_champ_msgs_generate_messages_check_deps_Imu.dir/cmake_clean.cmake
 .PHONY : champ/champ_msgs/CMakeFiles/_champ_msgs_generate_messages_check_deps_Imu.dir/clean
 
 champ/champ_msgs/CMakeFiles/_champ_msgs_generate_messages_check_deps_Imu.dir/depend:
-	cd /home/ruyzang/spotdog/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ruyzang/spotdog/src /home/ruyzang/spotdog/src/champ/champ_msgs /home/ruyzang/spotdog/build /home/ruyzang/spotdog/build/champ/champ_msgs /home/ruyzang/spotdog/build/champ/champ_msgs/CMakeFiles/_champ_msgs_generate_messages_check_deps_Imu.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/duygiang/Spotdog_champ/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/duygiang/Spotdog_champ/src /home/duygiang/Spotdog_champ/src/champ/champ_msgs /home/duygiang/Spotdog_champ/build /home/duygiang/Spotdog_champ/build/champ/champ_msgs /home/duygiang/Spotdog_champ/build/champ/champ_msgs/CMakeFiles/_champ_msgs_generate_messages_check_deps_Imu.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : champ/champ_msgs/CMakeFiles/_champ_msgs_generate_messages_check_deps_Imu.dir/depend
 

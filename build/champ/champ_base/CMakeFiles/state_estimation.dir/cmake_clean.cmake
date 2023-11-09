@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ruyzang/spotdog/devel/lib/libstate_estimation.pdb"
-  "/home/ruyzang/spotdog/devel/lib/libstate_estimation.so"
+  "/home/duygiang/Spotdog_champ/devel/lib/libstate_estimation.pdb"
+  "/home/duygiang/Spotdog_champ/devel/lib/libstate_estimation.so"
   "CMakeFiles/state_estimation.dir/src/state_estimation.cpp.o"
 )
 

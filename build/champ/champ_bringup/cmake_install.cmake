@@ -1,8 +1,8 @@
-# Install script for directory: /home/ruyzang/spotdog/src/champ/champ_bringup
+# Install script for directory: /home/duygiang/Spotdog_champ/src/champ/champ_bringup
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ruyzang/spotdog/install")
+  set(CMAKE_INSTALL_PREFIX "/home/duygiang/Spotdog_champ/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,21 +38,21 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ruyzang/spotdog/build/champ/champ_bringup/catkin_generated/installspace/champ_bringup.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/duygiang/Spotdog_champ/build/champ/champ_bringup/catkin_generated/installspace/champ_bringup.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/champ_bringup/cmake" TYPE FILE FILES
-    "/home/ruyzang/spotdog/build/champ/champ_bringup/catkin_generated/installspace/champ_bringupConfig.cmake"
-    "/home/ruyzang/spotdog/build/champ/champ_bringup/catkin_generated/installspace/champ_bringupConfig-version.cmake"
+    "/home/duygiang/Spotdog_champ/build/champ/champ_bringup/catkin_generated/installspace/champ_bringupConfig.cmake"
+    "/home/duygiang/Spotdog_champ/build/champ/champ_bringup/catkin_generated/installspace/champ_bringupConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/champ_bringup" TYPE FILE FILES "/home/ruyzang/spotdog/src/champ/champ_bringup/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/champ_bringup" TYPE FILE FILES "/home/duygiang/Spotdog_champ/src/champ/champ_bringup/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/champ_bringup" TYPE DIRECTORY FILES "/home/ruyzang/spotdog/src/champ/champ_bringup/launch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/champ_bringup" TYPE DIRECTORY FILES "/home/duygiang/Spotdog_champ/src/champ/champ_bringup/launch")
 endif()
 

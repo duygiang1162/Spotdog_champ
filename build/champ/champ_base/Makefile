@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ruyzang/spotdog/src
+CMAKE_SOURCE_DIR = /home/duygiang/Spotdog_champ/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ruyzang/spotdog/build
+CMAKE_BINARY_DIR = /home/duygiang/Spotdog_champ/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ruyzang/spotdog/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ruyzang/spotdog/build/CMakeFiles /home/ruyzang/spotdog/build/champ/champ_base/CMakeFiles/progress.marks
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruyzang/spotdog/build/CMakeFiles 0
+	cd /home/duygiang/Spotdog_champ/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/duygiang/Spotdog_champ/build/CMakeFiles /home/duygiang/Spotdog_champ/build/champ/champ_base/CMakeFiles/progress.marks
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/duygiang/Spotdog_champ/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/clean
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/preinstall
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/preinstall
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ruyzang/spotdog/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/duygiang/Spotdog_champ/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 champ/champ_base/CMakeFiles/state_estimation_node.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/state_estimation_node.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/state_estimation_node.dir/rule
 .PHONY : champ/champ_base/CMakeFiles/state_estimation_node.dir/rule
 
 # Convenience name for target.
@@ -179,12 +179,12 @@ state_estimation_node: champ/champ_base/CMakeFiles/state_estimation_node.dir/rul
 
 # fast build rule for target.
 state_estimation_node/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/state_estimation_node.dir/build.make champ/champ_base/CMakeFiles/state_estimation_node.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/state_estimation_node.dir/build.make champ/champ_base/CMakeFiles/state_estimation_node.dir/build
 .PHONY : state_estimation_node/fast
 
 # Convenience name for target.
 champ/champ_base/CMakeFiles/message_relay_node.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/message_relay_node.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/message_relay_node.dir/rule
 .PHONY : champ/champ_base/CMakeFiles/message_relay_node.dir/rule
 
 # Convenience name for target.
@@ -194,12 +194,12 @@ message_relay_node: champ/champ_base/CMakeFiles/message_relay_node.dir/rule
 
 # fast build rule for target.
 message_relay_node/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/message_relay_node.dir/build.make champ/champ_base/CMakeFiles/message_relay_node.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/message_relay_node.dir/build.make champ/champ_base/CMakeFiles/message_relay_node.dir/build
 .PHONY : message_relay_node/fast
 
 # Convenience name for target.
 champ/champ_base/CMakeFiles/state_estimation.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/state_estimation.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/state_estimation.dir/rule
 .PHONY : champ/champ_base/CMakeFiles/state_estimation.dir/rule
 
 # Convenience name for target.
@@ -209,12 +209,12 @@ state_estimation: champ/champ_base/CMakeFiles/state_estimation.dir/rule
 
 # fast build rule for target.
 state_estimation/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/state_estimation.dir/build.make champ/champ_base/CMakeFiles/state_estimation.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/state_estimation.dir/build.make champ/champ_base/CMakeFiles/state_estimation.dir/build
 .PHONY : state_estimation/fast
 
 # Convenience name for target.
 champ/champ_base/CMakeFiles/message_relay.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/message_relay.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/message_relay.dir/rule
 .PHONY : champ/champ_base/CMakeFiles/message_relay.dir/rule
 
 # Convenience name for target.
@@ -224,12 +224,12 @@ message_relay: champ/champ_base/CMakeFiles/message_relay.dir/rule
 
 # fast build rule for target.
 message_relay/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/message_relay.dir/build.make champ/champ_base/CMakeFiles/message_relay.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/message_relay.dir/build.make champ/champ_base/CMakeFiles/message_relay.dir/build
 .PHONY : message_relay/fast
 
 # Convenience name for target.
 champ/champ_base/CMakeFiles/quadruped_controller.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/quadruped_controller.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/quadruped_controller.dir/rule
 .PHONY : champ/champ_base/CMakeFiles/quadruped_controller.dir/rule
 
 # Convenience name for target.
@@ -239,12 +239,12 @@ quadruped_controller: champ/champ_base/CMakeFiles/quadruped_controller.dir/rule
 
 # fast build rule for target.
 quadruped_controller/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/quadruped_controller.dir/build.make champ/champ_base/CMakeFiles/quadruped_controller.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/quadruped_controller.dir/build.make champ/champ_base/CMakeFiles/quadruped_controller.dir/build
 .PHONY : quadruped_controller/fast
 
 # Convenience name for target.
 champ/champ_base/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/rule
 .PHONY : champ/champ_base/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -254,12 +254,12 @@ tf2_msgs_generate_messages_nodejs: champ/champ_base/CMakeFiles/tf2_msgs_generate
 
 # fast build rule for target.
 tf2_msgs_generate_messages_nodejs/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build.make champ/champ_base/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build.make champ/champ_base/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build
 .PHONY : tf2_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 champ/champ_base/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule
 .PHONY : champ/champ_base/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -269,12 +269,12 @@ tf2_msgs_generate_messages_lisp: champ/champ_base/CMakeFiles/tf2_msgs_generate_m
 
 # fast build rule for target.
 tf2_msgs_generate_messages_lisp/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build.make champ/champ_base/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build.make champ/champ_base/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build
 .PHONY : tf2_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 champ/champ_base/CMakeFiles/tf2_msgs_generate_messages_eus.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/tf2_msgs_generate_messages_eus.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/tf2_msgs_generate_messages_eus.dir/rule
 .PHONY : champ/champ_base/CMakeFiles/tf2_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -284,12 +284,12 @@ tf2_msgs_generate_messages_eus: champ/champ_base/CMakeFiles/tf2_msgs_generate_me
 
 # fast build rule for target.
 tf2_msgs_generate_messages_eus/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build.make champ/champ_base/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build.make champ/champ_base/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build
 .PHONY : tf2_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 champ/champ_base/CMakeFiles/actionlib_generate_messages_lisp.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
 .PHONY : champ/champ_base/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -299,12 +299,12 @@ actionlib_generate_messages_lisp: champ/champ_base/CMakeFiles/actionlib_generate
 
 # fast build rule for target.
 actionlib_generate_messages_lisp/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make champ/champ_base/CMakeFiles/actionlib_generate_messages_lisp.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make champ/champ_base/CMakeFiles/actionlib_generate_messages_lisp.dir/build
 .PHONY : actionlib_generate_messages_lisp/fast
 
 # Convenience name for target.
 champ/champ_base/CMakeFiles/tf_generate_messages_py.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/tf_generate_messages_py.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/tf_generate_messages_py.dir/rule
 .PHONY : champ/champ_base/CMakeFiles/tf_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -314,12 +314,12 @@ tf_generate_messages_py: champ/champ_base/CMakeFiles/tf_generate_messages_py.dir
 
 # fast build rule for target.
 tf_generate_messages_py/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/tf_generate_messages_py.dir/build.make champ/champ_base/CMakeFiles/tf_generate_messages_py.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/tf_generate_messages_py.dir/build.make champ/champ_base/CMakeFiles/tf_generate_messages_py.dir/build
 .PHONY : tf_generate_messages_py/fast
 
 # Convenience name for target.
 champ/champ_base/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/rule
 .PHONY : champ/champ_base/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -329,12 +329,12 @@ trajectory_msgs_generate_messages_lisp: champ/champ_base/CMakeFiles/trajectory_m
 
 # fast build rule for target.
 trajectory_msgs_generate_messages_lisp/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build.make champ/champ_base/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build.make champ/champ_base/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build
 .PHONY : trajectory_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 champ/champ_base/CMakeFiles/actionlib_generate_messages_cpp.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
 .PHONY : champ/champ_base/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -344,12 +344,12 @@ actionlib_generate_messages_cpp: champ/champ_base/CMakeFiles/actionlib_generate_
 
 # fast build rule for target.
 actionlib_generate_messages_cpp/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make champ/champ_base/CMakeFiles/actionlib_generate_messages_cpp.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make champ/champ_base/CMakeFiles/actionlib_generate_messages_cpp.dir/build
 .PHONY : actionlib_generate_messages_cpp/fast
 
 # Convenience name for target.
 champ/champ_base/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
 .PHONY : champ/champ_base/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -359,12 +359,12 @@ actionlib_msgs_generate_messages_py: champ/champ_base/CMakeFiles/actionlib_msgs_
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_py/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make champ/champ_base/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make champ/champ_base/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
 .PHONY : actionlib_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 champ/champ_base/CMakeFiles/tf_generate_messages_lisp.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/tf_generate_messages_lisp.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/tf_generate_messages_lisp.dir/rule
 .PHONY : champ/champ_base/CMakeFiles/tf_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -374,12 +374,12 @@ tf_generate_messages_lisp: champ/champ_base/CMakeFiles/tf_generate_messages_lisp
 
 # fast build rule for target.
 tf_generate_messages_lisp/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/tf_generate_messages_lisp.dir/build.make champ/champ_base/CMakeFiles/tf_generate_messages_lisp.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/tf_generate_messages_lisp.dir/build.make champ/champ_base/CMakeFiles/tf_generate_messages_lisp.dir/build
 .PHONY : tf_generate_messages_lisp/fast
 
 # Convenience name for target.
 champ/champ_base/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
 .PHONY : champ/champ_base/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -389,12 +389,12 @@ sensor_msgs_generate_messages_nodejs: champ/champ_base/CMakeFiles/sensor_msgs_ge
 
 # fast build rule for target.
 sensor_msgs_generate_messages_nodejs/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make champ/champ_base/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make champ/champ_base/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
 .PHONY : sensor_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 champ/champ_base/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
 .PHONY : champ/champ_base/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -404,12 +404,12 @@ sensor_msgs_generate_messages_lisp: champ/champ_base/CMakeFiles/sensor_msgs_gene
 
 # fast build rule for target.
 sensor_msgs_generate_messages_lisp/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make champ/champ_base/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make champ/champ_base/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
 .PHONY : sensor_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 champ/champ_base/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
 .PHONY : champ/champ_base/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -419,12 +419,12 @@ nav_msgs_generate_messages_cpp: champ/champ_base/CMakeFiles/nav_msgs_generate_me
 
 # fast build rule for target.
 nav_msgs_generate_messages_cpp/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build.make champ/champ_base/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build.make champ/champ_base/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build
 .PHONY : nav_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 champ/champ_base/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
 .PHONY : champ/champ_base/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -434,12 +434,12 @@ nav_msgs_generate_messages_lisp: champ/champ_base/CMakeFiles/nav_msgs_generate_m
 
 # fast build rule for target.
 nav_msgs_generate_messages_lisp/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build.make champ/champ_base/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build.make champ/champ_base/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build
 .PHONY : nav_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 champ/champ_base/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
 .PHONY : champ/champ_base/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -449,12 +449,12 @@ sensor_msgs_generate_messages_eus: champ/champ_base/CMakeFiles/sensor_msgs_gener
 
 # fast build rule for target.
 sensor_msgs_generate_messages_eus/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make champ/champ_base/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make champ/champ_base/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
 .PHONY : sensor_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 champ/champ_base/CMakeFiles/visualization_msgs_generate_messages_py.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/visualization_msgs_generate_messages_py.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/visualization_msgs_generate_messages_py.dir/rule
 .PHONY : champ/champ_base/CMakeFiles/visualization_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -464,12 +464,12 @@ visualization_msgs_generate_messages_py: champ/champ_base/CMakeFiles/visualizati
 
 # fast build rule for target.
 visualization_msgs_generate_messages_py/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/visualization_msgs_generate_messages_py.dir/build.make champ/champ_base/CMakeFiles/visualization_msgs_generate_messages_py.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/visualization_msgs_generate_messages_py.dir/build.make champ/champ_base/CMakeFiles/visualization_msgs_generate_messages_py.dir/build
 .PHONY : visualization_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 champ/champ_base/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
 .PHONY : champ/champ_base/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -479,12 +479,12 @@ actionlib_msgs_generate_messages_lisp: champ/champ_base/CMakeFiles/actionlib_msg
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_lisp/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make champ/champ_base/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make champ/champ_base/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
 .PHONY : actionlib_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 champ/champ_base/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule
 .PHONY : champ/champ_base/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -494,12 +494,12 @@ nav_msgs_generate_messages_eus: champ/champ_base/CMakeFiles/nav_msgs_generate_me
 
 # fast build rule for target.
 nav_msgs_generate_messages_eus/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/nav_msgs_generate_messages_eus.dir/build.make champ/champ_base/CMakeFiles/nav_msgs_generate_messages_eus.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/nav_msgs_generate_messages_eus.dir/build.make champ/champ_base/CMakeFiles/nav_msgs_generate_messages_eus.dir/build
 .PHONY : nav_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 champ/champ_base/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
 .PHONY : champ/champ_base/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -509,12 +509,12 @@ sensor_msgs_generate_messages_cpp: champ/champ_base/CMakeFiles/sensor_msgs_gener
 
 # fast build rule for target.
 sensor_msgs_generate_messages_cpp/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make champ/champ_base/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make champ/champ_base/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
 .PHONY : sensor_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 champ/champ_base/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
 .PHONY : champ/champ_base/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -524,12 +524,12 @@ tf2_msgs_generate_messages_py: champ/champ_base/CMakeFiles/tf2_msgs_generate_mes
 
 # fast build rule for target.
 tf2_msgs_generate_messages_py/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/tf2_msgs_generate_messages_py.dir/build.make champ/champ_base/CMakeFiles/tf2_msgs_generate_messages_py.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/tf2_msgs_generate_messages_py.dir/build.make champ/champ_base/CMakeFiles/tf2_msgs_generate_messages_py.dir/build
 .PHONY : tf2_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 champ/champ_base/CMakeFiles/visualization_msgs_generate_messages_eus.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/visualization_msgs_generate_messages_eus.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/visualization_msgs_generate_messages_eus.dir/rule
 .PHONY : champ/champ_base/CMakeFiles/visualization_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -539,12 +539,12 @@ visualization_msgs_generate_messages_eus: champ/champ_base/CMakeFiles/visualizat
 
 # fast build rule for target.
 visualization_msgs_generate_messages_eus/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/visualization_msgs_generate_messages_eus.dir/build.make champ/champ_base/CMakeFiles/visualization_msgs_generate_messages_eus.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/visualization_msgs_generate_messages_eus.dir/build.make champ/champ_base/CMakeFiles/visualization_msgs_generate_messages_eus.dir/build
 .PHONY : visualization_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 champ/champ_base/CMakeFiles/tf_generate_messages_nodejs.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/tf_generate_messages_nodejs.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/tf_generate_messages_nodejs.dir/rule
 .PHONY : champ/champ_base/CMakeFiles/tf_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -554,12 +554,12 @@ tf_generate_messages_nodejs: champ/champ_base/CMakeFiles/tf_generate_messages_no
 
 # fast build rule for target.
 tf_generate_messages_nodejs/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/tf_generate_messages_nodejs.dir/build.make champ/champ_base/CMakeFiles/tf_generate_messages_nodejs.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/tf_generate_messages_nodejs.dir/build.make champ/champ_base/CMakeFiles/tf_generate_messages_nodejs.dir/build
 .PHONY : tf_generate_messages_nodejs/fast
 
 # Convenience name for target.
 champ/champ_base/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/rule
 .PHONY : champ/champ_base/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -569,12 +569,12 @@ visualization_msgs_generate_messages_lisp: champ/champ_base/CMakeFiles/visualiza
 
 # fast build rule for target.
 visualization_msgs_generate_messages_lisp/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/build.make champ/champ_base/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/build.make champ/champ_base/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/build
 .PHONY : visualization_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 champ/champ_base/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
 .PHONY : champ/champ_base/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -584,12 +584,12 @@ actionlib_generate_messages_nodejs: champ/champ_base/CMakeFiles/actionlib_genera
 
 # fast build rule for target.
 actionlib_generate_messages_nodejs/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make champ/champ_base/CMakeFiles/actionlib_generate_messages_nodejs.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make champ/champ_base/CMakeFiles/actionlib_generate_messages_nodejs.dir/build
 .PHONY : actionlib_generate_messages_nodejs/fast
 
 # Convenience name for target.
 champ/champ_base/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/rule
 .PHONY : champ/champ_base/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -599,12 +599,12 @@ trajectory_msgs_generate_messages_eus: champ/champ_base/CMakeFiles/trajectory_ms
 
 # fast build rule for target.
 trajectory_msgs_generate_messages_eus/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build.make champ/champ_base/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build.make champ/champ_base/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build
 .PHONY : trajectory_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 champ/champ_base/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/rule
 .PHONY : champ/champ_base/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -614,12 +614,12 @@ trajectory_msgs_generate_messages_nodejs: champ/champ_base/CMakeFiles/trajectory
 
 # fast build rule for target.
 trajectory_msgs_generate_messages_nodejs/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/build.make champ/champ_base/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/build.make champ/champ_base/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/build
 .PHONY : trajectory_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 champ/champ_base/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
 .PHONY : champ/champ_base/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -629,12 +629,12 @@ sensor_msgs_generate_messages_py: champ/champ_base/CMakeFiles/sensor_msgs_genera
 
 # fast build rule for target.
 sensor_msgs_generate_messages_py/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make champ/champ_base/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make champ/champ_base/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
 .PHONY : sensor_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 champ/champ_base/CMakeFiles/nav_msgs_generate_messages_py.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/nav_msgs_generate_messages_py.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/nav_msgs_generate_messages_py.dir/rule
 .PHONY : champ/champ_base/CMakeFiles/nav_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -644,12 +644,12 @@ nav_msgs_generate_messages_py: champ/champ_base/CMakeFiles/nav_msgs_generate_mes
 
 # fast build rule for target.
 nav_msgs_generate_messages_py/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/nav_msgs_generate_messages_py.dir/build.make champ/champ_base/CMakeFiles/nav_msgs_generate_messages_py.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/nav_msgs_generate_messages_py.dir/build.make champ/champ_base/CMakeFiles/nav_msgs_generate_messages_py.dir/build
 .PHONY : nav_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 champ/champ_base/CMakeFiles/actionlib_generate_messages_eus.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/actionlib_generate_messages_eus.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/actionlib_generate_messages_eus.dir/rule
 .PHONY : champ/champ_base/CMakeFiles/actionlib_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -659,12 +659,12 @@ actionlib_generate_messages_eus: champ/champ_base/CMakeFiles/actionlib_generate_
 
 # fast build rule for target.
 actionlib_generate_messages_eus/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/actionlib_generate_messages_eus.dir/build.make champ/champ_base/CMakeFiles/actionlib_generate_messages_eus.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/actionlib_generate_messages_eus.dir/build.make champ/champ_base/CMakeFiles/actionlib_generate_messages_eus.dir/build
 .PHONY : actionlib_generate_messages_eus/fast
 
 # Convenience name for target.
 champ/champ_base/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/rule
 .PHONY : champ/champ_base/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -674,12 +674,12 @@ visualization_msgs_generate_messages_cpp: champ/champ_base/CMakeFiles/visualizat
 
 # fast build rule for target.
 visualization_msgs_generate_messages_cpp/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/build.make champ/champ_base/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/build.make champ/champ_base/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/build
 .PHONY : visualization_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 champ/champ_base/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
 .PHONY : champ/champ_base/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -689,12 +689,12 @@ actionlib_msgs_generate_messages_cpp: champ/champ_base/CMakeFiles/actionlib_msgs
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_cpp/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make champ/champ_base/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make champ/champ_base/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
 .PHONY : actionlib_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 champ/champ_base/CMakeFiles/quadruped_controller_node.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/quadruped_controller_node.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/quadruped_controller_node.dir/rule
 .PHONY : champ/champ_base/CMakeFiles/quadruped_controller_node.dir/rule
 
 # Convenience name for target.
@@ -704,12 +704,12 @@ quadruped_controller_node: champ/champ_base/CMakeFiles/quadruped_controller_node
 
 # fast build rule for target.
 quadruped_controller_node/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/quadruped_controller_node.dir/build.make champ/champ_base/CMakeFiles/quadruped_controller_node.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/quadruped_controller_node.dir/build.make champ/champ_base/CMakeFiles/quadruped_controller_node.dir/build
 .PHONY : quadruped_controller_node/fast
 
 # Convenience name for target.
 champ/champ_base/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/rule
 .PHONY : champ/champ_base/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -719,12 +719,12 @@ visualization_msgs_generate_messages_nodejs: champ/champ_base/CMakeFiles/visuali
 
 # fast build rule for target.
 visualization_msgs_generate_messages_nodejs/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/build.make champ/champ_base/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/build.make champ/champ_base/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/build
 .PHONY : visualization_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 champ/champ_base/CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule
 .PHONY : champ/champ_base/CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -734,12 +734,12 @@ trajectory_msgs_generate_messages_py: champ/champ_base/CMakeFiles/trajectory_msg
 
 # fast build rule for target.
 trajectory_msgs_generate_messages_py/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build.make champ/champ_base/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build.make champ/champ_base/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build
 .PHONY : trajectory_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 champ/champ_base/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
 .PHONY : champ/champ_base/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -749,12 +749,12 @@ actionlib_msgs_generate_messages_eus: champ/champ_base/CMakeFiles/actionlib_msgs
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_eus/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build.make champ/champ_base/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build.make champ/champ_base/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build
 .PHONY : actionlib_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 champ/champ_base/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/rule
 .PHONY : champ/champ_base/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -764,12 +764,12 @@ nav_msgs_generate_messages_nodejs: champ/champ_base/CMakeFiles/nav_msgs_generate
 
 # fast build rule for target.
 nav_msgs_generate_messages_nodejs/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build.make champ/champ_base/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build.make champ/champ_base/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build
 .PHONY : nav_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 champ/champ_base/CMakeFiles/actionlib_generate_messages_py.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/actionlib_generate_messages_py.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/actionlib_generate_messages_py.dir/rule
 .PHONY : champ/champ_base/CMakeFiles/actionlib_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -779,12 +779,12 @@ actionlib_generate_messages_py: champ/champ_base/CMakeFiles/actionlib_generate_m
 
 # fast build rule for target.
 actionlib_generate_messages_py/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/actionlib_generate_messages_py.dir/build.make champ/champ_base/CMakeFiles/actionlib_generate_messages_py.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/actionlib_generate_messages_py.dir/build.make champ/champ_base/CMakeFiles/actionlib_generate_messages_py.dir/build
 .PHONY : actionlib_generate_messages_py/fast
 
 # Convenience name for target.
 champ/champ_base/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/rule
 .PHONY : champ/champ_base/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -794,12 +794,12 @@ trajectory_msgs_generate_messages_cpp: champ/champ_base/CMakeFiles/trajectory_ms
 
 # fast build rule for target.
 trajectory_msgs_generate_messages_cpp/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build.make champ/champ_base/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build.make champ/champ_base/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build
 .PHONY : trajectory_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 champ/champ_base/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule
 .PHONY : champ/champ_base/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -809,12 +809,12 @@ actionlib_msgs_generate_messages_nodejs: champ/champ_base/CMakeFiles/actionlib_m
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_nodejs/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build.make champ/champ_base/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build.make champ/champ_base/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build
 .PHONY : actionlib_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 champ/champ_base/CMakeFiles/tf_generate_messages_cpp.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/tf_generate_messages_cpp.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/tf_generate_messages_cpp.dir/rule
 .PHONY : champ/champ_base/CMakeFiles/tf_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -824,12 +824,12 @@ tf_generate_messages_cpp: champ/champ_base/CMakeFiles/tf_generate_messages_cpp.d
 
 # fast build rule for target.
 tf_generate_messages_cpp/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/tf_generate_messages_cpp.dir/build.make champ/champ_base/CMakeFiles/tf_generate_messages_cpp.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/tf_generate_messages_cpp.dir/build.make champ/champ_base/CMakeFiles/tf_generate_messages_cpp.dir/build
 .PHONY : tf_generate_messages_cpp/fast
 
 # Convenience name for target.
 champ/champ_base/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
 .PHONY : champ/champ_base/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -839,12 +839,12 @@ tf2_msgs_generate_messages_cpp: champ/champ_base/CMakeFiles/tf2_msgs_generate_me
 
 # fast build rule for target.
 tf2_msgs_generate_messages_cpp/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make champ/champ_base/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make champ/champ_base/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build
 .PHONY : tf2_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 champ/champ_base/CMakeFiles/tf_generate_messages_eus.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/tf_generate_messages_eus.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 champ/champ_base/CMakeFiles/tf_generate_messages_eus.dir/rule
 .PHONY : champ/champ_base/CMakeFiles/tf_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -854,7 +854,7 @@ tf_generate_messages_eus: champ/champ_base/CMakeFiles/tf_generate_messages_eus.d
 
 # fast build rule for target.
 tf_generate_messages_eus/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/tf_generate_messages_eus.dir/build.make champ/champ_base/CMakeFiles/tf_generate_messages_eus.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/tf_generate_messages_eus.dir/build.make champ/champ_base/CMakeFiles/tf_generate_messages_eus.dir/build
 .PHONY : tf_generate_messages_eus/fast
 
 src/message_relay.o: src/message_relay.cpp.o
@@ -863,7 +863,7 @@ src/message_relay.o: src/message_relay.cpp.o
 
 # target to build an object file
 src/message_relay.cpp.o:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/message_relay.dir/build.make champ/champ_base/CMakeFiles/message_relay.dir/src/message_relay.cpp.o
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/message_relay.dir/build.make champ/champ_base/CMakeFiles/message_relay.dir/src/message_relay.cpp.o
 .PHONY : src/message_relay.cpp.o
 
 src/message_relay.i: src/message_relay.cpp.i
@@ -872,7 +872,7 @@ src/message_relay.i: src/message_relay.cpp.i
 
 # target to preprocess a source file
 src/message_relay.cpp.i:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/message_relay.dir/build.make champ/champ_base/CMakeFiles/message_relay.dir/src/message_relay.cpp.i
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/message_relay.dir/build.make champ/champ_base/CMakeFiles/message_relay.dir/src/message_relay.cpp.i
 .PHONY : src/message_relay.cpp.i
 
 src/message_relay.s: src/message_relay.cpp.s
@@ -881,7 +881,7 @@ src/message_relay.s: src/message_relay.cpp.s
 
 # target to generate assembly for a file
 src/message_relay.cpp.s:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/message_relay.dir/build.make champ/champ_base/CMakeFiles/message_relay.dir/src/message_relay.cpp.s
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/message_relay.dir/build.make champ/champ_base/CMakeFiles/message_relay.dir/src/message_relay.cpp.s
 .PHONY : src/message_relay.cpp.s
 
 src/message_relay_node.o: src/message_relay_node.cpp.o
@@ -890,7 +890,7 @@ src/message_relay_node.o: src/message_relay_node.cpp.o
 
 # target to build an object file
 src/message_relay_node.cpp.o:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/message_relay_node.dir/build.make champ/champ_base/CMakeFiles/message_relay_node.dir/src/message_relay_node.cpp.o
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/message_relay_node.dir/build.make champ/champ_base/CMakeFiles/message_relay_node.dir/src/message_relay_node.cpp.o
 .PHONY : src/message_relay_node.cpp.o
 
 src/message_relay_node.i: src/message_relay_node.cpp.i
@@ -899,7 +899,7 @@ src/message_relay_node.i: src/message_relay_node.cpp.i
 
 # target to preprocess a source file
 src/message_relay_node.cpp.i:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/message_relay_node.dir/build.make champ/champ_base/CMakeFiles/message_relay_node.dir/src/message_relay_node.cpp.i
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/message_relay_node.dir/build.make champ/champ_base/CMakeFiles/message_relay_node.dir/src/message_relay_node.cpp.i
 .PHONY : src/message_relay_node.cpp.i
 
 src/message_relay_node.s: src/message_relay_node.cpp.s
@@ -908,7 +908,7 @@ src/message_relay_node.s: src/message_relay_node.cpp.s
 
 # target to generate assembly for a file
 src/message_relay_node.cpp.s:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/message_relay_node.dir/build.make champ/champ_base/CMakeFiles/message_relay_node.dir/src/message_relay_node.cpp.s
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/message_relay_node.dir/build.make champ/champ_base/CMakeFiles/message_relay_node.dir/src/message_relay_node.cpp.s
 .PHONY : src/message_relay_node.cpp.s
 
 src/quadruped_controller.o: src/quadruped_controller.cpp.o
@@ -917,7 +917,7 @@ src/quadruped_controller.o: src/quadruped_controller.cpp.o
 
 # target to build an object file
 src/quadruped_controller.cpp.o:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/quadruped_controller.dir/build.make champ/champ_base/CMakeFiles/quadruped_controller.dir/src/quadruped_controller.cpp.o
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/quadruped_controller.dir/build.make champ/champ_base/CMakeFiles/quadruped_controller.dir/src/quadruped_controller.cpp.o
 .PHONY : src/quadruped_controller.cpp.o
 
 src/quadruped_controller.i: src/quadruped_controller.cpp.i
@@ -926,7 +926,7 @@ src/quadruped_controller.i: src/quadruped_controller.cpp.i
 
 # target to preprocess a source file
 src/quadruped_controller.cpp.i:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/quadruped_controller.dir/build.make champ/champ_base/CMakeFiles/quadruped_controller.dir/src/quadruped_controller.cpp.i
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/quadruped_controller.dir/build.make champ/champ_base/CMakeFiles/quadruped_controller.dir/src/quadruped_controller.cpp.i
 .PHONY : src/quadruped_controller.cpp.i
 
 src/quadruped_controller.s: src/quadruped_controller.cpp.s
@@ -935,7 +935,7 @@ src/quadruped_controller.s: src/quadruped_controller.cpp.s
 
 # target to generate assembly for a file
 src/quadruped_controller.cpp.s:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/quadruped_controller.dir/build.make champ/champ_base/CMakeFiles/quadruped_controller.dir/src/quadruped_controller.cpp.s
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/quadruped_controller.dir/build.make champ/champ_base/CMakeFiles/quadruped_controller.dir/src/quadruped_controller.cpp.s
 .PHONY : src/quadruped_controller.cpp.s
 
 src/quadruped_controller_node.o: src/quadruped_controller_node.cpp.o
@@ -944,7 +944,7 @@ src/quadruped_controller_node.o: src/quadruped_controller_node.cpp.o
 
 # target to build an object file
 src/quadruped_controller_node.cpp.o:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/quadruped_controller_node.dir/build.make champ/champ_base/CMakeFiles/quadruped_controller_node.dir/src/quadruped_controller_node.cpp.o
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/quadruped_controller_node.dir/build.make champ/champ_base/CMakeFiles/quadruped_controller_node.dir/src/quadruped_controller_node.cpp.o
 .PHONY : src/quadruped_controller_node.cpp.o
 
 src/quadruped_controller_node.i: src/quadruped_controller_node.cpp.i
@@ -953,7 +953,7 @@ src/quadruped_controller_node.i: src/quadruped_controller_node.cpp.i
 
 # target to preprocess a source file
 src/quadruped_controller_node.cpp.i:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/quadruped_controller_node.dir/build.make champ/champ_base/CMakeFiles/quadruped_controller_node.dir/src/quadruped_controller_node.cpp.i
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/quadruped_controller_node.dir/build.make champ/champ_base/CMakeFiles/quadruped_controller_node.dir/src/quadruped_controller_node.cpp.i
 .PHONY : src/quadruped_controller_node.cpp.i
 
 src/quadruped_controller_node.s: src/quadruped_controller_node.cpp.s
@@ -962,7 +962,7 @@ src/quadruped_controller_node.s: src/quadruped_controller_node.cpp.s
 
 # target to generate assembly for a file
 src/quadruped_controller_node.cpp.s:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/quadruped_controller_node.dir/build.make champ/champ_base/CMakeFiles/quadruped_controller_node.dir/src/quadruped_controller_node.cpp.s
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/quadruped_controller_node.dir/build.make champ/champ_base/CMakeFiles/quadruped_controller_node.dir/src/quadruped_controller_node.cpp.s
 .PHONY : src/quadruped_controller_node.cpp.s
 
 src/state_estimation.o: src/state_estimation.cpp.o
@@ -971,7 +971,7 @@ src/state_estimation.o: src/state_estimation.cpp.o
 
 # target to build an object file
 src/state_estimation.cpp.o:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/state_estimation.dir/build.make champ/champ_base/CMakeFiles/state_estimation.dir/src/state_estimation.cpp.o
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/state_estimation.dir/build.make champ/champ_base/CMakeFiles/state_estimation.dir/src/state_estimation.cpp.o
 .PHONY : src/state_estimation.cpp.o
 
 src/state_estimation.i: src/state_estimation.cpp.i
@@ -980,7 +980,7 @@ src/state_estimation.i: src/state_estimation.cpp.i
 
 # target to preprocess a source file
 src/state_estimation.cpp.i:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/state_estimation.dir/build.make champ/champ_base/CMakeFiles/state_estimation.dir/src/state_estimation.cpp.i
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/state_estimation.dir/build.make champ/champ_base/CMakeFiles/state_estimation.dir/src/state_estimation.cpp.i
 .PHONY : src/state_estimation.cpp.i
 
 src/state_estimation.s: src/state_estimation.cpp.s
@@ -989,7 +989,7 @@ src/state_estimation.s: src/state_estimation.cpp.s
 
 # target to generate assembly for a file
 src/state_estimation.cpp.s:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/state_estimation.dir/build.make champ/champ_base/CMakeFiles/state_estimation.dir/src/state_estimation.cpp.s
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/state_estimation.dir/build.make champ/champ_base/CMakeFiles/state_estimation.dir/src/state_estimation.cpp.s
 .PHONY : src/state_estimation.cpp.s
 
 src/state_estimation_node.o: src/state_estimation_node.cpp.o
@@ -998,7 +998,7 @@ src/state_estimation_node.o: src/state_estimation_node.cpp.o
 
 # target to build an object file
 src/state_estimation_node.cpp.o:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/state_estimation_node.dir/build.make champ/champ_base/CMakeFiles/state_estimation_node.dir/src/state_estimation_node.cpp.o
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/state_estimation_node.dir/build.make champ/champ_base/CMakeFiles/state_estimation_node.dir/src/state_estimation_node.cpp.o
 .PHONY : src/state_estimation_node.cpp.o
 
 src/state_estimation_node.i: src/state_estimation_node.cpp.i
@@ -1007,7 +1007,7 @@ src/state_estimation_node.i: src/state_estimation_node.cpp.i
 
 # target to preprocess a source file
 src/state_estimation_node.cpp.i:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/state_estimation_node.dir/build.make champ/champ_base/CMakeFiles/state_estimation_node.dir/src/state_estimation_node.cpp.i
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/state_estimation_node.dir/build.make champ/champ_base/CMakeFiles/state_estimation_node.dir/src/state_estimation_node.cpp.i
 .PHONY : src/state_estimation_node.cpp.i
 
 src/state_estimation_node.s: src/state_estimation_node.cpp.s
@@ -1016,7 +1016,7 @@ src/state_estimation_node.s: src/state_estimation_node.cpp.s
 
 # target to generate assembly for a file
 src/state_estimation_node.cpp.s:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f champ/champ_base/CMakeFiles/state_estimation_node.dir/build.make champ/champ_base/CMakeFiles/state_estimation_node.dir/src/state_estimation_node.cpp.s
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f champ/champ_base/CMakeFiles/state_estimation_node.dir/build.make champ/champ_base/CMakeFiles/state_estimation_node.dir/src/state_estimation_node.cpp.s
 .PHONY : src/state_estimation_node.cpp.s
 
 # Help Target
@@ -1107,6 +1107,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ruyzang/spotdog/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/duygiang/Spotdog_champ/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

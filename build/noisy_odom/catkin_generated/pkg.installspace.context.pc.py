@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "noisy_odom"
-PROJECT_SPACE_DIR = "/home/ruyzang/spotdog/install"
+PROJECT_SPACE_DIR = "/home/duygiang/Spotdog_champ/install"
 PROJECT_VERSION = "0.0.0"

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ruyzang/spotdog/devel/lib/libmessage_relay.pdb"
-  "/home/ruyzang/spotdog/devel/lib/libmessage_relay.so"
+  "/home/duygiang/Spotdog_champ/devel/lib/libmessage_relay.pdb"
+  "/home/duygiang/Spotdog_champ/devel/lib/libmessage_relay.so"
   "CMakeFiles/message_relay.dir/src/message_relay.cpp.o"
 )
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ruyzang/spotdog/devel/lib/champ_gazebo/contact_sensor"
-  "/home/ruyzang/spotdog/devel/lib/champ_gazebo/contact_sensor.pdb"
+  "/home/duygiang/Spotdog_champ/devel/lib/champ_gazebo/contact_sensor"
+  "/home/duygiang/Spotdog_champ/devel/lib/champ_gazebo/contact_sensor.pdb"
   "CMakeFiles/contact_sensor.dir/src/contact_sensor.cpp.o"
 )
 

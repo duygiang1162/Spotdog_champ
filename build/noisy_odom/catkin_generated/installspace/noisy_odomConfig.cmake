@@ -67,14 +67,14 @@ set(noisy_odom_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(noisy_odom_SOURCE_PREFIX /home/ruyzang/spotdog/src/noisy_odom)
-  set(noisy_odom_DEVEL_PREFIX /home/ruyzang/spotdog/devel)
+  set(noisy_odom_SOURCE_PREFIX /home/duygiang/Spotdog_champ/src/noisy_odom)
+  set(noisy_odom_DEVEL_PREFIX /home/duygiang/Spotdog_champ/devel)
   set(noisy_odom_INSTALL_PREFIX "")
   set(noisy_odom_PREFIX ${noisy_odom_DEVEL_PREFIX})
 else()
   set(noisy_odom_SOURCE_PREFIX "")
   set(noisy_odom_DEVEL_PREFIX "")
-  set(noisy_odom_INSTALL_PREFIX /home/ruyzang/spotdog/install)
+  set(noisy_odom_INSTALL_PREFIX /home/duygiang/Spotdog_champ/install)
   set(noisy_odom_PREFIX ${noisy_odom_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/ruyzang/spotdog/install/lib;/home/ruyzang/spotdog/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/duygiang/Spotdog_champ/install/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

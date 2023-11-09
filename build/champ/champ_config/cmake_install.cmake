@@ -1,8 +1,8 @@
-# Install script for directory: /home/ruyzang/spotdog/src/champ/champ_config
+# Install script for directory: /home/duygiang/Spotdog_champ/src/champ/champ_config
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ruyzang/spotdog/install")
+  set(CMAKE_INSTALL_PREFIX "/home/duygiang/Spotdog_champ/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,26 +38,26 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ruyzang/spotdog/build/champ/champ_config/catkin_generated/installspace/champ_config.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/duygiang/Spotdog_champ/build/champ/champ_config/catkin_generated/installspace/champ_config.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/champ_config/cmake" TYPE FILE FILES
-    "/home/ruyzang/spotdog/build/champ/champ_config/catkin_generated/installspace/champ_configConfig.cmake"
-    "/home/ruyzang/spotdog/build/champ/champ_config/catkin_generated/installspace/champ_configConfig-version.cmake"
+    "/home/duygiang/Spotdog_champ/build/champ/champ_config/catkin_generated/installspace/champ_configConfig.cmake"
+    "/home/duygiang/Spotdog_champ/build/champ/champ_config/catkin_generated/installspace/champ_configConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/champ_config" TYPE FILE FILES "/home/ruyzang/spotdog/src/champ/champ_config/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/champ_config" TYPE FILE FILES "/home/duygiang/Spotdog_champ/src/champ/champ_config/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/champ_config" TYPE DIRECTORY FILES
-    "/home/ruyzang/spotdog/src/champ/champ_config/config"
-    "/home/ruyzang/spotdog/src/champ/champ_config/launch"
-    "/home/ruyzang/spotdog/src/champ/champ_config/maps"
-    "/home/ruyzang/spotdog/src/champ/champ_config/worlds"
+    "/home/duygiang/Spotdog_champ/src/champ/champ_config/config"
+    "/home/duygiang/Spotdog_champ/src/champ/champ_config/launch"
+    "/home/duygiang/Spotdog_champ/src/champ/champ_config/maps"
+    "/home/duygiang/Spotdog_champ/src/champ/champ_config/worlds"
     )
 endif()
 

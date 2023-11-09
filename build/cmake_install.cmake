@@ -1,8 +1,8 @@
-# Install script for directory: /home/ruyzang/spotdog/src
+# Install script for directory: /home/duygiang/Spotdog_champ/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ruyzang/spotdog/install")
+  set(CMAKE_INSTALL_PREFIX "/home/duygiang/Spotdog_champ/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,99 +49,102 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/ruyzang/spotdog/install/_setup_util.py")
+   "/home/duygiang/Spotdog_champ/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/ruyzang/spotdog/install" TYPE PROGRAM FILES "/home/ruyzang/spotdog/build/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/duygiang/Spotdog_champ/install" TYPE PROGRAM FILES "/home/duygiang/Spotdog_champ/build/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/ruyzang/spotdog/install/env.sh")
+   "/home/duygiang/Spotdog_champ/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/ruyzang/spotdog/install" TYPE PROGRAM FILES "/home/ruyzang/spotdog/build/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/duygiang/Spotdog_champ/install" TYPE PROGRAM FILES "/home/duygiang/Spotdog_champ/build/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/ruyzang/spotdog/install/setup.bash;/home/ruyzang/spotdog/install/local_setup.bash")
+   "/home/duygiang/Spotdog_champ/install/setup.bash;/home/duygiang/Spotdog_champ/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/ruyzang/spotdog/install" TYPE FILE FILES
-    "/home/ruyzang/spotdog/build/catkin_generated/installspace/setup.bash"
-    "/home/ruyzang/spotdog/build/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/home/duygiang/Spotdog_champ/install" TYPE FILE FILES
+    "/home/duygiang/Spotdog_champ/build/catkin_generated/installspace/setup.bash"
+    "/home/duygiang/Spotdog_champ/build/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/ruyzang/spotdog/install/setup.sh;/home/ruyzang/spotdog/install/local_setup.sh")
+   "/home/duygiang/Spotdog_champ/install/setup.sh;/home/duygiang/Spotdog_champ/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/ruyzang/spotdog/install" TYPE FILE FILES
-    "/home/ruyzang/spotdog/build/catkin_generated/installspace/setup.sh"
-    "/home/ruyzang/spotdog/build/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/home/duygiang/Spotdog_champ/install" TYPE FILE FILES
+    "/home/duygiang/Spotdog_champ/build/catkin_generated/installspace/setup.sh"
+    "/home/duygiang/Spotdog_champ/build/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/ruyzang/spotdog/install/setup.zsh;/home/ruyzang/spotdog/install/local_setup.zsh")
+   "/home/duygiang/Spotdog_champ/install/setup.zsh;/home/duygiang/Spotdog_champ/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/ruyzang/spotdog/install" TYPE FILE FILES
-    "/home/ruyzang/spotdog/build/catkin_generated/installspace/setup.zsh"
-    "/home/ruyzang/spotdog/build/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/home/duygiang/Spotdog_champ/install" TYPE FILE FILES
+    "/home/duygiang/Spotdog_champ/build/catkin_generated/installspace/setup.zsh"
+    "/home/duygiang/Spotdog_champ/build/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/ruyzang/spotdog/install/.rosinstall")
+   "/home/duygiang/Spotdog_champ/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/ruyzang/spotdog/install" TYPE FILE FILES "/home/ruyzang/spotdog/build/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/duygiang/Spotdog_champ/install" TYPE FILE FILES "/home/duygiang/Spotdog_champ/build/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ruyzang/spotdog/build/gtest/cmake_install.cmake")
-  include("/home/ruyzang/spotdog/build/champ/champ/cmake_install.cmake")
-  include("/home/ruyzang/spotdog/build/champ/champ_bringup/cmake_install.cmake")
-  include("/home/ruyzang/spotdog/build/champ/champ_config/cmake_install.cmake")
-  include("/home/ruyzang/spotdog/build/champ/champ_description/cmake_install.cmake")
-  include("/home/ruyzang/spotdog/build/champ/champ_navigation/cmake_install.cmake")
-  include("/home/ruyzang/spotdog/build/champ_teleop/cmake_install.cmake")
-  include("/home/ruyzang/spotdog/build/champ/champ_msgs/cmake_install.cmake")
-  include("/home/ruyzang/spotdog/build/champ/champ_gazebo/cmake_install.cmake")
-  include("/home/ruyzang/spotdog/build/noisy_odom/cmake_install.cmake")
-  include("/home/ruyzang/spotdog/build/champ/champ_base/cmake_install.cmake")
-  include("/home/ruyzang/spotdog/build/yocs_velocity_smoother/cmake_install.cmake")
+  include("/home/duygiang/Spotdog_champ/build/gtest/cmake_install.cmake")
+  include("/home/duygiang/Spotdog_champ/build/Spot_dog_config/cmake_install.cmake")
+  include("/home/duygiang/Spotdog_champ/build/champ/champ/cmake_install.cmake")
+  include("/home/duygiang/Spotdog_champ/build/champ/champ_bringup/cmake_install.cmake")
+  include("/home/duygiang/Spotdog_champ/build/champ/champ_config/cmake_install.cmake")
+  include("/home/duygiang/Spotdog_champ/build/champ/champ_description/cmake_install.cmake")
+  include("/home/duygiang/Spotdog_champ/build/champ/champ_navigation/cmake_install.cmake")
+  include("/home/duygiang/Spotdog_champ/build/champ_setup_assistant/cmake_install.cmake")
+  include("/home/duygiang/Spotdog_champ/build/champ_teleop/cmake_install.cmake")
+  include("/home/duygiang/Spotdog_champ/build/champ/champ_msgs/cmake_install.cmake")
+  include("/home/duygiang/Spotdog_champ/build/champ/champ_gazebo/cmake_install.cmake")
+  include("/home/duygiang/Spotdog_champ/build/noisy_odom/cmake_install.cmake")
+  include("/home/duygiang/Spotdog_champ/build/spotdog_localization/cmake_install.cmake")
+  include("/home/duygiang/Spotdog_champ/build/champ/champ_base/cmake_install.cmake")
+  include("/home/duygiang/Spotdog_champ/build/yocs_velocity_smoother/cmake_install.cmake")
 
 endif()
 
@@ -153,5 +156,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ruyzang/spotdog/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/duygiang/Spotdog_champ/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

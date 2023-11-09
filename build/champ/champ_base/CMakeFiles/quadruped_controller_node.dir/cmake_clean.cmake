@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ruyzang/spotdog/devel/lib/champ_base/quadruped_controller_node"
-  "/home/ruyzang/spotdog/devel/lib/champ_base/quadruped_controller_node.pdb"
+  "/home/duygiang/Spotdog_champ/devel/lib/champ_base/quadruped_controller_node"
+  "/home/duygiang/Spotdog_champ/devel/lib/champ_base/quadruped_controller_node.pdb"
   "CMakeFiles/quadruped_controller_node.dir/src/quadruped_controller_node.cpp.o"
 )
 

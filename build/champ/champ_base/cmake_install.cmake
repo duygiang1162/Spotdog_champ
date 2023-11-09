@@ -1,8 +1,8 @@
-# Install script for directory: /home/ruyzang/spotdog/src/champ/champ_base
+# Install script for directory: /home/duygiang/Spotdog_champ/src/champ/champ_base
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ruyzang/spotdog/install")
+  set(CMAKE_INSTALL_PREFIX "/home/duygiang/Spotdog_champ/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,22 +38,22 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ruyzang/spotdog/build/champ/champ_base/catkin_generated/installspace/champ_base.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/duygiang/Spotdog_champ/build/champ/champ_base/catkin_generated/installspace/champ_base.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/champ_base/cmake" TYPE FILE FILES
-    "/home/ruyzang/spotdog/build/champ/champ_base/catkin_generated/installspace/champ_baseConfig.cmake"
-    "/home/ruyzang/spotdog/build/champ/champ_base/catkin_generated/installspace/champ_baseConfig-version.cmake"
+    "/home/duygiang/Spotdog_champ/build/champ/champ_base/catkin_generated/installspace/champ_baseConfig.cmake"
+    "/home/duygiang/Spotdog_champ/build/champ/champ_base/catkin_generated/installspace/champ_baseConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/champ_base" TYPE FILE FILES "/home/ruyzang/spotdog/src/champ/champ_base/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/champ_base" TYPE FILE FILES "/home/duygiang/Spotdog_champ/src/champ/champ_base/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/champ_base" TYPE DIRECTORY FILES "/home/ruyzang/spotdog/src/champ/champ_base/config")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/champ_base" TYPE DIRECTORY FILES "/home/duygiang/Spotdog_champ/src/champ/champ_base/config")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -63,7 +63,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libquadruped_controller.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/ruyzang/spotdog/devel/lib/libquadruped_controller.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/duygiang/Spotdog_champ/devel/lib/libquadruped_controller.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libquadruped_controller.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libquadruped_controller.so")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -82,12 +82,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/champ_base/quadruped_controller_node"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/champ_base" TYPE EXECUTABLE FILES "/home/ruyzang/spotdog/devel/lib/champ_base/quadruped_controller_node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/champ_base" TYPE EXECUTABLE FILES "/home/duygiang/Spotdog_champ/devel/lib/champ_base/quadruped_controller_node")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/champ_base/quadruped_controller_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/champ_base/quadruped_controller_node")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/champ_base/quadruped_controller_node"
-         OLD_RPATH "/home/ruyzang/spotdog/devel/lib:/opt/ros/noetic/lib:"
+         OLD_RPATH "/home/duygiang/Spotdog_champ/devel/lib:/opt/ros/noetic/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/champ_base/quadruped_controller_node")
@@ -102,7 +102,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmessage_relay.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/ruyzang/spotdog/devel/lib/libmessage_relay.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/duygiang/Spotdog_champ/devel/lib/libmessage_relay.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmessage_relay.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmessage_relay.so")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -121,12 +121,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/champ_base/message_relay_node"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/champ_base" TYPE EXECUTABLE FILES "/home/ruyzang/spotdog/devel/lib/champ_base/message_relay_node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/champ_base" TYPE EXECUTABLE FILES "/home/duygiang/Spotdog_champ/devel/lib/champ_base/message_relay_node")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/champ_base/message_relay_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/champ_base/message_relay_node")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/champ_base/message_relay_node"
-         OLD_RPATH "/home/ruyzang/spotdog/devel/lib:/opt/ros/noetic/lib:"
+         OLD_RPATH "/home/duygiang/Spotdog_champ/devel/lib:/opt/ros/noetic/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/champ_base/message_relay_node")
@@ -141,7 +141,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libstate_estimation.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/ruyzang/spotdog/devel/lib/libstate_estimation.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/duygiang/Spotdog_champ/devel/lib/libstate_estimation.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libstate_estimation.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libstate_estimation.so")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -160,12 +160,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/champ_base/state_estimation_node"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/champ_base" TYPE EXECUTABLE FILES "/home/ruyzang/spotdog/devel/lib/champ_base/state_estimation_node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/champ_base" TYPE EXECUTABLE FILES "/home/duygiang/Spotdog_champ/devel/lib/champ_base/state_estimation_node")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/champ_base/state_estimation_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/champ_base/state_estimation_node")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/champ_base/state_estimation_node"
-         OLD_RPATH "/home/ruyzang/spotdog/devel/lib:/opt/ros/noetic/lib:"
+         OLD_RPATH "/home/duygiang/Spotdog_champ/devel/lib:/opt/ros/noetic/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/champ_base/state_estimation_node")

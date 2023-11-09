@@ -1,4 +1,4 @@
-prefix=/home/ruyzang/spotdog/devel
+prefix=/home/duygiang/Spotdog_champ/devel
 
 Name: noisy_odom
 Description: Description of noisy_odom

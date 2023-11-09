@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ruyzang/spotdog/src
+CMAKE_SOURCE_DIR = /home/duygiang/Spotdog_champ/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ruyzang/spotdog/build
+CMAKE_BINARY_DIR = /home/duygiang/Spotdog_champ/build
 
 # Utility rule file for bond_generate_messages_lisp.
 
@@ -63,10 +63,10 @@ yocs_velocity_smoother/CMakeFiles/bond_generate_messages_lisp.dir/build: bond_ge
 .PHONY : yocs_velocity_smoother/CMakeFiles/bond_generate_messages_lisp.dir/build
 
 yocs_velocity_smoother/CMakeFiles/bond_generate_messages_lisp.dir/clean:
-	cd /home/ruyzang/spotdog/build/yocs_velocity_smoother && $(CMAKE_COMMAND) -P CMakeFiles/bond_generate_messages_lisp.dir/cmake_clean.cmake
+	cd /home/duygiang/Spotdog_champ/build/yocs_velocity_smoother && $(CMAKE_COMMAND) -P CMakeFiles/bond_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : yocs_velocity_smoother/CMakeFiles/bond_generate_messages_lisp.dir/clean
 
 yocs_velocity_smoother/CMakeFiles/bond_generate_messages_lisp.dir/depend:
-	cd /home/ruyzang/spotdog/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ruyzang/spotdog/src /home/ruyzang/spotdog/src/yocs_velocity_smoother /home/ruyzang/spotdog/build /home/ruyzang/spotdog/build/yocs_velocity_smoother /home/ruyzang/spotdog/build/yocs_velocity_smoother/CMakeFiles/bond_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/duygiang/Spotdog_champ/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/duygiang/Spotdog_champ/src /home/duygiang/Spotdog_champ/src/yocs_velocity_smoother /home/duygiang/Spotdog_champ/build /home/duygiang/Spotdog_champ/build/yocs_velocity_smoother /home/duygiang/Spotdog_champ/build/yocs_velocity_smoother/CMakeFiles/bond_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : yocs_velocity_smoother/CMakeFiles/bond_generate_messages_lisp.dir/depend
 

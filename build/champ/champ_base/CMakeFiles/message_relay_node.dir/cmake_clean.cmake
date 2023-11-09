@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ruyzang/spotdog/devel/lib/champ_base/message_relay_node"
-  "/home/ruyzang/spotdog/devel/lib/champ_base/message_relay_node.pdb"
+  "/home/duygiang/Spotdog_champ/devel/lib/champ_base/message_relay_node"
+  "/home/duygiang/Spotdog_champ/devel/lib/champ_base/message_relay_node.pdb"
   "CMakeFiles/message_relay_node.dir/src/message_relay_node.cpp.o"
 )
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ruyzang/spotdog/devel/lib/libyocs_velocity_smoother_nodelet.pdb"
-  "/home/ruyzang/spotdog/devel/lib/libyocs_velocity_smoother_nodelet.so"
+  "/home/duygiang/Spotdog_champ/devel/lib/libyocs_velocity_smoother_nodelet.pdb"
+  "/home/duygiang/Spotdog_champ/devel/lib/libyocs_velocity_smoother_nodelet.so"
   "CMakeFiles/yocs_velocity_smoother_nodelet.dir/src/velocity_smoother_nodelet.cpp.o"
 )
 

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ruyzang/spotdog/devel/include/champ_msgs/Contacts.h
+/home/duygiang/Spotdog_champ/devel/include/champ_msgs/Contacts.h
 string
 -
 vector
@@ -22,7 +22,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ruyzang/spotdog/devel/include/champ_msgs/ContactsStamped.h
+/home/duygiang/Spotdog_champ/devel/include/champ_msgs/ContactsStamped.h
 string
 -
 vector
@@ -40,7 +40,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/ruyzang/spotdog/devel/include/champ_msgs/Imu.h
+/home/duygiang/Spotdog_champ/devel/include/champ_msgs/Imu.h
 string
 -
 vector
@@ -64,7 +64,7 @@ geometry_msgs/Vector3.h
 geometry_msgs/Vector3.h
 -
 
-/home/ruyzang/spotdog/devel/include/champ_msgs/Joints.h
+/home/duygiang/Spotdog_champ/devel/include/champ_msgs/Joints.h
 string
 -
 vector
@@ -80,7 +80,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ruyzang/spotdog/src/champ/champ/include/champ/bla/basic_linear_algebra.h
+/home/duygiang/Spotdog_champ/src/champ/champ/include/champ/bla/basic_linear_algebra.h
 stdlib.h
 -
 string.h
@@ -88,17 +88,17 @@ string.h
 math.h
 -
 memory_delegate.h
-/home/ruyzang/spotdog/src/champ/champ/include/champ/bla/memory_delegate.h
+/home/duygiang/Spotdog_champ/src/champ/champ/include/champ/bla/memory_delegate.h
 
-/home/ruyzang/spotdog/src/champ/champ/include/champ/bla/memory_delegate.h
+/home/duygiang/Spotdog_champ/src/champ/champ/include/champ/bla/memory_delegate.h
 
-/home/ruyzang/spotdog/src/champ/champ/include/champ/geometry/geometry.h
+/home/duygiang/Spotdog_champ/src/champ/champ/include/champ/geometry/geometry.h
 bla/basic_linear_algebra.h
-/home/ruyzang/spotdog/src/champ/champ/include/champ/geometry/bla/basic_linear_algebra.h
+/home/duygiang/Spotdog_champ/src/champ/champ/include/champ/geometry/bla/basic_linear_algebra.h
 math.h
 -
 
-/home/ruyzang/spotdog/src/champ/champ/include/champ/quadruped_base/quadruped_base.h
+/home/duygiang/Spotdog_champ/src/champ/champ/include/champ/quadruped_base/quadruped_base.h
 geometry/geometry.h
 -
 quadruped_base/quadruped_leg.h
@@ -106,21 +106,21 @@ quadruped_base/quadruped_leg.h
 quadruped_base/quadruped_components.h
 -
 
-/home/ruyzang/spotdog/src/champ/champ/include/champ/quadruped_base/quadruped_components.h
+/home/duygiang/Spotdog_champ/src/champ/champ/include/champ/quadruped_base/quadruped_components.h
 
-/home/ruyzang/spotdog/src/champ/champ/include/champ/quadruped_base/quadruped_joint.h
+/home/duygiang/Spotdog_champ/src/champ/champ/include/champ/quadruped_base/quadruped_joint.h
 quadruped_base/quadruped_components.h
 -
 
-/home/ruyzang/spotdog/src/champ/champ/include/champ/quadruped_base/quadruped_leg.h
+/home/duygiang/Spotdog_champ/src/champ/champ/include/champ/quadruped_base/quadruped_leg.h
 geometry/geometry.h
 -
 quadruped_base/quadruped_joint.h
 -
 
-/home/ruyzang/spotdog/src/champ/champ/include/champ/utils/urdf_loader.h
+/home/duygiang/Spotdog_champ/src/champ/champ/include/champ/utils/urdf_loader.h
 ros/ros.h
-/home/ruyzang/spotdog/src/champ/champ/include/champ/utils/ros/ros.h
+/home/duygiang/Spotdog_champ/src/champ/champ/include/champ/utils/ros/ros.h
 urdf/model.h
 -
 utils/xmlrpc_helpers.h
@@ -132,15 +132,15 @@ quadruped_base/quadruped_leg.h
 quadruped_base/quadruped_joint.h
 -
 
-/home/ruyzang/spotdog/src/champ/champ/include/champ/utils/xmlrpc_helpers.h
+/home/duygiang/Spotdog_champ/src/champ/champ/include/champ/utils/xmlrpc_helpers.h
 sstream
 -
 ros/ros.h
 -
 
-/home/ruyzang/spotdog/src/champ/champ_base/include/message_relay.h
+/home/duygiang/Spotdog_champ/src/champ/champ_base/include/message_relay.h
 ros/ros.h
-/home/ruyzang/spotdog/src/champ/champ_base/include/ros/ros.h
+/home/duygiang/Spotdog_champ/src/champ/champ_base/include/ros/ros.h
 champ_msgs/Joints.h
 -
 champ_msgs/Imu.h
@@ -172,7 +172,7 @@ tf2_ros/transform_broadcaster.h
 geometry_msgs/Quaternion.h
 -
 
-/home/ruyzang/spotdog/src/champ/champ_base/src/message_relay.cpp
+/home/duygiang/Spotdog_champ/src/champ/champ_base/src/message_relay.cpp
 message_relay.h
 -
 
@@ -756,6 +756,8 @@ ros/datatypes.h
 vector
 -
 map
+-
+memory
 -
 boost/array.hpp
 -

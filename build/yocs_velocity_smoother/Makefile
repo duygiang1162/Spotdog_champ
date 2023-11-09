@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ruyzang/spotdog/src
+CMAKE_SOURCE_DIR = /home/duygiang/Spotdog_champ/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ruyzang/spotdog/build
+CMAKE_BINARY_DIR = /home/duygiang/Spotdog_champ/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ruyzang/spotdog/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ruyzang/spotdog/build/CMakeFiles /home/ruyzang/spotdog/build/yocs_velocity_smoother/CMakeFiles/progress.marks
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 yocs_velocity_smoother/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruyzang/spotdog/build/CMakeFiles 0
+	cd /home/duygiang/Spotdog_champ/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/duygiang/Spotdog_champ/build/CMakeFiles /home/duygiang/Spotdog_champ/build/yocs_velocity_smoother/CMakeFiles/progress.marks
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 yocs_velocity_smoother/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/duygiang/Spotdog_champ/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 yocs_velocity_smoother/clean
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 yocs_velocity_smoother/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 yocs_velocity_smoother/preinstall
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 yocs_velocity_smoother/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 yocs_velocity_smoother/preinstall
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 yocs_velocity_smoother/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ruyzang/spotdog/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/duygiang/Spotdog_champ/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 yocs_velocity_smoother/CMakeFiles/yocs_velocity_smoother_nodelet.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 yocs_velocity_smoother/CMakeFiles/yocs_velocity_smoother_nodelet.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 yocs_velocity_smoother/CMakeFiles/yocs_velocity_smoother_nodelet.dir/rule
 .PHONY : yocs_velocity_smoother/CMakeFiles/yocs_velocity_smoother_nodelet.dir/rule
 
 # Convenience name for target.
@@ -179,12 +179,12 @@ yocs_velocity_smoother_nodelet: yocs_velocity_smoother/CMakeFiles/yocs_velocity_
 
 # fast build rule for target.
 yocs_velocity_smoother_nodelet/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f yocs_velocity_smoother/CMakeFiles/yocs_velocity_smoother_nodelet.dir/build.make yocs_velocity_smoother/CMakeFiles/yocs_velocity_smoother_nodelet.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f yocs_velocity_smoother/CMakeFiles/yocs_velocity_smoother_nodelet.dir/build.make yocs_velocity_smoother/CMakeFiles/yocs_velocity_smoother_nodelet.dir/build
 .PHONY : yocs_velocity_smoother_nodelet/fast
 
 # Convenience name for target.
 yocs_velocity_smoother/CMakeFiles/yocs_velocity_smoother_gencfg.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 yocs_velocity_smoother/CMakeFiles/yocs_velocity_smoother_gencfg.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 yocs_velocity_smoother/CMakeFiles/yocs_velocity_smoother_gencfg.dir/rule
 .PHONY : yocs_velocity_smoother/CMakeFiles/yocs_velocity_smoother_gencfg.dir/rule
 
 # Convenience name for target.
@@ -194,12 +194,12 @@ yocs_velocity_smoother_gencfg: yocs_velocity_smoother/CMakeFiles/yocs_velocity_s
 
 # fast build rule for target.
 yocs_velocity_smoother_gencfg/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f yocs_velocity_smoother/CMakeFiles/yocs_velocity_smoother_gencfg.dir/build.make yocs_velocity_smoother/CMakeFiles/yocs_velocity_smoother_gencfg.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f yocs_velocity_smoother/CMakeFiles/yocs_velocity_smoother_gencfg.dir/build.make yocs_velocity_smoother/CMakeFiles/yocs_velocity_smoother_gencfg.dir/build
 .PHONY : yocs_velocity_smoother_gencfg/fast
 
 # Convenience name for target.
 yocs_velocity_smoother/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 yocs_velocity_smoother/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 yocs_velocity_smoother/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
 .PHONY : yocs_velocity_smoother/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
 
 # Convenience name for target.
@@ -209,12 +209,12 @@ dynamic_reconfigure_gencfg: yocs_velocity_smoother/CMakeFiles/dynamic_reconfigur
 
 # fast build rule for target.
 dynamic_reconfigure_gencfg/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f yocs_velocity_smoother/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make yocs_velocity_smoother/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f yocs_velocity_smoother/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make yocs_velocity_smoother/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
 .PHONY : dynamic_reconfigure_gencfg/fast
 
 # Convenience name for target.
 yocs_velocity_smoother/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 yocs_velocity_smoother/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 yocs_velocity_smoother/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
 .PHONY : yocs_velocity_smoother/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -224,12 +224,12 @@ dynamic_reconfigure_generate_messages_py: yocs_velocity_smoother/CMakeFiles/dyna
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_py/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f yocs_velocity_smoother/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make yocs_velocity_smoother/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f yocs_velocity_smoother/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make yocs_velocity_smoother/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_py/fast
 
 # Convenience name for target.
 yocs_velocity_smoother/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 yocs_velocity_smoother/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 yocs_velocity_smoother/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule
 .PHONY : yocs_velocity_smoother/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -239,12 +239,12 @@ dynamic_reconfigure_generate_messages_nodejs: yocs_velocity_smoother/CMakeFiles/
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_nodejs/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f yocs_velocity_smoother/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build.make yocs_velocity_smoother/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f yocs_velocity_smoother/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build.make yocs_velocity_smoother/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_nodejs/fast
 
 # Convenience name for target.
 yocs_velocity_smoother/CMakeFiles/nodelet_generate_messages_cpp.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 yocs_velocity_smoother/CMakeFiles/nodelet_generate_messages_cpp.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 yocs_velocity_smoother/CMakeFiles/nodelet_generate_messages_cpp.dir/rule
 .PHONY : yocs_velocity_smoother/CMakeFiles/nodelet_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -254,12 +254,12 @@ nodelet_generate_messages_cpp: yocs_velocity_smoother/CMakeFiles/nodelet_generat
 
 # fast build rule for target.
 nodelet_generate_messages_cpp/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f yocs_velocity_smoother/CMakeFiles/nodelet_generate_messages_cpp.dir/build.make yocs_velocity_smoother/CMakeFiles/nodelet_generate_messages_cpp.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f yocs_velocity_smoother/CMakeFiles/nodelet_generate_messages_cpp.dir/build.make yocs_velocity_smoother/CMakeFiles/nodelet_generate_messages_cpp.dir/build
 .PHONY : nodelet_generate_messages_cpp/fast
 
 # Convenience name for target.
 yocs_velocity_smoother/CMakeFiles/nodelet_generate_messages_nodejs.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 yocs_velocity_smoother/CMakeFiles/nodelet_generate_messages_nodejs.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 yocs_velocity_smoother/CMakeFiles/nodelet_generate_messages_nodejs.dir/rule
 .PHONY : yocs_velocity_smoother/CMakeFiles/nodelet_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -269,12 +269,12 @@ nodelet_generate_messages_nodejs: yocs_velocity_smoother/CMakeFiles/nodelet_gene
 
 # fast build rule for target.
 nodelet_generate_messages_nodejs/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f yocs_velocity_smoother/CMakeFiles/nodelet_generate_messages_nodejs.dir/build.make yocs_velocity_smoother/CMakeFiles/nodelet_generate_messages_nodejs.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f yocs_velocity_smoother/CMakeFiles/nodelet_generate_messages_nodejs.dir/build.make yocs_velocity_smoother/CMakeFiles/nodelet_generate_messages_nodejs.dir/build
 .PHONY : nodelet_generate_messages_nodejs/fast
 
 # Convenience name for target.
 yocs_velocity_smoother/CMakeFiles/bond_generate_messages_py.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 yocs_velocity_smoother/CMakeFiles/bond_generate_messages_py.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 yocs_velocity_smoother/CMakeFiles/bond_generate_messages_py.dir/rule
 .PHONY : yocs_velocity_smoother/CMakeFiles/bond_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -284,12 +284,12 @@ bond_generate_messages_py: yocs_velocity_smoother/CMakeFiles/bond_generate_messa
 
 # fast build rule for target.
 bond_generate_messages_py/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f yocs_velocity_smoother/CMakeFiles/bond_generate_messages_py.dir/build.make yocs_velocity_smoother/CMakeFiles/bond_generate_messages_py.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f yocs_velocity_smoother/CMakeFiles/bond_generate_messages_py.dir/build.make yocs_velocity_smoother/CMakeFiles/bond_generate_messages_py.dir/build
 .PHONY : bond_generate_messages_py/fast
 
 # Convenience name for target.
 yocs_velocity_smoother/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 yocs_velocity_smoother/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 yocs_velocity_smoother/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule
 .PHONY : yocs_velocity_smoother/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -299,12 +299,12 @@ dynamic_reconfigure_generate_messages_eus: yocs_velocity_smoother/CMakeFiles/dyn
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_eus/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f yocs_velocity_smoother/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build.make yocs_velocity_smoother/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f yocs_velocity_smoother/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build.make yocs_velocity_smoother/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_eus/fast
 
 # Convenience name for target.
 yocs_velocity_smoother/CMakeFiles/bond_generate_messages_nodejs.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 yocs_velocity_smoother/CMakeFiles/bond_generate_messages_nodejs.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 yocs_velocity_smoother/CMakeFiles/bond_generate_messages_nodejs.dir/rule
 .PHONY : yocs_velocity_smoother/CMakeFiles/bond_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -314,12 +314,12 @@ bond_generate_messages_nodejs: yocs_velocity_smoother/CMakeFiles/bond_generate_m
 
 # fast build rule for target.
 bond_generate_messages_nodejs/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f yocs_velocity_smoother/CMakeFiles/bond_generate_messages_nodejs.dir/build.make yocs_velocity_smoother/CMakeFiles/bond_generate_messages_nodejs.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f yocs_velocity_smoother/CMakeFiles/bond_generate_messages_nodejs.dir/build.make yocs_velocity_smoother/CMakeFiles/bond_generate_messages_nodejs.dir/build
 .PHONY : bond_generate_messages_nodejs/fast
 
 # Convenience name for target.
 yocs_velocity_smoother/CMakeFiles/nodelet_generate_messages_lisp.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 yocs_velocity_smoother/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 yocs_velocity_smoother/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
 .PHONY : yocs_velocity_smoother/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -329,12 +329,12 @@ nodelet_generate_messages_lisp: yocs_velocity_smoother/CMakeFiles/nodelet_genera
 
 # fast build rule for target.
 nodelet_generate_messages_lisp/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f yocs_velocity_smoother/CMakeFiles/nodelet_generate_messages_lisp.dir/build.make yocs_velocity_smoother/CMakeFiles/nodelet_generate_messages_lisp.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f yocs_velocity_smoother/CMakeFiles/nodelet_generate_messages_lisp.dir/build.make yocs_velocity_smoother/CMakeFiles/nodelet_generate_messages_lisp.dir/build
 .PHONY : nodelet_generate_messages_lisp/fast
 
 # Convenience name for target.
 yocs_velocity_smoother/CMakeFiles/bond_generate_messages_eus.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 yocs_velocity_smoother/CMakeFiles/bond_generate_messages_eus.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 yocs_velocity_smoother/CMakeFiles/bond_generate_messages_eus.dir/rule
 .PHONY : yocs_velocity_smoother/CMakeFiles/bond_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -344,12 +344,12 @@ bond_generate_messages_eus: yocs_velocity_smoother/CMakeFiles/bond_generate_mess
 
 # fast build rule for target.
 bond_generate_messages_eus/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f yocs_velocity_smoother/CMakeFiles/bond_generate_messages_eus.dir/build.make yocs_velocity_smoother/CMakeFiles/bond_generate_messages_eus.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f yocs_velocity_smoother/CMakeFiles/bond_generate_messages_eus.dir/build.make yocs_velocity_smoother/CMakeFiles/bond_generate_messages_eus.dir/build
 .PHONY : bond_generate_messages_eus/fast
 
 # Convenience name for target.
 yocs_velocity_smoother/CMakeFiles/bond_generate_messages_cpp.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 yocs_velocity_smoother/CMakeFiles/bond_generate_messages_cpp.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 yocs_velocity_smoother/CMakeFiles/bond_generate_messages_cpp.dir/rule
 .PHONY : yocs_velocity_smoother/CMakeFiles/bond_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -359,12 +359,12 @@ bond_generate_messages_cpp: yocs_velocity_smoother/CMakeFiles/bond_generate_mess
 
 # fast build rule for target.
 bond_generate_messages_cpp/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f yocs_velocity_smoother/CMakeFiles/bond_generate_messages_cpp.dir/build.make yocs_velocity_smoother/CMakeFiles/bond_generate_messages_cpp.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f yocs_velocity_smoother/CMakeFiles/bond_generate_messages_cpp.dir/build.make yocs_velocity_smoother/CMakeFiles/bond_generate_messages_cpp.dir/build
 .PHONY : bond_generate_messages_cpp/fast
 
 # Convenience name for target.
 yocs_velocity_smoother/CMakeFiles/nodelet_generate_messages_py.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 yocs_velocity_smoother/CMakeFiles/nodelet_generate_messages_py.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 yocs_velocity_smoother/CMakeFiles/nodelet_generate_messages_py.dir/rule
 .PHONY : yocs_velocity_smoother/CMakeFiles/nodelet_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -374,12 +374,12 @@ nodelet_generate_messages_py: yocs_velocity_smoother/CMakeFiles/nodelet_generate
 
 # fast build rule for target.
 nodelet_generate_messages_py/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f yocs_velocity_smoother/CMakeFiles/nodelet_generate_messages_py.dir/build.make yocs_velocity_smoother/CMakeFiles/nodelet_generate_messages_py.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f yocs_velocity_smoother/CMakeFiles/nodelet_generate_messages_py.dir/build.make yocs_velocity_smoother/CMakeFiles/nodelet_generate_messages_py.dir/build
 .PHONY : nodelet_generate_messages_py/fast
 
 # Convenience name for target.
 yocs_velocity_smoother/CMakeFiles/bond_generate_messages_lisp.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 yocs_velocity_smoother/CMakeFiles/bond_generate_messages_lisp.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 yocs_velocity_smoother/CMakeFiles/bond_generate_messages_lisp.dir/rule
 .PHONY : yocs_velocity_smoother/CMakeFiles/bond_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -389,12 +389,12 @@ bond_generate_messages_lisp: yocs_velocity_smoother/CMakeFiles/bond_generate_mes
 
 # fast build rule for target.
 bond_generate_messages_lisp/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f yocs_velocity_smoother/CMakeFiles/bond_generate_messages_lisp.dir/build.make yocs_velocity_smoother/CMakeFiles/bond_generate_messages_lisp.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f yocs_velocity_smoother/CMakeFiles/bond_generate_messages_lisp.dir/build.make yocs_velocity_smoother/CMakeFiles/bond_generate_messages_lisp.dir/build
 .PHONY : bond_generate_messages_lisp/fast
 
 # Convenience name for target.
 yocs_velocity_smoother/CMakeFiles/nodelet_generate_messages_eus.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 yocs_velocity_smoother/CMakeFiles/nodelet_generate_messages_eus.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 yocs_velocity_smoother/CMakeFiles/nodelet_generate_messages_eus.dir/rule
 .PHONY : yocs_velocity_smoother/CMakeFiles/nodelet_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -404,12 +404,12 @@ nodelet_generate_messages_eus: yocs_velocity_smoother/CMakeFiles/nodelet_generat
 
 # fast build rule for target.
 nodelet_generate_messages_eus/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f yocs_velocity_smoother/CMakeFiles/nodelet_generate_messages_eus.dir/build.make yocs_velocity_smoother/CMakeFiles/nodelet_generate_messages_eus.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f yocs_velocity_smoother/CMakeFiles/nodelet_generate_messages_eus.dir/build.make yocs_velocity_smoother/CMakeFiles/nodelet_generate_messages_eus.dir/build
 .PHONY : nodelet_generate_messages_eus/fast
 
 # Convenience name for target.
 yocs_velocity_smoother/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 yocs_velocity_smoother/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 yocs_velocity_smoother/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
 .PHONY : yocs_velocity_smoother/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -419,12 +419,12 @@ dynamic_reconfigure_generate_messages_cpp: yocs_velocity_smoother/CMakeFiles/dyn
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_cpp/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f yocs_velocity_smoother/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make yocs_velocity_smoother/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f yocs_velocity_smoother/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make yocs_velocity_smoother/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_cpp/fast
 
 # Convenience name for target.
 yocs_velocity_smoother/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f CMakeFiles/Makefile2 yocs_velocity_smoother/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f CMakeFiles/Makefile2 yocs_velocity_smoother/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
 .PHONY : yocs_velocity_smoother/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -434,7 +434,7 @@ dynamic_reconfigure_generate_messages_lisp: yocs_velocity_smoother/CMakeFiles/dy
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_lisp/fast:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f yocs_velocity_smoother/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make yocs_velocity_smoother/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f yocs_velocity_smoother/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make yocs_velocity_smoother/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_lisp/fast
 
 src/velocity_smoother_nodelet.o: src/velocity_smoother_nodelet.cpp.o
@@ -443,7 +443,7 @@ src/velocity_smoother_nodelet.o: src/velocity_smoother_nodelet.cpp.o
 
 # target to build an object file
 src/velocity_smoother_nodelet.cpp.o:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f yocs_velocity_smoother/CMakeFiles/yocs_velocity_smoother_nodelet.dir/build.make yocs_velocity_smoother/CMakeFiles/yocs_velocity_smoother_nodelet.dir/src/velocity_smoother_nodelet.cpp.o
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f yocs_velocity_smoother/CMakeFiles/yocs_velocity_smoother_nodelet.dir/build.make yocs_velocity_smoother/CMakeFiles/yocs_velocity_smoother_nodelet.dir/src/velocity_smoother_nodelet.cpp.o
 .PHONY : src/velocity_smoother_nodelet.cpp.o
 
 src/velocity_smoother_nodelet.i: src/velocity_smoother_nodelet.cpp.i
@@ -452,7 +452,7 @@ src/velocity_smoother_nodelet.i: src/velocity_smoother_nodelet.cpp.i
 
 # target to preprocess a source file
 src/velocity_smoother_nodelet.cpp.i:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f yocs_velocity_smoother/CMakeFiles/yocs_velocity_smoother_nodelet.dir/build.make yocs_velocity_smoother/CMakeFiles/yocs_velocity_smoother_nodelet.dir/src/velocity_smoother_nodelet.cpp.i
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f yocs_velocity_smoother/CMakeFiles/yocs_velocity_smoother_nodelet.dir/build.make yocs_velocity_smoother/CMakeFiles/yocs_velocity_smoother_nodelet.dir/src/velocity_smoother_nodelet.cpp.i
 .PHONY : src/velocity_smoother_nodelet.cpp.i
 
 src/velocity_smoother_nodelet.s: src/velocity_smoother_nodelet.cpp.s
@@ -461,7 +461,7 @@ src/velocity_smoother_nodelet.s: src/velocity_smoother_nodelet.cpp.s
 
 # target to generate assembly for a file
 src/velocity_smoother_nodelet.cpp.s:
-	cd /home/ruyzang/spotdog/build && $(MAKE) -f yocs_velocity_smoother/CMakeFiles/yocs_velocity_smoother_nodelet.dir/build.make yocs_velocity_smoother/CMakeFiles/yocs_velocity_smoother_nodelet.dir/src/velocity_smoother_nodelet.cpp.s
+	cd /home/duygiang/Spotdog_champ/build && $(MAKE) -f yocs_velocity_smoother/CMakeFiles/yocs_velocity_smoother_nodelet.dir/build.make yocs_velocity_smoother/CMakeFiles/yocs_velocity_smoother_nodelet.dir/src/velocity_smoother_nodelet.cpp.s
 .PHONY : src/velocity_smoother_nodelet.cpp.s
 
 # Help Target
@@ -509,6 +509,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ruyzang/spotdog/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/duygiang/Spotdog_champ/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

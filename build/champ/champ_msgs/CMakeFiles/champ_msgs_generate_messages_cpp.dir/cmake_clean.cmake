@@ -1,13 +1,13 @@
 file(REMOVE_RECURSE
-  "/home/ruyzang/spotdog/devel/include/champ_msgs/Contacts.h"
-  "/home/ruyzang/spotdog/devel/include/champ_msgs/ContactsStamped.h"
-  "/home/ruyzang/spotdog/devel/include/champ_msgs/Imu.h"
-  "/home/ruyzang/spotdog/devel/include/champ_msgs/Joints.h"
-  "/home/ruyzang/spotdog/devel/include/champ_msgs/PID.h"
-  "/home/ruyzang/spotdog/devel/include/champ_msgs/Point.h"
-  "/home/ruyzang/spotdog/devel/include/champ_msgs/PointArray.h"
-  "/home/ruyzang/spotdog/devel/include/champ_msgs/Pose.h"
-  "/home/ruyzang/spotdog/devel/include/champ_msgs/Velocities.h"
+  "/home/duygiang/Spotdog_champ/devel/include/champ_msgs/Contacts.h"
+  "/home/duygiang/Spotdog_champ/devel/include/champ_msgs/ContactsStamped.h"
+  "/home/duygiang/Spotdog_champ/devel/include/champ_msgs/Imu.h"
+  "/home/duygiang/Spotdog_champ/devel/include/champ_msgs/Joints.h"
+  "/home/duygiang/Spotdog_champ/devel/include/champ_msgs/PID.h"
+  "/home/duygiang/Spotdog_champ/devel/include/champ_msgs/Point.h"
+  "/home/duygiang/Spotdog_champ/devel/include/champ_msgs/PointArray.h"
+  "/home/duygiang/Spotdog_champ/devel/include/champ_msgs/Pose.h"
+  "/home/duygiang/Spotdog_champ/devel/include/champ_msgs/Velocities.h"
   "CMakeFiles/champ_msgs_generate_messages_cpp"
 )
 

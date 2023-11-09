@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ruyzang/spotdog/src/yocs_velocity_smoother/src/velocity_smoother_nodelet.cpp" "/home/ruyzang/spotdog/build/yocs_velocity_smoother/CMakeFiles/yocs_velocity_smoother_nodelet.dir/src/velocity_smoother_nodelet.cpp.o"
+  "/home/duygiang/Spotdog_champ/src/yocs_velocity_smoother/src/velocity_smoother_nodelet.cpp" "/home/duygiang/Spotdog_champ/build/yocs_velocity_smoother/CMakeFiles/yocs_velocity_smoother_nodelet.dir/src/velocity_smoother_nodelet.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -18,8 +18,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/ruyzang/spotdog/devel/include"
-  "/home/ruyzang/spotdog/src/yocs_velocity_smoother/include"
+  "/home/duygiang/Spotdog_champ/devel/include"
+  "/home/duygiang/Spotdog_champ/src/yocs_velocity_smoother/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

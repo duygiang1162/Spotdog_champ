@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ruyzang/spotdog/src/champ/champ_gazebo/src/contact_sensor.cpp" "/home/ruyzang/spotdog/build/champ/champ_gazebo/CMakeFiles/contact_sensor.dir/src/contact_sensor.cpp.o"
+  "/home/duygiang/Spotdog_champ/src/champ/champ_gazebo/src/contact_sensor.cpp" "/home/duygiang/Spotdog_champ/build/champ/champ_gazebo/CMakeFiles/contact_sensor.dir/src/contact_sensor.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -29,13 +29,12 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/ruyzang/spotdog/src/champ/champ_gazebo/include"
-  "/home/ruyzang/spotdog/src/champ/champ/include"
-  "/home/ruyzang/spotdog/src/champ/champ/include/champ"
-  "/home/ruyzang/spotdog/src/champ/champ/include/champ/champ"
-  "/home/ruyzang/spotdog/src/champ/champ/include/champ/champ/champ"
-  "/home/ruyzang/spotdog/devel/include"
-  "/opt/ros/noetic/include"
+  "/home/duygiang/Spotdog_champ/src/champ/champ_gazebo/include"
+  "/home/duygiang/Spotdog_champ/src/champ/champ/include"
+  "/home/duygiang/Spotdog_champ/src/champ/champ/include/champ"
+  "/home/duygiang/Spotdog_champ/src/champ/champ/include/champ/champ"
+  "/home/duygiang/Spotdog_champ/src/champ/champ/include/champ/champ/champ"
+  "/home/duygiang/Spotdog_champ/devel/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/gazebo-11"
   "/usr/include/bullet"
@@ -43,6 +42,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/include/OGRE"
   "/usr/include/OGRE/Terrain"
   "/usr/include/OGRE/Paging"
+  "/opt/ros/noetic/include"
   "/usr/include/simbody"
   "/usr/include/ignition/math6"
   "/usr/include/ignition/transport8"

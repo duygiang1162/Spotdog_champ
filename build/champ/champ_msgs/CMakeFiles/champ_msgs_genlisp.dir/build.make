@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ruyzang/spotdog/src
+CMAKE_SOURCE_DIR = /home/duygiang/Spotdog_champ/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ruyzang/spotdog/build
+CMAKE_BINARY_DIR = /home/duygiang/Spotdog_champ/build
 
 # Utility rule file for champ_msgs_genlisp.
 
@@ -63,10 +63,10 @@ champ/champ_msgs/CMakeFiles/champ_msgs_genlisp.dir/build: champ_msgs_genlisp
 .PHONY : champ/champ_msgs/CMakeFiles/champ_msgs_genlisp.dir/build
 
 champ/champ_msgs/CMakeFiles/champ_msgs_genlisp.dir/clean:
-	cd /home/ruyzang/spotdog/build/champ/champ_msgs && $(CMAKE_COMMAND) -P CMakeFiles/champ_msgs_genlisp.dir/cmake_clean.cmake
+	cd /home/duygiang/Spotdog_champ/build/champ/champ_msgs && $(CMAKE_COMMAND) -P CMakeFiles/champ_msgs_genlisp.dir/cmake_clean.cmake
 .PHONY : champ/champ_msgs/CMakeFiles/champ_msgs_genlisp.dir/clean
 
 champ/champ_msgs/CMakeFiles/champ_msgs_genlisp.dir/depend:
-	cd /home/ruyzang/spotdog/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ruyzang/spotdog/src /home/ruyzang/spotdog/src/champ/champ_msgs /home/ruyzang/spotdog/build /home/ruyzang/spotdog/build/champ/champ_msgs /home/ruyzang/spotdog/build/champ/champ_msgs/CMakeFiles/champ_msgs_genlisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/duygiang/Spotdog_champ/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/duygiang/Spotdog_champ/src /home/duygiang/Spotdog_champ/src/champ/champ_msgs /home/duygiang/Spotdog_champ/build /home/duygiang/Spotdog_champ/build/champ/champ_msgs /home/duygiang/Spotdog_champ/build/champ/champ_msgs/CMakeFiles/champ_msgs_genlisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : champ/champ_msgs/CMakeFiles/champ_msgs_genlisp.dir/depend
 

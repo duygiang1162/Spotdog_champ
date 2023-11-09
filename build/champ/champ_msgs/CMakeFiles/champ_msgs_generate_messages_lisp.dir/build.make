@@ -43,86 +43,86 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ruyzang/spotdog/src
+CMAKE_SOURCE_DIR = /home/duygiang/Spotdog_champ/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ruyzang/spotdog/build
+CMAKE_BINARY_DIR = /home/duygiang/Spotdog_champ/build
 
 # Utility rule file for champ_msgs_generate_messages_lisp.
 
 # Include the progress variables for this target.
 include champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_lisp.dir/progress.make
 
-champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_lisp: /home/ruyzang/spotdog/devel/share/common-lisp/ros/champ_msgs/msg/Velocities.lisp
-champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_lisp: /home/ruyzang/spotdog/devel/share/common-lisp/ros/champ_msgs/msg/PID.lisp
-champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_lisp: /home/ruyzang/spotdog/devel/share/common-lisp/ros/champ_msgs/msg/Imu.lisp
-champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_lisp: /home/ruyzang/spotdog/devel/share/common-lisp/ros/champ_msgs/msg/Point.lisp
-champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_lisp: /home/ruyzang/spotdog/devel/share/common-lisp/ros/champ_msgs/msg/PointArray.lisp
-champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_lisp: /home/ruyzang/spotdog/devel/share/common-lisp/ros/champ_msgs/msg/Joints.lisp
-champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_lisp: /home/ruyzang/spotdog/devel/share/common-lisp/ros/champ_msgs/msg/Contacts.lisp
-champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_lisp: /home/ruyzang/spotdog/devel/share/common-lisp/ros/champ_msgs/msg/ContactsStamped.lisp
-champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_lisp: /home/ruyzang/spotdog/devel/share/common-lisp/ros/champ_msgs/msg/Pose.lisp
+champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_lisp: /home/duygiang/Spotdog_champ/devel/share/common-lisp/ros/champ_msgs/msg/Velocities.lisp
+champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_lisp: /home/duygiang/Spotdog_champ/devel/share/common-lisp/ros/champ_msgs/msg/PID.lisp
+champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_lisp: /home/duygiang/Spotdog_champ/devel/share/common-lisp/ros/champ_msgs/msg/Imu.lisp
+champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_lisp: /home/duygiang/Spotdog_champ/devel/share/common-lisp/ros/champ_msgs/msg/Point.lisp
+champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_lisp: /home/duygiang/Spotdog_champ/devel/share/common-lisp/ros/champ_msgs/msg/PointArray.lisp
+champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_lisp: /home/duygiang/Spotdog_champ/devel/share/common-lisp/ros/champ_msgs/msg/Joints.lisp
+champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_lisp: /home/duygiang/Spotdog_champ/devel/share/common-lisp/ros/champ_msgs/msg/Contacts.lisp
+champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_lisp: /home/duygiang/Spotdog_champ/devel/share/common-lisp/ros/champ_msgs/msg/ContactsStamped.lisp
+champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_lisp: /home/duygiang/Spotdog_champ/devel/share/common-lisp/ros/champ_msgs/msg/Pose.lisp
 
 
-/home/ruyzang/spotdog/devel/share/common-lisp/ros/champ_msgs/msg/Velocities.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
-/home/ruyzang/spotdog/devel/share/common-lisp/ros/champ_msgs/msg/Velocities.lisp: /home/ruyzang/spotdog/src/champ/champ_msgs/msg/Velocities.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ruyzang/spotdog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from champ_msgs/Velocities.msg"
-	cd /home/ruyzang/spotdog/build/champ/champ_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ruyzang/spotdog/src/champ/champ_msgs/msg/Velocities.msg -Ichamp_msgs:/home/ruyzang/spotdog/src/champ/champ_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p champ_msgs -o /home/ruyzang/spotdog/devel/share/common-lisp/ros/champ_msgs/msg
+/home/duygiang/Spotdog_champ/devel/share/common-lisp/ros/champ_msgs/msg/Velocities.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
+/home/duygiang/Spotdog_champ/devel/share/common-lisp/ros/champ_msgs/msg/Velocities.lisp: /home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Velocities.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/duygiang/Spotdog_champ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from champ_msgs/Velocities.msg"
+	cd /home/duygiang/Spotdog_champ/build/champ/champ_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Velocities.msg -Ichamp_msgs:/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p champ_msgs -o /home/duygiang/Spotdog_champ/devel/share/common-lisp/ros/champ_msgs/msg
 
-/home/ruyzang/spotdog/devel/share/common-lisp/ros/champ_msgs/msg/PID.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
-/home/ruyzang/spotdog/devel/share/common-lisp/ros/champ_msgs/msg/PID.lisp: /home/ruyzang/spotdog/src/champ/champ_msgs/msg/PID.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ruyzang/spotdog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Lisp code from champ_msgs/PID.msg"
-	cd /home/ruyzang/spotdog/build/champ/champ_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ruyzang/spotdog/src/champ/champ_msgs/msg/PID.msg -Ichamp_msgs:/home/ruyzang/spotdog/src/champ/champ_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p champ_msgs -o /home/ruyzang/spotdog/devel/share/common-lisp/ros/champ_msgs/msg
+/home/duygiang/Spotdog_champ/devel/share/common-lisp/ros/champ_msgs/msg/PID.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
+/home/duygiang/Spotdog_champ/devel/share/common-lisp/ros/champ_msgs/msg/PID.lisp: /home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/PID.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/duygiang/Spotdog_champ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Lisp code from champ_msgs/PID.msg"
+	cd /home/duygiang/Spotdog_champ/build/champ/champ_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/PID.msg -Ichamp_msgs:/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p champ_msgs -o /home/duygiang/Spotdog_champ/devel/share/common-lisp/ros/champ_msgs/msg
 
-/home/ruyzang/spotdog/devel/share/common-lisp/ros/champ_msgs/msg/Imu.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
-/home/ruyzang/spotdog/devel/share/common-lisp/ros/champ_msgs/msg/Imu.lisp: /home/ruyzang/spotdog/src/champ/champ_msgs/msg/Imu.msg
-/home/ruyzang/spotdog/devel/share/common-lisp/ros/champ_msgs/msg/Imu.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
-/home/ruyzang/spotdog/devel/share/common-lisp/ros/champ_msgs/msg/Imu.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ruyzang/spotdog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Lisp code from champ_msgs/Imu.msg"
-	cd /home/ruyzang/spotdog/build/champ/champ_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ruyzang/spotdog/src/champ/champ_msgs/msg/Imu.msg -Ichamp_msgs:/home/ruyzang/spotdog/src/champ/champ_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p champ_msgs -o /home/ruyzang/spotdog/devel/share/common-lisp/ros/champ_msgs/msg
+/home/duygiang/Spotdog_champ/devel/share/common-lisp/ros/champ_msgs/msg/Imu.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
+/home/duygiang/Spotdog_champ/devel/share/common-lisp/ros/champ_msgs/msg/Imu.lisp: /home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Imu.msg
+/home/duygiang/Spotdog_champ/devel/share/common-lisp/ros/champ_msgs/msg/Imu.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/duygiang/Spotdog_champ/devel/share/common-lisp/ros/champ_msgs/msg/Imu.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/duygiang/Spotdog_champ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Lisp code from champ_msgs/Imu.msg"
+	cd /home/duygiang/Spotdog_champ/build/champ/champ_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Imu.msg -Ichamp_msgs:/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p champ_msgs -o /home/duygiang/Spotdog_champ/devel/share/common-lisp/ros/champ_msgs/msg
 
-/home/ruyzang/spotdog/devel/share/common-lisp/ros/champ_msgs/msg/Point.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
-/home/ruyzang/spotdog/devel/share/common-lisp/ros/champ_msgs/msg/Point.lisp: /home/ruyzang/spotdog/src/champ/champ_msgs/msg/Point.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ruyzang/spotdog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Lisp code from champ_msgs/Point.msg"
-	cd /home/ruyzang/spotdog/build/champ/champ_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ruyzang/spotdog/src/champ/champ_msgs/msg/Point.msg -Ichamp_msgs:/home/ruyzang/spotdog/src/champ/champ_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p champ_msgs -o /home/ruyzang/spotdog/devel/share/common-lisp/ros/champ_msgs/msg
+/home/duygiang/Spotdog_champ/devel/share/common-lisp/ros/champ_msgs/msg/Point.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
+/home/duygiang/Spotdog_champ/devel/share/common-lisp/ros/champ_msgs/msg/Point.lisp: /home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Point.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/duygiang/Spotdog_champ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Lisp code from champ_msgs/Point.msg"
+	cd /home/duygiang/Spotdog_champ/build/champ/champ_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Point.msg -Ichamp_msgs:/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p champ_msgs -o /home/duygiang/Spotdog_champ/devel/share/common-lisp/ros/champ_msgs/msg
 
-/home/ruyzang/spotdog/devel/share/common-lisp/ros/champ_msgs/msg/PointArray.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
-/home/ruyzang/spotdog/devel/share/common-lisp/ros/champ_msgs/msg/PointArray.lisp: /home/ruyzang/spotdog/src/champ/champ_msgs/msg/PointArray.msg
-/home/ruyzang/spotdog/devel/share/common-lisp/ros/champ_msgs/msg/PointArray.lisp: /home/ruyzang/spotdog/src/champ/champ_msgs/msg/Point.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ruyzang/spotdog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Lisp code from champ_msgs/PointArray.msg"
-	cd /home/ruyzang/spotdog/build/champ/champ_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ruyzang/spotdog/src/champ/champ_msgs/msg/PointArray.msg -Ichamp_msgs:/home/ruyzang/spotdog/src/champ/champ_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p champ_msgs -o /home/ruyzang/spotdog/devel/share/common-lisp/ros/champ_msgs/msg
+/home/duygiang/Spotdog_champ/devel/share/common-lisp/ros/champ_msgs/msg/PointArray.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
+/home/duygiang/Spotdog_champ/devel/share/common-lisp/ros/champ_msgs/msg/PointArray.lisp: /home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/PointArray.msg
+/home/duygiang/Spotdog_champ/devel/share/common-lisp/ros/champ_msgs/msg/PointArray.lisp: /home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Point.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/duygiang/Spotdog_champ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Lisp code from champ_msgs/PointArray.msg"
+	cd /home/duygiang/Spotdog_champ/build/champ/champ_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/PointArray.msg -Ichamp_msgs:/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p champ_msgs -o /home/duygiang/Spotdog_champ/devel/share/common-lisp/ros/champ_msgs/msg
 
-/home/ruyzang/spotdog/devel/share/common-lisp/ros/champ_msgs/msg/Joints.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
-/home/ruyzang/spotdog/devel/share/common-lisp/ros/champ_msgs/msg/Joints.lisp: /home/ruyzang/spotdog/src/champ/champ_msgs/msg/Joints.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ruyzang/spotdog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Lisp code from champ_msgs/Joints.msg"
-	cd /home/ruyzang/spotdog/build/champ/champ_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ruyzang/spotdog/src/champ/champ_msgs/msg/Joints.msg -Ichamp_msgs:/home/ruyzang/spotdog/src/champ/champ_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p champ_msgs -o /home/ruyzang/spotdog/devel/share/common-lisp/ros/champ_msgs/msg
+/home/duygiang/Spotdog_champ/devel/share/common-lisp/ros/champ_msgs/msg/Joints.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
+/home/duygiang/Spotdog_champ/devel/share/common-lisp/ros/champ_msgs/msg/Joints.lisp: /home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Joints.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/duygiang/Spotdog_champ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Lisp code from champ_msgs/Joints.msg"
+	cd /home/duygiang/Spotdog_champ/build/champ/champ_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Joints.msg -Ichamp_msgs:/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p champ_msgs -o /home/duygiang/Spotdog_champ/devel/share/common-lisp/ros/champ_msgs/msg
 
-/home/ruyzang/spotdog/devel/share/common-lisp/ros/champ_msgs/msg/Contacts.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
-/home/ruyzang/spotdog/devel/share/common-lisp/ros/champ_msgs/msg/Contacts.lisp: /home/ruyzang/spotdog/src/champ/champ_msgs/msg/Contacts.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ruyzang/spotdog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Lisp code from champ_msgs/Contacts.msg"
-	cd /home/ruyzang/spotdog/build/champ/champ_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ruyzang/spotdog/src/champ/champ_msgs/msg/Contacts.msg -Ichamp_msgs:/home/ruyzang/spotdog/src/champ/champ_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p champ_msgs -o /home/ruyzang/spotdog/devel/share/common-lisp/ros/champ_msgs/msg
+/home/duygiang/Spotdog_champ/devel/share/common-lisp/ros/champ_msgs/msg/Contacts.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
+/home/duygiang/Spotdog_champ/devel/share/common-lisp/ros/champ_msgs/msg/Contacts.lisp: /home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Contacts.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/duygiang/Spotdog_champ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Lisp code from champ_msgs/Contacts.msg"
+	cd /home/duygiang/Spotdog_champ/build/champ/champ_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Contacts.msg -Ichamp_msgs:/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p champ_msgs -o /home/duygiang/Spotdog_champ/devel/share/common-lisp/ros/champ_msgs/msg
 
-/home/ruyzang/spotdog/devel/share/common-lisp/ros/champ_msgs/msg/ContactsStamped.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
-/home/ruyzang/spotdog/devel/share/common-lisp/ros/champ_msgs/msg/ContactsStamped.lisp: /home/ruyzang/spotdog/src/champ/champ_msgs/msg/ContactsStamped.msg
-/home/ruyzang/spotdog/devel/share/common-lisp/ros/champ_msgs/msg/ContactsStamped.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ruyzang/spotdog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Lisp code from champ_msgs/ContactsStamped.msg"
-	cd /home/ruyzang/spotdog/build/champ/champ_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ruyzang/spotdog/src/champ/champ_msgs/msg/ContactsStamped.msg -Ichamp_msgs:/home/ruyzang/spotdog/src/champ/champ_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p champ_msgs -o /home/ruyzang/spotdog/devel/share/common-lisp/ros/champ_msgs/msg
+/home/duygiang/Spotdog_champ/devel/share/common-lisp/ros/champ_msgs/msg/ContactsStamped.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
+/home/duygiang/Spotdog_champ/devel/share/common-lisp/ros/champ_msgs/msg/ContactsStamped.lisp: /home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/ContactsStamped.msg
+/home/duygiang/Spotdog_champ/devel/share/common-lisp/ros/champ_msgs/msg/ContactsStamped.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/duygiang/Spotdog_champ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Lisp code from champ_msgs/ContactsStamped.msg"
+	cd /home/duygiang/Spotdog_champ/build/champ/champ_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/ContactsStamped.msg -Ichamp_msgs:/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p champ_msgs -o /home/duygiang/Spotdog_champ/devel/share/common-lisp/ros/champ_msgs/msg
 
-/home/ruyzang/spotdog/devel/share/common-lisp/ros/champ_msgs/msg/Pose.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
-/home/ruyzang/spotdog/devel/share/common-lisp/ros/champ_msgs/msg/Pose.lisp: /home/ruyzang/spotdog/src/champ/champ_msgs/msg/Pose.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ruyzang/spotdog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Lisp code from champ_msgs/Pose.msg"
-	cd /home/ruyzang/spotdog/build/champ/champ_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ruyzang/spotdog/src/champ/champ_msgs/msg/Pose.msg -Ichamp_msgs:/home/ruyzang/spotdog/src/champ/champ_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p champ_msgs -o /home/ruyzang/spotdog/devel/share/common-lisp/ros/champ_msgs/msg
+/home/duygiang/Spotdog_champ/devel/share/common-lisp/ros/champ_msgs/msg/Pose.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
+/home/duygiang/Spotdog_champ/devel/share/common-lisp/ros/champ_msgs/msg/Pose.lisp: /home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Pose.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/duygiang/Spotdog_champ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Lisp code from champ_msgs/Pose.msg"
+	cd /home/duygiang/Spotdog_champ/build/champ/champ_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Pose.msg -Ichamp_msgs:/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p champ_msgs -o /home/duygiang/Spotdog_champ/devel/share/common-lisp/ros/champ_msgs/msg
 
 champ_msgs_generate_messages_lisp: champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_lisp
-champ_msgs_generate_messages_lisp: /home/ruyzang/spotdog/devel/share/common-lisp/ros/champ_msgs/msg/Velocities.lisp
-champ_msgs_generate_messages_lisp: /home/ruyzang/spotdog/devel/share/common-lisp/ros/champ_msgs/msg/PID.lisp
-champ_msgs_generate_messages_lisp: /home/ruyzang/spotdog/devel/share/common-lisp/ros/champ_msgs/msg/Imu.lisp
-champ_msgs_generate_messages_lisp: /home/ruyzang/spotdog/devel/share/common-lisp/ros/champ_msgs/msg/Point.lisp
-champ_msgs_generate_messages_lisp: /home/ruyzang/spotdog/devel/share/common-lisp/ros/champ_msgs/msg/PointArray.lisp
-champ_msgs_generate_messages_lisp: /home/ruyzang/spotdog/devel/share/common-lisp/ros/champ_msgs/msg/Joints.lisp
-champ_msgs_generate_messages_lisp: /home/ruyzang/spotdog/devel/share/common-lisp/ros/champ_msgs/msg/Contacts.lisp
-champ_msgs_generate_messages_lisp: /home/ruyzang/spotdog/devel/share/common-lisp/ros/champ_msgs/msg/ContactsStamped.lisp
-champ_msgs_generate_messages_lisp: /home/ruyzang/spotdog/devel/share/common-lisp/ros/champ_msgs/msg/Pose.lisp
+champ_msgs_generate_messages_lisp: /home/duygiang/Spotdog_champ/devel/share/common-lisp/ros/champ_msgs/msg/Velocities.lisp
+champ_msgs_generate_messages_lisp: /home/duygiang/Spotdog_champ/devel/share/common-lisp/ros/champ_msgs/msg/PID.lisp
+champ_msgs_generate_messages_lisp: /home/duygiang/Spotdog_champ/devel/share/common-lisp/ros/champ_msgs/msg/Imu.lisp
+champ_msgs_generate_messages_lisp: /home/duygiang/Spotdog_champ/devel/share/common-lisp/ros/champ_msgs/msg/Point.lisp
+champ_msgs_generate_messages_lisp: /home/duygiang/Spotdog_champ/devel/share/common-lisp/ros/champ_msgs/msg/PointArray.lisp
+champ_msgs_generate_messages_lisp: /home/duygiang/Spotdog_champ/devel/share/common-lisp/ros/champ_msgs/msg/Joints.lisp
+champ_msgs_generate_messages_lisp: /home/duygiang/Spotdog_champ/devel/share/common-lisp/ros/champ_msgs/msg/Contacts.lisp
+champ_msgs_generate_messages_lisp: /home/duygiang/Spotdog_champ/devel/share/common-lisp/ros/champ_msgs/msg/ContactsStamped.lisp
+champ_msgs_generate_messages_lisp: /home/duygiang/Spotdog_champ/devel/share/common-lisp/ros/champ_msgs/msg/Pose.lisp
 champ_msgs_generate_messages_lisp: champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_lisp.dir/build.make
 
 .PHONY : champ_msgs_generate_messages_lisp
@@ -133,10 +133,10 @@ champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_lisp.dir/build: champ_m
 .PHONY : champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_lisp.dir/build
 
 champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_lisp.dir/clean:
-	cd /home/ruyzang/spotdog/build/champ/champ_msgs && $(CMAKE_COMMAND) -P CMakeFiles/champ_msgs_generate_messages_lisp.dir/cmake_clean.cmake
+	cd /home/duygiang/Spotdog_champ/build/champ/champ_msgs && $(CMAKE_COMMAND) -P CMakeFiles/champ_msgs_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_lisp.dir/clean
 
 champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_lisp.dir/depend:
-	cd /home/ruyzang/spotdog/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ruyzang/spotdog/src /home/ruyzang/spotdog/src/champ/champ_msgs /home/ruyzang/spotdog/build /home/ruyzang/spotdog/build/champ/champ_msgs /home/ruyzang/spotdog/build/champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/duygiang/Spotdog_champ/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/duygiang/Spotdog_champ/src /home/duygiang/Spotdog_champ/src/champ/champ_msgs /home/duygiang/Spotdog_champ/build /home/duygiang/Spotdog_champ/build/champ/champ_msgs /home/duygiang/Spotdog_champ/build/champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_lisp.dir/depend
 

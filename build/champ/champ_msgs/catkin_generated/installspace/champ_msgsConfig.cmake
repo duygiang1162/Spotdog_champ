@@ -67,14 +67,14 @@ set(champ_msgs_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(champ_msgs_SOURCE_PREFIX /home/ruyzang/spotdog/src/champ/champ_msgs)
-  set(champ_msgs_DEVEL_PREFIX /home/ruyzang/spotdog/devel)
+  set(champ_msgs_SOURCE_PREFIX /home/duygiang/Spotdog_champ/src/champ/champ_msgs)
+  set(champ_msgs_DEVEL_PREFIX /home/duygiang/Spotdog_champ/devel)
   set(champ_msgs_INSTALL_PREFIX "")
   set(champ_msgs_PREFIX ${champ_msgs_DEVEL_PREFIX})
 else()
   set(champ_msgs_SOURCE_PREFIX "")
   set(champ_msgs_DEVEL_PREFIX "")
-  set(champ_msgs_INSTALL_PREFIX /home/ruyzang/spotdog/install)
+  set(champ_msgs_INSTALL_PREFIX /home/duygiang/Spotdog_champ/install)
   set(champ_msgs_PREFIX ${champ_msgs_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/ruyzang/spotdog/install/lib;/home/ruyzang/spotdog/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/duygiang/Spotdog_champ/install/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

@@ -43,101 +43,101 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ruyzang/spotdog/src
+CMAKE_SOURCE_DIR = /home/duygiang/Spotdog_champ/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ruyzang/spotdog/build
+CMAKE_BINARY_DIR = /home/duygiang/Spotdog_champ/build
 
 # Utility rule file for champ_msgs_generate_messages_py.
 
 # Include the progress variables for this target.
 include champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_py.dir/progress.make
 
-champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_py: /home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg/_Velocities.py
-champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_py: /home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg/_PID.py
-champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_py: /home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg/_Imu.py
-champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_py: /home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg/_Point.py
-champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_py: /home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg/_PointArray.py
-champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_py: /home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg/_Joints.py
-champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_py: /home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg/_Contacts.py
-champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_py: /home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg/_ContactsStamped.py
-champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_py: /home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg/_Pose.py
-champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_py: /home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg/__init__.py
+champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_py: /home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg/_Velocities.py
+champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_py: /home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg/_PID.py
+champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_py: /home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg/_Imu.py
+champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_py: /home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg/_Point.py
+champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_py: /home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg/_PointArray.py
+champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_py: /home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg/_Joints.py
+champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_py: /home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg/_Contacts.py
+champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_py: /home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg/_ContactsStamped.py
+champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_py: /home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg/_Pose.py
+champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_py: /home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg/__init__.py
 
 
-/home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg/_Velocities.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg/_Velocities.py: /home/ruyzang/spotdog/src/champ/champ_msgs/msg/Velocities.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ruyzang/spotdog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG champ_msgs/Velocities"
-	cd /home/ruyzang/spotdog/build/champ/champ_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ruyzang/spotdog/src/champ/champ_msgs/msg/Velocities.msg -Ichamp_msgs:/home/ruyzang/spotdog/src/champ/champ_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p champ_msgs -o /home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg
+/home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg/_Velocities.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg/_Velocities.py: /home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Velocities.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/duygiang/Spotdog_champ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG champ_msgs/Velocities"
+	cd /home/duygiang/Spotdog_champ/build/champ/champ_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Velocities.msg -Ichamp_msgs:/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p champ_msgs -o /home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg
 
-/home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg/_PID.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg/_PID.py: /home/ruyzang/spotdog/src/champ/champ_msgs/msg/PID.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ruyzang/spotdog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG champ_msgs/PID"
-	cd /home/ruyzang/spotdog/build/champ/champ_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ruyzang/spotdog/src/champ/champ_msgs/msg/PID.msg -Ichamp_msgs:/home/ruyzang/spotdog/src/champ/champ_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p champ_msgs -o /home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg
+/home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg/_PID.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg/_PID.py: /home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/PID.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/duygiang/Spotdog_champ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG champ_msgs/PID"
+	cd /home/duygiang/Spotdog_champ/build/champ/champ_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/PID.msg -Ichamp_msgs:/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p champ_msgs -o /home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg
 
-/home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg/_Imu.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg/_Imu.py: /home/ruyzang/spotdog/src/champ/champ_msgs/msg/Imu.msg
-/home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg/_Imu.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
-/home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg/_Imu.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ruyzang/spotdog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python from MSG champ_msgs/Imu"
-	cd /home/ruyzang/spotdog/build/champ/champ_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ruyzang/spotdog/src/champ/champ_msgs/msg/Imu.msg -Ichamp_msgs:/home/ruyzang/spotdog/src/champ/champ_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p champ_msgs -o /home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg
+/home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg/_Imu.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg/_Imu.py: /home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Imu.msg
+/home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg/_Imu.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg/_Imu.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/duygiang/Spotdog_champ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python from MSG champ_msgs/Imu"
+	cd /home/duygiang/Spotdog_champ/build/champ/champ_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Imu.msg -Ichamp_msgs:/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p champ_msgs -o /home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg
 
-/home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg/_Point.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg/_Point.py: /home/ruyzang/spotdog/src/champ/champ_msgs/msg/Point.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ruyzang/spotdog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python from MSG champ_msgs/Point"
-	cd /home/ruyzang/spotdog/build/champ/champ_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ruyzang/spotdog/src/champ/champ_msgs/msg/Point.msg -Ichamp_msgs:/home/ruyzang/spotdog/src/champ/champ_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p champ_msgs -o /home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg
+/home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg/_Point.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg/_Point.py: /home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Point.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/duygiang/Spotdog_champ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python from MSG champ_msgs/Point"
+	cd /home/duygiang/Spotdog_champ/build/champ/champ_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Point.msg -Ichamp_msgs:/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p champ_msgs -o /home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg
 
-/home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg/_PointArray.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg/_PointArray.py: /home/ruyzang/spotdog/src/champ/champ_msgs/msg/PointArray.msg
-/home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg/_PointArray.py: /home/ruyzang/spotdog/src/champ/champ_msgs/msg/Point.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ruyzang/spotdog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Python from MSG champ_msgs/PointArray"
-	cd /home/ruyzang/spotdog/build/champ/champ_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ruyzang/spotdog/src/champ/champ_msgs/msg/PointArray.msg -Ichamp_msgs:/home/ruyzang/spotdog/src/champ/champ_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p champ_msgs -o /home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg
+/home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg/_PointArray.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg/_PointArray.py: /home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/PointArray.msg
+/home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg/_PointArray.py: /home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Point.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/duygiang/Spotdog_champ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Python from MSG champ_msgs/PointArray"
+	cd /home/duygiang/Spotdog_champ/build/champ/champ_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/PointArray.msg -Ichamp_msgs:/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p champ_msgs -o /home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg
 
-/home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg/_Joints.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg/_Joints.py: /home/ruyzang/spotdog/src/champ/champ_msgs/msg/Joints.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ruyzang/spotdog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Python from MSG champ_msgs/Joints"
-	cd /home/ruyzang/spotdog/build/champ/champ_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ruyzang/spotdog/src/champ/champ_msgs/msg/Joints.msg -Ichamp_msgs:/home/ruyzang/spotdog/src/champ/champ_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p champ_msgs -o /home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg
+/home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg/_Joints.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg/_Joints.py: /home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Joints.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/duygiang/Spotdog_champ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Python from MSG champ_msgs/Joints"
+	cd /home/duygiang/Spotdog_champ/build/champ/champ_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Joints.msg -Ichamp_msgs:/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p champ_msgs -o /home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg
 
-/home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg/_Contacts.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg/_Contacts.py: /home/ruyzang/spotdog/src/champ/champ_msgs/msg/Contacts.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ruyzang/spotdog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Python from MSG champ_msgs/Contacts"
-	cd /home/ruyzang/spotdog/build/champ/champ_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ruyzang/spotdog/src/champ/champ_msgs/msg/Contacts.msg -Ichamp_msgs:/home/ruyzang/spotdog/src/champ/champ_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p champ_msgs -o /home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg
+/home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg/_Contacts.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg/_Contacts.py: /home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Contacts.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/duygiang/Spotdog_champ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Python from MSG champ_msgs/Contacts"
+	cd /home/duygiang/Spotdog_champ/build/champ/champ_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Contacts.msg -Ichamp_msgs:/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p champ_msgs -o /home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg
 
-/home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg/_ContactsStamped.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg/_ContactsStamped.py: /home/ruyzang/spotdog/src/champ/champ_msgs/msg/ContactsStamped.msg
-/home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg/_ContactsStamped.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ruyzang/spotdog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Python from MSG champ_msgs/ContactsStamped"
-	cd /home/ruyzang/spotdog/build/champ/champ_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ruyzang/spotdog/src/champ/champ_msgs/msg/ContactsStamped.msg -Ichamp_msgs:/home/ruyzang/spotdog/src/champ/champ_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p champ_msgs -o /home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg
+/home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg/_ContactsStamped.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg/_ContactsStamped.py: /home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/ContactsStamped.msg
+/home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg/_ContactsStamped.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/duygiang/Spotdog_champ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Python from MSG champ_msgs/ContactsStamped"
+	cd /home/duygiang/Spotdog_champ/build/champ/champ_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/ContactsStamped.msg -Ichamp_msgs:/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p champ_msgs -o /home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg
 
-/home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg/_Pose.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg/_Pose.py: /home/ruyzang/spotdog/src/champ/champ_msgs/msg/Pose.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ruyzang/spotdog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Python from MSG champ_msgs/Pose"
-	cd /home/ruyzang/spotdog/build/champ/champ_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ruyzang/spotdog/src/champ/champ_msgs/msg/Pose.msg -Ichamp_msgs:/home/ruyzang/spotdog/src/champ/champ_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p champ_msgs -o /home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg
+/home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg/_Pose.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg/_Pose.py: /home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Pose.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/duygiang/Spotdog_champ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Python from MSG champ_msgs/Pose"
+	cd /home/duygiang/Spotdog_champ/build/champ/champ_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Pose.msg -Ichamp_msgs:/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p champ_msgs -o /home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg
 
-/home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg/__init__.py: /home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg/_Velocities.py
-/home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg/__init__.py: /home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg/_PID.py
-/home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg/__init__.py: /home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg/_Imu.py
-/home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg/__init__.py: /home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg/_Point.py
-/home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg/__init__.py: /home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg/_PointArray.py
-/home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg/__init__.py: /home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg/_Joints.py
-/home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg/__init__.py: /home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg/_Contacts.py
-/home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg/__init__.py: /home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg/_ContactsStamped.py
-/home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg/__init__.py: /home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg/_Pose.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ruyzang/spotdog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating Python msg __init__.py for champ_msgs"
-	cd /home/ruyzang/spotdog/build/champ/champ_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg --initpy
+/home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg/__init__.py: /home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg/_Velocities.py
+/home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg/__init__.py: /home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg/_PID.py
+/home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg/__init__.py: /home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg/_Imu.py
+/home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg/__init__.py: /home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg/_Point.py
+/home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg/__init__.py: /home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg/_PointArray.py
+/home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg/__init__.py: /home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg/_Joints.py
+/home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg/__init__.py: /home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg/_Contacts.py
+/home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg/__init__.py: /home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg/_ContactsStamped.py
+/home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg/__init__.py: /home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg/_Pose.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/duygiang/Spotdog_champ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating Python msg __init__.py for champ_msgs"
+	cd /home/duygiang/Spotdog_champ/build/champ/champ_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg --initpy
 
 champ_msgs_generate_messages_py: champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_py
-champ_msgs_generate_messages_py: /home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg/_Velocities.py
-champ_msgs_generate_messages_py: /home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg/_PID.py
-champ_msgs_generate_messages_py: /home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg/_Imu.py
-champ_msgs_generate_messages_py: /home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg/_Point.py
-champ_msgs_generate_messages_py: /home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg/_PointArray.py
-champ_msgs_generate_messages_py: /home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg/_Joints.py
-champ_msgs_generate_messages_py: /home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg/_Contacts.py
-champ_msgs_generate_messages_py: /home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg/_ContactsStamped.py
-champ_msgs_generate_messages_py: /home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg/_Pose.py
-champ_msgs_generate_messages_py: /home/ruyzang/spotdog/devel/lib/python3/dist-packages/champ_msgs/msg/__init__.py
+champ_msgs_generate_messages_py: /home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg/_Velocities.py
+champ_msgs_generate_messages_py: /home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg/_PID.py
+champ_msgs_generate_messages_py: /home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg/_Imu.py
+champ_msgs_generate_messages_py: /home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg/_Point.py
+champ_msgs_generate_messages_py: /home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg/_PointArray.py
+champ_msgs_generate_messages_py: /home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg/_Joints.py
+champ_msgs_generate_messages_py: /home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg/_Contacts.py
+champ_msgs_generate_messages_py: /home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg/_ContactsStamped.py
+champ_msgs_generate_messages_py: /home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg/_Pose.py
+champ_msgs_generate_messages_py: /home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/champ_msgs/msg/__init__.py
 champ_msgs_generate_messages_py: champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_py.dir/build.make
 
 .PHONY : champ_msgs_generate_messages_py
@@ -148,10 +148,10 @@ champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_py.dir/build: champ_msg
 .PHONY : champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_py.dir/build
 
 champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_py.dir/clean:
-	cd /home/ruyzang/spotdog/build/champ/champ_msgs && $(CMAKE_COMMAND) -P CMakeFiles/champ_msgs_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/duygiang/Spotdog_champ/build/champ/champ_msgs && $(CMAKE_COMMAND) -P CMakeFiles/champ_msgs_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_py.dir/clean
 
 champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_py.dir/depend:
-	cd /home/ruyzang/spotdog/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ruyzang/spotdog/src /home/ruyzang/spotdog/src/champ/champ_msgs /home/ruyzang/spotdog/build /home/ruyzang/spotdog/build/champ/champ_msgs /home/ruyzang/spotdog/build/champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/duygiang/Spotdog_champ/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/duygiang/Spotdog_champ/src /home/duygiang/Spotdog_champ/src/champ/champ_msgs /home/duygiang/Spotdog_champ/build /home/duygiang/Spotdog_champ/build/champ/champ_msgs /home/duygiang/Spotdog_champ/build/champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_py.dir/depend
 

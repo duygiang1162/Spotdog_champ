@@ -1,4 +1,4 @@
-prefix=/home/ruyzang/spotdog/install
+prefix=/home/duygiang/Spotdog_champ/install
 
 Name: champ_config
 Description: Description of champ_config

@@ -43,95 +43,95 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ruyzang/spotdog/src
+CMAKE_SOURCE_DIR = /home/duygiang/Spotdog_champ/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ruyzang/spotdog/build
+CMAKE_BINARY_DIR = /home/duygiang/Spotdog_champ/build
 
 # Utility rule file for champ_msgs_generate_messages_cpp.
 
 # Include the progress variables for this target.
 include champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_cpp.dir/progress.make
 
-champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_cpp: /home/ruyzang/spotdog/devel/include/champ_msgs/Velocities.h
-champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_cpp: /home/ruyzang/spotdog/devel/include/champ_msgs/PID.h
-champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_cpp: /home/ruyzang/spotdog/devel/include/champ_msgs/Imu.h
-champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_cpp: /home/ruyzang/spotdog/devel/include/champ_msgs/Point.h
-champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_cpp: /home/ruyzang/spotdog/devel/include/champ_msgs/PointArray.h
-champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_cpp: /home/ruyzang/spotdog/devel/include/champ_msgs/Joints.h
-champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_cpp: /home/ruyzang/spotdog/devel/include/champ_msgs/Contacts.h
-champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_cpp: /home/ruyzang/spotdog/devel/include/champ_msgs/ContactsStamped.h
-champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_cpp: /home/ruyzang/spotdog/devel/include/champ_msgs/Pose.h
+champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_cpp: /home/duygiang/Spotdog_champ/devel/include/champ_msgs/Velocities.h
+champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_cpp: /home/duygiang/Spotdog_champ/devel/include/champ_msgs/PID.h
+champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_cpp: /home/duygiang/Spotdog_champ/devel/include/champ_msgs/Imu.h
+champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_cpp: /home/duygiang/Spotdog_champ/devel/include/champ_msgs/Point.h
+champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_cpp: /home/duygiang/Spotdog_champ/devel/include/champ_msgs/PointArray.h
+champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_cpp: /home/duygiang/Spotdog_champ/devel/include/champ_msgs/Joints.h
+champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_cpp: /home/duygiang/Spotdog_champ/devel/include/champ_msgs/Contacts.h
+champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_cpp: /home/duygiang/Spotdog_champ/devel/include/champ_msgs/ContactsStamped.h
+champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_cpp: /home/duygiang/Spotdog_champ/devel/include/champ_msgs/Pose.h
 
 
-/home/ruyzang/spotdog/devel/include/champ_msgs/Velocities.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/ruyzang/spotdog/devel/include/champ_msgs/Velocities.h: /home/ruyzang/spotdog/src/champ/champ_msgs/msg/Velocities.msg
-/home/ruyzang/spotdog/devel/include/champ_msgs/Velocities.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ruyzang/spotdog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from champ_msgs/Velocities.msg"
-	cd /home/ruyzang/spotdog/src/champ/champ_msgs && /home/ruyzang/spotdog/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ruyzang/spotdog/src/champ/champ_msgs/msg/Velocities.msg -Ichamp_msgs:/home/ruyzang/spotdog/src/champ/champ_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p champ_msgs -o /home/ruyzang/spotdog/devel/include/champ_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/duygiang/Spotdog_champ/devel/include/champ_msgs/Velocities.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/duygiang/Spotdog_champ/devel/include/champ_msgs/Velocities.h: /home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Velocities.msg
+/home/duygiang/Spotdog_champ/devel/include/champ_msgs/Velocities.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/duygiang/Spotdog_champ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from champ_msgs/Velocities.msg"
+	cd /home/duygiang/Spotdog_champ/src/champ/champ_msgs && /home/duygiang/Spotdog_champ/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Velocities.msg -Ichamp_msgs:/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p champ_msgs -o /home/duygiang/Spotdog_champ/devel/include/champ_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/ruyzang/spotdog/devel/include/champ_msgs/PID.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/ruyzang/spotdog/devel/include/champ_msgs/PID.h: /home/ruyzang/spotdog/src/champ/champ_msgs/msg/PID.msg
-/home/ruyzang/spotdog/devel/include/champ_msgs/PID.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ruyzang/spotdog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from champ_msgs/PID.msg"
-	cd /home/ruyzang/spotdog/src/champ/champ_msgs && /home/ruyzang/spotdog/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ruyzang/spotdog/src/champ/champ_msgs/msg/PID.msg -Ichamp_msgs:/home/ruyzang/spotdog/src/champ/champ_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p champ_msgs -o /home/ruyzang/spotdog/devel/include/champ_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/duygiang/Spotdog_champ/devel/include/champ_msgs/PID.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/duygiang/Spotdog_champ/devel/include/champ_msgs/PID.h: /home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/PID.msg
+/home/duygiang/Spotdog_champ/devel/include/champ_msgs/PID.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/duygiang/Spotdog_champ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from champ_msgs/PID.msg"
+	cd /home/duygiang/Spotdog_champ/src/champ/champ_msgs && /home/duygiang/Spotdog_champ/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/PID.msg -Ichamp_msgs:/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p champ_msgs -o /home/duygiang/Spotdog_champ/devel/include/champ_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/ruyzang/spotdog/devel/include/champ_msgs/Imu.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/ruyzang/spotdog/devel/include/champ_msgs/Imu.h: /home/ruyzang/spotdog/src/champ/champ_msgs/msg/Imu.msg
-/home/ruyzang/spotdog/devel/include/champ_msgs/Imu.h: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
-/home/ruyzang/spotdog/devel/include/champ_msgs/Imu.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/ruyzang/spotdog/devel/include/champ_msgs/Imu.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ruyzang/spotdog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from champ_msgs/Imu.msg"
-	cd /home/ruyzang/spotdog/src/champ/champ_msgs && /home/ruyzang/spotdog/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ruyzang/spotdog/src/champ/champ_msgs/msg/Imu.msg -Ichamp_msgs:/home/ruyzang/spotdog/src/champ/champ_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p champ_msgs -o /home/ruyzang/spotdog/devel/include/champ_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/duygiang/Spotdog_champ/devel/include/champ_msgs/Imu.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/duygiang/Spotdog_champ/devel/include/champ_msgs/Imu.h: /home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Imu.msg
+/home/duygiang/Spotdog_champ/devel/include/champ_msgs/Imu.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/duygiang/Spotdog_champ/devel/include/champ_msgs/Imu.h: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
+/home/duygiang/Spotdog_champ/devel/include/champ_msgs/Imu.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/duygiang/Spotdog_champ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from champ_msgs/Imu.msg"
+	cd /home/duygiang/Spotdog_champ/src/champ/champ_msgs && /home/duygiang/Spotdog_champ/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Imu.msg -Ichamp_msgs:/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p champ_msgs -o /home/duygiang/Spotdog_champ/devel/include/champ_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/ruyzang/spotdog/devel/include/champ_msgs/Point.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/ruyzang/spotdog/devel/include/champ_msgs/Point.h: /home/ruyzang/spotdog/src/champ/champ_msgs/msg/Point.msg
-/home/ruyzang/spotdog/devel/include/champ_msgs/Point.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ruyzang/spotdog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from champ_msgs/Point.msg"
-	cd /home/ruyzang/spotdog/src/champ/champ_msgs && /home/ruyzang/spotdog/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ruyzang/spotdog/src/champ/champ_msgs/msg/Point.msg -Ichamp_msgs:/home/ruyzang/spotdog/src/champ/champ_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p champ_msgs -o /home/ruyzang/spotdog/devel/include/champ_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/duygiang/Spotdog_champ/devel/include/champ_msgs/Point.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/duygiang/Spotdog_champ/devel/include/champ_msgs/Point.h: /home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Point.msg
+/home/duygiang/Spotdog_champ/devel/include/champ_msgs/Point.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/duygiang/Spotdog_champ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from champ_msgs/Point.msg"
+	cd /home/duygiang/Spotdog_champ/src/champ/champ_msgs && /home/duygiang/Spotdog_champ/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Point.msg -Ichamp_msgs:/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p champ_msgs -o /home/duygiang/Spotdog_champ/devel/include/champ_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/ruyzang/spotdog/devel/include/champ_msgs/PointArray.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/ruyzang/spotdog/devel/include/champ_msgs/PointArray.h: /home/ruyzang/spotdog/src/champ/champ_msgs/msg/PointArray.msg
-/home/ruyzang/spotdog/devel/include/champ_msgs/PointArray.h: /home/ruyzang/spotdog/src/champ/champ_msgs/msg/Point.msg
-/home/ruyzang/spotdog/devel/include/champ_msgs/PointArray.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ruyzang/spotdog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from champ_msgs/PointArray.msg"
-	cd /home/ruyzang/spotdog/src/champ/champ_msgs && /home/ruyzang/spotdog/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ruyzang/spotdog/src/champ/champ_msgs/msg/PointArray.msg -Ichamp_msgs:/home/ruyzang/spotdog/src/champ/champ_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p champ_msgs -o /home/ruyzang/spotdog/devel/include/champ_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/duygiang/Spotdog_champ/devel/include/champ_msgs/PointArray.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/duygiang/Spotdog_champ/devel/include/champ_msgs/PointArray.h: /home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/PointArray.msg
+/home/duygiang/Spotdog_champ/devel/include/champ_msgs/PointArray.h: /home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Point.msg
+/home/duygiang/Spotdog_champ/devel/include/champ_msgs/PointArray.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/duygiang/Spotdog_champ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from champ_msgs/PointArray.msg"
+	cd /home/duygiang/Spotdog_champ/src/champ/champ_msgs && /home/duygiang/Spotdog_champ/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/PointArray.msg -Ichamp_msgs:/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p champ_msgs -o /home/duygiang/Spotdog_champ/devel/include/champ_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/ruyzang/spotdog/devel/include/champ_msgs/Joints.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/ruyzang/spotdog/devel/include/champ_msgs/Joints.h: /home/ruyzang/spotdog/src/champ/champ_msgs/msg/Joints.msg
-/home/ruyzang/spotdog/devel/include/champ_msgs/Joints.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ruyzang/spotdog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating C++ code from champ_msgs/Joints.msg"
-	cd /home/ruyzang/spotdog/src/champ/champ_msgs && /home/ruyzang/spotdog/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ruyzang/spotdog/src/champ/champ_msgs/msg/Joints.msg -Ichamp_msgs:/home/ruyzang/spotdog/src/champ/champ_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p champ_msgs -o /home/ruyzang/spotdog/devel/include/champ_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/duygiang/Spotdog_champ/devel/include/champ_msgs/Joints.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/duygiang/Spotdog_champ/devel/include/champ_msgs/Joints.h: /home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Joints.msg
+/home/duygiang/Spotdog_champ/devel/include/champ_msgs/Joints.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/duygiang/Spotdog_champ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating C++ code from champ_msgs/Joints.msg"
+	cd /home/duygiang/Spotdog_champ/src/champ/champ_msgs && /home/duygiang/Spotdog_champ/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Joints.msg -Ichamp_msgs:/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p champ_msgs -o /home/duygiang/Spotdog_champ/devel/include/champ_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/ruyzang/spotdog/devel/include/champ_msgs/Contacts.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/ruyzang/spotdog/devel/include/champ_msgs/Contacts.h: /home/ruyzang/spotdog/src/champ/champ_msgs/msg/Contacts.msg
-/home/ruyzang/spotdog/devel/include/champ_msgs/Contacts.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ruyzang/spotdog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating C++ code from champ_msgs/Contacts.msg"
-	cd /home/ruyzang/spotdog/src/champ/champ_msgs && /home/ruyzang/spotdog/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ruyzang/spotdog/src/champ/champ_msgs/msg/Contacts.msg -Ichamp_msgs:/home/ruyzang/spotdog/src/champ/champ_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p champ_msgs -o /home/ruyzang/spotdog/devel/include/champ_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/duygiang/Spotdog_champ/devel/include/champ_msgs/Contacts.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/duygiang/Spotdog_champ/devel/include/champ_msgs/Contacts.h: /home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Contacts.msg
+/home/duygiang/Spotdog_champ/devel/include/champ_msgs/Contacts.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/duygiang/Spotdog_champ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating C++ code from champ_msgs/Contacts.msg"
+	cd /home/duygiang/Spotdog_champ/src/champ/champ_msgs && /home/duygiang/Spotdog_champ/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Contacts.msg -Ichamp_msgs:/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p champ_msgs -o /home/duygiang/Spotdog_champ/devel/include/champ_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/ruyzang/spotdog/devel/include/champ_msgs/ContactsStamped.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/ruyzang/spotdog/devel/include/champ_msgs/ContactsStamped.h: /home/ruyzang/spotdog/src/champ/champ_msgs/msg/ContactsStamped.msg
-/home/ruyzang/spotdog/devel/include/champ_msgs/ContactsStamped.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ruyzang/spotdog/devel/include/champ_msgs/ContactsStamped.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ruyzang/spotdog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating C++ code from champ_msgs/ContactsStamped.msg"
-	cd /home/ruyzang/spotdog/src/champ/champ_msgs && /home/ruyzang/spotdog/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ruyzang/spotdog/src/champ/champ_msgs/msg/ContactsStamped.msg -Ichamp_msgs:/home/ruyzang/spotdog/src/champ/champ_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p champ_msgs -o /home/ruyzang/spotdog/devel/include/champ_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/duygiang/Spotdog_champ/devel/include/champ_msgs/ContactsStamped.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/duygiang/Spotdog_champ/devel/include/champ_msgs/ContactsStamped.h: /home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/ContactsStamped.msg
+/home/duygiang/Spotdog_champ/devel/include/champ_msgs/ContactsStamped.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/duygiang/Spotdog_champ/devel/include/champ_msgs/ContactsStamped.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/duygiang/Spotdog_champ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating C++ code from champ_msgs/ContactsStamped.msg"
+	cd /home/duygiang/Spotdog_champ/src/champ/champ_msgs && /home/duygiang/Spotdog_champ/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/ContactsStamped.msg -Ichamp_msgs:/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p champ_msgs -o /home/duygiang/Spotdog_champ/devel/include/champ_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/ruyzang/spotdog/devel/include/champ_msgs/Pose.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/ruyzang/spotdog/devel/include/champ_msgs/Pose.h: /home/ruyzang/spotdog/src/champ/champ_msgs/msg/Pose.msg
-/home/ruyzang/spotdog/devel/include/champ_msgs/Pose.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ruyzang/spotdog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating C++ code from champ_msgs/Pose.msg"
-	cd /home/ruyzang/spotdog/src/champ/champ_msgs && /home/ruyzang/spotdog/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ruyzang/spotdog/src/champ/champ_msgs/msg/Pose.msg -Ichamp_msgs:/home/ruyzang/spotdog/src/champ/champ_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p champ_msgs -o /home/ruyzang/spotdog/devel/include/champ_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/duygiang/Spotdog_champ/devel/include/champ_msgs/Pose.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/duygiang/Spotdog_champ/devel/include/champ_msgs/Pose.h: /home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Pose.msg
+/home/duygiang/Spotdog_champ/devel/include/champ_msgs/Pose.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/duygiang/Spotdog_champ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating C++ code from champ_msgs/Pose.msg"
+	cd /home/duygiang/Spotdog_champ/src/champ/champ_msgs && /home/duygiang/Spotdog_champ/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Pose.msg -Ichamp_msgs:/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p champ_msgs -o /home/duygiang/Spotdog_champ/devel/include/champ_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 champ_msgs_generate_messages_cpp: champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_cpp
-champ_msgs_generate_messages_cpp: /home/ruyzang/spotdog/devel/include/champ_msgs/Velocities.h
-champ_msgs_generate_messages_cpp: /home/ruyzang/spotdog/devel/include/champ_msgs/PID.h
-champ_msgs_generate_messages_cpp: /home/ruyzang/spotdog/devel/include/champ_msgs/Imu.h
-champ_msgs_generate_messages_cpp: /home/ruyzang/spotdog/devel/include/champ_msgs/Point.h
-champ_msgs_generate_messages_cpp: /home/ruyzang/spotdog/devel/include/champ_msgs/PointArray.h
-champ_msgs_generate_messages_cpp: /home/ruyzang/spotdog/devel/include/champ_msgs/Joints.h
-champ_msgs_generate_messages_cpp: /home/ruyzang/spotdog/devel/include/champ_msgs/Contacts.h
-champ_msgs_generate_messages_cpp: /home/ruyzang/spotdog/devel/include/champ_msgs/ContactsStamped.h
-champ_msgs_generate_messages_cpp: /home/ruyzang/spotdog/devel/include/champ_msgs/Pose.h
+champ_msgs_generate_messages_cpp: /home/duygiang/Spotdog_champ/devel/include/champ_msgs/Velocities.h
+champ_msgs_generate_messages_cpp: /home/duygiang/Spotdog_champ/devel/include/champ_msgs/PID.h
+champ_msgs_generate_messages_cpp: /home/duygiang/Spotdog_champ/devel/include/champ_msgs/Imu.h
+champ_msgs_generate_messages_cpp: /home/duygiang/Spotdog_champ/devel/include/champ_msgs/Point.h
+champ_msgs_generate_messages_cpp: /home/duygiang/Spotdog_champ/devel/include/champ_msgs/PointArray.h
+champ_msgs_generate_messages_cpp: /home/duygiang/Spotdog_champ/devel/include/champ_msgs/Joints.h
+champ_msgs_generate_messages_cpp: /home/duygiang/Spotdog_champ/devel/include/champ_msgs/Contacts.h
+champ_msgs_generate_messages_cpp: /home/duygiang/Spotdog_champ/devel/include/champ_msgs/ContactsStamped.h
+champ_msgs_generate_messages_cpp: /home/duygiang/Spotdog_champ/devel/include/champ_msgs/Pose.h
 champ_msgs_generate_messages_cpp: champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_cpp.dir/build.make
 
 .PHONY : champ_msgs_generate_messages_cpp
@@ -142,10 +142,10 @@ champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_cpp.dir/build: champ_ms
 .PHONY : champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_cpp.dir/build
 
 champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_cpp.dir/clean:
-	cd /home/ruyzang/spotdog/build/champ/champ_msgs && $(CMAKE_COMMAND) -P CMakeFiles/champ_msgs_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/duygiang/Spotdog_champ/build/champ/champ_msgs && $(CMAKE_COMMAND) -P CMakeFiles/champ_msgs_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_cpp.dir/clean
 
 champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_cpp.dir/depend:
-	cd /home/ruyzang/spotdog/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ruyzang/spotdog/src /home/ruyzang/spotdog/src/champ/champ_msgs /home/ruyzang/spotdog/build /home/ruyzang/spotdog/build/champ/champ_msgs /home/ruyzang/spotdog/build/champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/duygiang/Spotdog_champ/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/duygiang/Spotdog_champ/src /home/duygiang/Spotdog_champ/src/champ/champ_msgs /home/duygiang/Spotdog_champ/build /home/duygiang/Spotdog_champ/build/champ/champ_msgs /home/duygiang/Spotdog_champ/build/champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : champ/champ_msgs/CMakeFiles/champ_msgs_generate_messages_cpp.dir/depend
 

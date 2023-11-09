@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ruyzang/spotdog/devel/include/champ_msgs/ContactsStamped.h
+/home/duygiang/Spotdog_champ/devel/include/champ_msgs/ContactsStamped.h
 string
 -
 vector
@@ -24,7 +24,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/ruyzang/spotdog/src/champ/champ/include/champ/bla/basic_linear_algebra.h
+/home/duygiang/Spotdog_champ/src/champ/champ/include/champ/bla/basic_linear_algebra.h
 stdlib.h
 -
 string.h
@@ -32,23 +32,23 @@ string.h
 math.h
 -
 memory_delegate.h
-/home/ruyzang/spotdog/src/champ/champ/include/champ/bla/memory_delegate.h
+/home/duygiang/Spotdog_champ/src/champ/champ/include/champ/bla/memory_delegate.h
 
-/home/ruyzang/spotdog/src/champ/champ/include/champ/bla/memory_delegate.h
+/home/duygiang/Spotdog_champ/src/champ/champ/include/champ/bla/memory_delegate.h
 
-/home/ruyzang/spotdog/src/champ/champ/include/champ/geometry/geometry.h
+/home/duygiang/Spotdog_champ/src/champ/champ/include/champ/geometry/geometry.h
 bla/basic_linear_algebra.h
-/home/ruyzang/spotdog/src/champ/champ/include/champ/geometry/bla/basic_linear_algebra.h
+/home/duygiang/Spotdog_champ/src/champ/champ/include/champ/geometry/bla/basic_linear_algebra.h
 math.h
 -
 
-/home/ruyzang/spotdog/src/champ/champ/include/champ/macros/macros.h
+/home/duygiang/Spotdog_champ/src/champ/champ/include/champ/macros/macros.h
 sys/time.h
 -
 Arduino.h
 -
 
-/home/ruyzang/spotdog/src/champ/champ/include/champ/odometry/odometry.h
+/home/duygiang/Spotdog_champ/src/champ/champ/include/champ/odometry/odometry.h
 quadruped_base/quadruped_base.h
 -
 macros/macros.h
@@ -56,7 +56,7 @@ macros/macros.h
 geometry/geometry.h
 -
 
-/home/ruyzang/spotdog/src/champ/champ/include/champ/quadruped_base/quadruped_base.h
+/home/duygiang/Spotdog_champ/src/champ/champ/include/champ/quadruped_base/quadruped_base.h
 geometry/geometry.h
 -
 quadruped_base/quadruped_leg.h
@@ -64,21 +64,21 @@ quadruped_base/quadruped_leg.h
 quadruped_base/quadruped_components.h
 -
 
-/home/ruyzang/spotdog/src/champ/champ/include/champ/quadruped_base/quadruped_components.h
+/home/duygiang/Spotdog_champ/src/champ/champ/include/champ/quadruped_base/quadruped_components.h
 
-/home/ruyzang/spotdog/src/champ/champ/include/champ/quadruped_base/quadruped_joint.h
+/home/duygiang/Spotdog_champ/src/champ/champ/include/champ/quadruped_base/quadruped_joint.h
 quadruped_base/quadruped_components.h
 -
 
-/home/ruyzang/spotdog/src/champ/champ/include/champ/quadruped_base/quadruped_leg.h
+/home/duygiang/Spotdog_champ/src/champ/champ/include/champ/quadruped_base/quadruped_leg.h
 geometry/geometry.h
 -
 quadruped_base/quadruped_joint.h
 -
 
-/home/ruyzang/spotdog/src/champ/champ/include/champ/utils/urdf_loader.h
+/home/duygiang/Spotdog_champ/src/champ/champ/include/champ/utils/urdf_loader.h
 ros/ros.h
-/home/ruyzang/spotdog/src/champ/champ/include/champ/utils/ros/ros.h
+/home/duygiang/Spotdog_champ/src/champ/champ/include/champ/utils/ros/ros.h
 urdf/model.h
 -
 utils/xmlrpc_helpers.h
@@ -90,15 +90,15 @@ quadruped_base/quadruped_leg.h
 quadruped_base/quadruped_joint.h
 -
 
-/home/ruyzang/spotdog/src/champ/champ/include/champ/utils/xmlrpc_helpers.h
+/home/duygiang/Spotdog_champ/src/champ/champ/include/champ/utils/xmlrpc_helpers.h
 sstream
 -
 ros/ros.h
 -
 
-/home/ruyzang/spotdog/src/champ/champ_base/include/state_estimation.h
+/home/duygiang/Spotdog_champ/src/champ/champ_base/include/state_estimation.h
 ros/ros.h
-/home/ruyzang/spotdog/src/champ/champ_base/include/ros/ros.h
+/home/duygiang/Spotdog_champ/src/champ/champ_base/include/ros/ros.h
 champ_msgs/ContactsStamped.h
 -
 champ/odometry/odometry.h
@@ -132,11 +132,11 @@ message_filters/sync_policies/approximate_time.h
 sensor_msgs/Imu.h
 -
 
-/home/ruyzang/spotdog/src/champ/champ_base/src/state_estimation_node.cpp
+/home/duygiang/Spotdog_champ/src/champ/champ_base/src/state_estimation_node.cpp
 ros/ros.h
-/home/ruyzang/spotdog/src/champ/champ_base/src/ros/ros.h
+/home/duygiang/Spotdog_champ/src/champ/champ_base/src/ros/ros.h
 state_estimation.h
-/home/ruyzang/spotdog/src/champ/champ_base/src/state_estimation.h
+/home/duygiang/Spotdog_champ/src/champ/champ_base/src/state_estimation.h
 
 /opt/ros/noetic/include/geometry_msgs/Point.h
 string
@@ -900,6 +900,8 @@ ros/datatypes.h
 vector
 -
 map
+-
+memory
 -
 boost/array.hpp
 -

@@ -1,8 +1,8 @@
-# Install script for directory: /home/ruyzang/spotdog/src/champ/champ_navigation
+# Install script for directory: /home/duygiang/Spotdog_champ/src/champ/champ_navigation
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ruyzang/spotdog/install")
+  set(CMAKE_INSTALL_PREFIX "/home/duygiang/Spotdog_champ/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,26 +38,26 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ruyzang/spotdog/build/champ/champ_navigation/catkin_generated/installspace/champ_navigation.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/duygiang/Spotdog_champ/build/champ/champ_navigation/catkin_generated/installspace/champ_navigation.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/champ_navigation/cmake" TYPE FILE FILES
-    "/home/ruyzang/spotdog/build/champ/champ_navigation/catkin_generated/installspace/champ_navigationConfig.cmake"
-    "/home/ruyzang/spotdog/build/champ/champ_navigation/catkin_generated/installspace/champ_navigationConfig-version.cmake"
+    "/home/duygiang/Spotdog_champ/build/champ/champ_navigation/catkin_generated/installspace/champ_navigationConfig.cmake"
+    "/home/duygiang/Spotdog_champ/build/champ/champ_navigation/catkin_generated/installspace/champ_navigationConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/champ_navigation" TYPE FILE FILES "/home/ruyzang/spotdog/src/champ/champ_navigation/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/champ_navigation" TYPE FILE FILES "/home/duygiang/Spotdog_champ/src/champ/champ_navigation/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/champ_navigation" TYPE DIRECTORY FILES
-    "/home/ruyzang/spotdog/src/champ/champ_navigation/launch"
-    "/home/ruyzang/spotdog/src/champ/champ_navigation/maps"
-    "/home/ruyzang/spotdog/src/champ/champ_navigation/param"
-    "/home/ruyzang/spotdog/src/champ/champ_navigation/rviz"
+    "/home/duygiang/Spotdog_champ/src/champ/champ_navigation/launch"
+    "/home/duygiang/Spotdog_champ/src/champ/champ_navigation/maps"
+    "/home/duygiang/Spotdog_champ/src/champ/champ_navigation/param"
+    "/home/duygiang/Spotdog_champ/src/champ/champ_navigation/rviz"
     )
 endif()
 

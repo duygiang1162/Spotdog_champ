@@ -1,4 +1,4 @@
-prefix=/home/ruyzang/spotdog/install
+prefix=/home/duygiang/Spotdog_champ/install
 
 Name: yocs_velocity_smoother
 Description: Description of yocs_velocity_smoother

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ruyzang/spotdog/devel/include/yocs_velocity_smoother/paramsConfig.h
+/home/duygiang/Spotdog_champ/devel/include/yocs_velocity_smoother/paramsConfig.h
 dynamic_reconfigure/config_tools.h
 -
 limits
@@ -24,7 +24,7 @@ dynamic_reconfigure/config_init_mutex.h
 boost/any.hpp
 -
 
-/home/ruyzang/spotdog/src/yocs_velocity_smoother/include/yocs_velocity_smoother/velocity_smoother_nodelet.hpp
+/home/duygiang/Spotdog_champ/src/yocs_velocity_smoother/include/yocs_velocity_smoother/velocity_smoother_nodelet.hpp
 ros/ros.h
 -
 nav_msgs/Odometry.h
@@ -32,7 +32,7 @@ nav_msgs/Odometry.h
 mutex
 -
 
-/home/ruyzang/spotdog/src/yocs_velocity_smoother/src/velocity_smoother_nodelet.cpp
+/home/duygiang/Spotdog_champ/src/yocs_velocity_smoother/src/velocity_smoother_nodelet.cpp
 ros/ros.h
 -
 nodelet/nodelet.h
@@ -46,7 +46,7 @@ yocs_velocity_smoother/paramsConfig.h
 ecl/threads/thread.hpp
 -
 yocs_velocity_smoother/velocity_smoother_nodelet.hpp
-/home/ruyzang/spotdog/src/yocs_velocity_smoother/src/yocs_velocity_smoother/velocity_smoother_nodelet.hpp
+/home/duygiang/Spotdog_champ/src/yocs_velocity_smoother/src/yocs_velocity_smoother/velocity_smoother_nodelet.hpp
 
 /opt/ros/noetic/include/class_loader/class_loader.hpp
 boost/bind.hpp
@@ -1132,6 +1132,8 @@ ros/datatypes.h
 vector
 -
 map
+-
+memory
 -
 boost/array.hpp
 -

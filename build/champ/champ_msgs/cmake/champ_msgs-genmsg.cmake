@@ -2,7 +2,7 @@
 
 message(STATUS "champ_msgs: 9 messages, 0 services")
 
-set(MSG_I_FLAGS "-Ichamp_msgs:/home/ruyzang/spotdog/src/champ/champ_msgs/msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Ichamp_msgs:/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -17,49 +17,49 @@ add_custom_target(champ_msgs_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Velocities.msg" NAME_WE)
+get_filename_component(_filename "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Velocities.msg" NAME_WE)
 add_custom_target(_champ_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "champ_msgs" "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Velocities.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "champ_msgs" "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Velocities.msg" ""
 )
 
-get_filename_component(_filename "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/PID.msg" NAME_WE)
+get_filename_component(_filename "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/PID.msg" NAME_WE)
 add_custom_target(_champ_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "champ_msgs" "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/PID.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "champ_msgs" "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/PID.msg" ""
 )
 
-get_filename_component(_filename "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Imu.msg" NAME_WE)
+get_filename_component(_filename "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Imu.msg" NAME_WE)
 add_custom_target(_champ_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "champ_msgs" "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Imu.msg" "geometry_msgs/Vector3:geometry_msgs/Quaternion"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "champ_msgs" "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Imu.msg" "geometry_msgs/Quaternion:geometry_msgs/Vector3"
 )
 
-get_filename_component(_filename "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Point.msg" NAME_WE)
+get_filename_component(_filename "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Point.msg" NAME_WE)
 add_custom_target(_champ_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "champ_msgs" "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Point.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "champ_msgs" "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Point.msg" ""
 )
 
-get_filename_component(_filename "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/PointArray.msg" NAME_WE)
+get_filename_component(_filename "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/PointArray.msg" NAME_WE)
 add_custom_target(_champ_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "champ_msgs" "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/PointArray.msg" "champ_msgs/Point"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "champ_msgs" "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/PointArray.msg" "champ_msgs/Point"
 )
 
-get_filename_component(_filename "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Joints.msg" NAME_WE)
+get_filename_component(_filename "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Joints.msg" NAME_WE)
 add_custom_target(_champ_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "champ_msgs" "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Joints.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "champ_msgs" "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Joints.msg" ""
 )
 
-get_filename_component(_filename "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Contacts.msg" NAME_WE)
+get_filename_component(_filename "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Contacts.msg" NAME_WE)
 add_custom_target(_champ_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "champ_msgs" "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Contacts.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "champ_msgs" "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Contacts.msg" ""
 )
 
-get_filename_component(_filename "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/ContactsStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/ContactsStamped.msg" NAME_WE)
 add_custom_target(_champ_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "champ_msgs" "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/ContactsStamped.msg" "std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "champ_msgs" "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/ContactsStamped.msg" "std_msgs/Header"
 )
 
-get_filename_component(_filename "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Pose.msg" NAME_WE)
+get_filename_component(_filename "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Pose.msg" NAME_WE)
 add_custom_target(_champ_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "champ_msgs" "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Pose.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "champ_msgs" "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Pose.msg" ""
 )
 
 #
@@ -69,55 +69,55 @@ add_custom_target(_champ_msgs_generate_messages_check_deps_${_filename}
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(champ_msgs
-  "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Velocities.msg"
+  "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Velocities.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/champ_msgs
 )
 _generate_msg_cpp(champ_msgs
-  "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/PID.msg"
+  "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/PID.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/champ_msgs
 )
 _generate_msg_cpp(champ_msgs
-  "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Imu.msg"
+  "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Imu.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/champ_msgs
 )
 _generate_msg_cpp(champ_msgs
-  "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Point.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/champ_msgs
-)
-_generate_msg_cpp(champ_msgs
-  "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/PointArray.msg"
-  "${MSG_I_FLAGS}"
-  "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Point.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/champ_msgs
-)
-_generate_msg_cpp(champ_msgs
-  "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Joints.msg"
+  "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Point.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/champ_msgs
 )
 _generate_msg_cpp(champ_msgs
-  "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Contacts.msg"
+  "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/PointArray.msg"
+  "${MSG_I_FLAGS}"
+  "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Point.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/champ_msgs
+)
+_generate_msg_cpp(champ_msgs
+  "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Joints.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/champ_msgs
 )
 _generate_msg_cpp(champ_msgs
-  "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/ContactsStamped.msg"
+  "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Contacts.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/champ_msgs
+)
+_generate_msg_cpp(champ_msgs
+  "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/ContactsStamped.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/champ_msgs
 )
 _generate_msg_cpp(champ_msgs
-  "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Pose.msg"
+  "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Pose.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/champ_msgs
@@ -137,23 +137,23 @@ add_custom_target(champ_msgs_generate_messages_cpp
 add_dependencies(champ_msgs_generate_messages champ_msgs_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Velocities.msg" NAME_WE)
+get_filename_component(_filename "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Velocities.msg" NAME_WE)
 add_dependencies(champ_msgs_generate_messages_cpp _champ_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/PID.msg" NAME_WE)
+get_filename_component(_filename "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/PID.msg" NAME_WE)
 add_dependencies(champ_msgs_generate_messages_cpp _champ_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Imu.msg" NAME_WE)
+get_filename_component(_filename "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Imu.msg" NAME_WE)
 add_dependencies(champ_msgs_generate_messages_cpp _champ_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Point.msg" NAME_WE)
+get_filename_component(_filename "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Point.msg" NAME_WE)
 add_dependencies(champ_msgs_generate_messages_cpp _champ_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/PointArray.msg" NAME_WE)
+get_filename_component(_filename "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/PointArray.msg" NAME_WE)
 add_dependencies(champ_msgs_generate_messages_cpp _champ_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Joints.msg" NAME_WE)
+get_filename_component(_filename "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Joints.msg" NAME_WE)
 add_dependencies(champ_msgs_generate_messages_cpp _champ_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Contacts.msg" NAME_WE)
+get_filename_component(_filename "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Contacts.msg" NAME_WE)
 add_dependencies(champ_msgs_generate_messages_cpp _champ_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/ContactsStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/ContactsStamped.msg" NAME_WE)
 add_dependencies(champ_msgs_generate_messages_cpp _champ_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Pose.msg" NAME_WE)
+get_filename_component(_filename "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Pose.msg" NAME_WE)
 add_dependencies(champ_msgs_generate_messages_cpp _champ_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -166,55 +166,55 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS champ_msgs_generate_messages_cpp)
 ### Section generating for lang: geneus
 ### Generating Messages
 _generate_msg_eus(champ_msgs
-  "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Velocities.msg"
+  "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Velocities.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/champ_msgs
 )
 _generate_msg_eus(champ_msgs
-  "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/PID.msg"
+  "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/PID.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/champ_msgs
 )
 _generate_msg_eus(champ_msgs
-  "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Imu.msg"
+  "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Imu.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/champ_msgs
 )
 _generate_msg_eus(champ_msgs
-  "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Point.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/champ_msgs
-)
-_generate_msg_eus(champ_msgs
-  "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/PointArray.msg"
-  "${MSG_I_FLAGS}"
-  "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Point.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/champ_msgs
-)
-_generate_msg_eus(champ_msgs
-  "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Joints.msg"
+  "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Point.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/champ_msgs
 )
 _generate_msg_eus(champ_msgs
-  "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Contacts.msg"
+  "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/PointArray.msg"
+  "${MSG_I_FLAGS}"
+  "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Point.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/champ_msgs
+)
+_generate_msg_eus(champ_msgs
+  "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Joints.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/champ_msgs
 )
 _generate_msg_eus(champ_msgs
-  "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/ContactsStamped.msg"
+  "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Contacts.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/champ_msgs
+)
+_generate_msg_eus(champ_msgs
+  "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/ContactsStamped.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/champ_msgs
 )
 _generate_msg_eus(champ_msgs
-  "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Pose.msg"
+  "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Pose.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/champ_msgs
@@ -234,23 +234,23 @@ add_custom_target(champ_msgs_generate_messages_eus
 add_dependencies(champ_msgs_generate_messages champ_msgs_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Velocities.msg" NAME_WE)
+get_filename_component(_filename "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Velocities.msg" NAME_WE)
 add_dependencies(champ_msgs_generate_messages_eus _champ_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/PID.msg" NAME_WE)
+get_filename_component(_filename "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/PID.msg" NAME_WE)
 add_dependencies(champ_msgs_generate_messages_eus _champ_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Imu.msg" NAME_WE)
+get_filename_component(_filename "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Imu.msg" NAME_WE)
 add_dependencies(champ_msgs_generate_messages_eus _champ_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Point.msg" NAME_WE)
+get_filename_component(_filename "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Point.msg" NAME_WE)
 add_dependencies(champ_msgs_generate_messages_eus _champ_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/PointArray.msg" NAME_WE)
+get_filename_component(_filename "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/PointArray.msg" NAME_WE)
 add_dependencies(champ_msgs_generate_messages_eus _champ_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Joints.msg" NAME_WE)
+get_filename_component(_filename "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Joints.msg" NAME_WE)
 add_dependencies(champ_msgs_generate_messages_eus _champ_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Contacts.msg" NAME_WE)
+get_filename_component(_filename "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Contacts.msg" NAME_WE)
 add_dependencies(champ_msgs_generate_messages_eus _champ_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/ContactsStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/ContactsStamped.msg" NAME_WE)
 add_dependencies(champ_msgs_generate_messages_eus _champ_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Pose.msg" NAME_WE)
+get_filename_component(_filename "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Pose.msg" NAME_WE)
 add_dependencies(champ_msgs_generate_messages_eus _champ_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -263,55 +263,55 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS champ_msgs_generate_messages_eus)
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(champ_msgs
-  "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Velocities.msg"
+  "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Velocities.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/champ_msgs
 )
 _generate_msg_lisp(champ_msgs
-  "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/PID.msg"
+  "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/PID.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/champ_msgs
 )
 _generate_msg_lisp(champ_msgs
-  "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Imu.msg"
+  "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Imu.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/champ_msgs
 )
 _generate_msg_lisp(champ_msgs
-  "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Point.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/champ_msgs
-)
-_generate_msg_lisp(champ_msgs
-  "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/PointArray.msg"
-  "${MSG_I_FLAGS}"
-  "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Point.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/champ_msgs
-)
-_generate_msg_lisp(champ_msgs
-  "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Joints.msg"
+  "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Point.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/champ_msgs
 )
 _generate_msg_lisp(champ_msgs
-  "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Contacts.msg"
+  "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/PointArray.msg"
+  "${MSG_I_FLAGS}"
+  "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Point.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/champ_msgs
+)
+_generate_msg_lisp(champ_msgs
+  "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Joints.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/champ_msgs
 )
 _generate_msg_lisp(champ_msgs
-  "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/ContactsStamped.msg"
+  "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Contacts.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/champ_msgs
+)
+_generate_msg_lisp(champ_msgs
+  "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/ContactsStamped.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/champ_msgs
 )
 _generate_msg_lisp(champ_msgs
-  "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Pose.msg"
+  "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Pose.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/champ_msgs
@@ -331,23 +331,23 @@ add_custom_target(champ_msgs_generate_messages_lisp
 add_dependencies(champ_msgs_generate_messages champ_msgs_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Velocities.msg" NAME_WE)
+get_filename_component(_filename "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Velocities.msg" NAME_WE)
 add_dependencies(champ_msgs_generate_messages_lisp _champ_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/PID.msg" NAME_WE)
+get_filename_component(_filename "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/PID.msg" NAME_WE)
 add_dependencies(champ_msgs_generate_messages_lisp _champ_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Imu.msg" NAME_WE)
+get_filename_component(_filename "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Imu.msg" NAME_WE)
 add_dependencies(champ_msgs_generate_messages_lisp _champ_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Point.msg" NAME_WE)
+get_filename_component(_filename "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Point.msg" NAME_WE)
 add_dependencies(champ_msgs_generate_messages_lisp _champ_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/PointArray.msg" NAME_WE)
+get_filename_component(_filename "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/PointArray.msg" NAME_WE)
 add_dependencies(champ_msgs_generate_messages_lisp _champ_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Joints.msg" NAME_WE)
+get_filename_component(_filename "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Joints.msg" NAME_WE)
 add_dependencies(champ_msgs_generate_messages_lisp _champ_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Contacts.msg" NAME_WE)
+get_filename_component(_filename "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Contacts.msg" NAME_WE)
 add_dependencies(champ_msgs_generate_messages_lisp _champ_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/ContactsStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/ContactsStamped.msg" NAME_WE)
 add_dependencies(champ_msgs_generate_messages_lisp _champ_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Pose.msg" NAME_WE)
+get_filename_component(_filename "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Pose.msg" NAME_WE)
 add_dependencies(champ_msgs_generate_messages_lisp _champ_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -360,55 +360,55 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS champ_msgs_generate_messages_lisp)
 ### Section generating for lang: gennodejs
 ### Generating Messages
 _generate_msg_nodejs(champ_msgs
-  "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Velocities.msg"
+  "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Velocities.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/champ_msgs
 )
 _generate_msg_nodejs(champ_msgs
-  "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/PID.msg"
+  "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/PID.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/champ_msgs
 )
 _generate_msg_nodejs(champ_msgs
-  "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Imu.msg"
+  "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Imu.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/champ_msgs
 )
 _generate_msg_nodejs(champ_msgs
-  "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Point.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/champ_msgs
-)
-_generate_msg_nodejs(champ_msgs
-  "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/PointArray.msg"
-  "${MSG_I_FLAGS}"
-  "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Point.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/champ_msgs
-)
-_generate_msg_nodejs(champ_msgs
-  "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Joints.msg"
+  "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Point.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/champ_msgs
 )
 _generate_msg_nodejs(champ_msgs
-  "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Contacts.msg"
+  "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/PointArray.msg"
+  "${MSG_I_FLAGS}"
+  "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Point.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/champ_msgs
+)
+_generate_msg_nodejs(champ_msgs
+  "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Joints.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/champ_msgs
 )
 _generate_msg_nodejs(champ_msgs
-  "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/ContactsStamped.msg"
+  "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Contacts.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/champ_msgs
+)
+_generate_msg_nodejs(champ_msgs
+  "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/ContactsStamped.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/champ_msgs
 )
 _generate_msg_nodejs(champ_msgs
-  "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Pose.msg"
+  "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Pose.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/champ_msgs
@@ -428,23 +428,23 @@ add_custom_target(champ_msgs_generate_messages_nodejs
 add_dependencies(champ_msgs_generate_messages champ_msgs_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Velocities.msg" NAME_WE)
+get_filename_component(_filename "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Velocities.msg" NAME_WE)
 add_dependencies(champ_msgs_generate_messages_nodejs _champ_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/PID.msg" NAME_WE)
+get_filename_component(_filename "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/PID.msg" NAME_WE)
 add_dependencies(champ_msgs_generate_messages_nodejs _champ_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Imu.msg" NAME_WE)
+get_filename_component(_filename "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Imu.msg" NAME_WE)
 add_dependencies(champ_msgs_generate_messages_nodejs _champ_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Point.msg" NAME_WE)
+get_filename_component(_filename "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Point.msg" NAME_WE)
 add_dependencies(champ_msgs_generate_messages_nodejs _champ_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/PointArray.msg" NAME_WE)
+get_filename_component(_filename "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/PointArray.msg" NAME_WE)
 add_dependencies(champ_msgs_generate_messages_nodejs _champ_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Joints.msg" NAME_WE)
+get_filename_component(_filename "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Joints.msg" NAME_WE)
 add_dependencies(champ_msgs_generate_messages_nodejs _champ_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Contacts.msg" NAME_WE)
+get_filename_component(_filename "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Contacts.msg" NAME_WE)
 add_dependencies(champ_msgs_generate_messages_nodejs _champ_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/ContactsStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/ContactsStamped.msg" NAME_WE)
 add_dependencies(champ_msgs_generate_messages_nodejs _champ_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Pose.msg" NAME_WE)
+get_filename_component(_filename "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Pose.msg" NAME_WE)
 add_dependencies(champ_msgs_generate_messages_nodejs _champ_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -457,55 +457,55 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS champ_msgs_generate_messages_nodejs
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(champ_msgs
-  "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Velocities.msg"
+  "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Velocities.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/champ_msgs
 )
 _generate_msg_py(champ_msgs
-  "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/PID.msg"
+  "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/PID.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/champ_msgs
 )
 _generate_msg_py(champ_msgs
-  "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Imu.msg"
+  "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Imu.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/champ_msgs
 )
 _generate_msg_py(champ_msgs
-  "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Point.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/champ_msgs
-)
-_generate_msg_py(champ_msgs
-  "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/PointArray.msg"
-  "${MSG_I_FLAGS}"
-  "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Point.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/champ_msgs
-)
-_generate_msg_py(champ_msgs
-  "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Joints.msg"
+  "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Point.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/champ_msgs
 )
 _generate_msg_py(champ_msgs
-  "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Contacts.msg"
+  "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/PointArray.msg"
+  "${MSG_I_FLAGS}"
+  "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Point.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/champ_msgs
+)
+_generate_msg_py(champ_msgs
+  "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Joints.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/champ_msgs
 )
 _generate_msg_py(champ_msgs
-  "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/ContactsStamped.msg"
+  "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Contacts.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/champ_msgs
+)
+_generate_msg_py(champ_msgs
+  "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/ContactsStamped.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/champ_msgs
 )
 _generate_msg_py(champ_msgs
-  "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Pose.msg"
+  "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Pose.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/champ_msgs
@@ -525,23 +525,23 @@ add_custom_target(champ_msgs_generate_messages_py
 add_dependencies(champ_msgs_generate_messages champ_msgs_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Velocities.msg" NAME_WE)
+get_filename_component(_filename "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Velocities.msg" NAME_WE)
 add_dependencies(champ_msgs_generate_messages_py _champ_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/PID.msg" NAME_WE)
+get_filename_component(_filename "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/PID.msg" NAME_WE)
 add_dependencies(champ_msgs_generate_messages_py _champ_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Imu.msg" NAME_WE)
+get_filename_component(_filename "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Imu.msg" NAME_WE)
 add_dependencies(champ_msgs_generate_messages_py _champ_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Point.msg" NAME_WE)
+get_filename_component(_filename "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Point.msg" NAME_WE)
 add_dependencies(champ_msgs_generate_messages_py _champ_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/PointArray.msg" NAME_WE)
+get_filename_component(_filename "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/PointArray.msg" NAME_WE)
 add_dependencies(champ_msgs_generate_messages_py _champ_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Joints.msg" NAME_WE)
+get_filename_component(_filename "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Joints.msg" NAME_WE)
 add_dependencies(champ_msgs_generate_messages_py _champ_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Contacts.msg" NAME_WE)
+get_filename_component(_filename "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Contacts.msg" NAME_WE)
 add_dependencies(champ_msgs_generate_messages_py _champ_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/ContactsStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/ContactsStamped.msg" NAME_WE)
 add_dependencies(champ_msgs_generate_messages_py _champ_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ruyzang/spotdog/src/champ/champ_msgs/msg/Pose.msg" NAME_WE)
+get_filename_component(_filename "/home/duygiang/Spotdog_champ/src/champ/champ_msgs/msg/Pose.msg" NAME_WE)
 add_dependencies(champ_msgs_generate_messages_py _champ_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

@@ -1,8 +1,8 @@
-# Install script for directory: /home/ruyzang/spotdog/src/champ_teleop
+# Install script for directory: /home/duygiang/Spotdog_champ/src/champ_teleop
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ruyzang/spotdog/install")
+  set(CMAKE_INSTALL_PREFIX "/home/duygiang/Spotdog_champ/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,25 +38,25 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ruyzang/spotdog/build/champ_teleop/catkin_generated/installspace/champ_teleop.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/duygiang/Spotdog_champ/build/champ_teleop/catkin_generated/installspace/champ_teleop.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/champ_teleop/cmake" TYPE FILE FILES
-    "/home/ruyzang/spotdog/build/champ_teleop/catkin_generated/installspace/champ_teleopConfig.cmake"
-    "/home/ruyzang/spotdog/build/champ_teleop/catkin_generated/installspace/champ_teleopConfig-version.cmake"
+    "/home/duygiang/Spotdog_champ/build/champ_teleop/catkin_generated/installspace/champ_teleopConfig.cmake"
+    "/home/duygiang/Spotdog_champ/build/champ_teleop/catkin_generated/installspace/champ_teleopConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/champ_teleop" TYPE FILE FILES "/home/ruyzang/spotdog/src/champ_teleop/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/champ_teleop" TYPE FILE FILES "/home/duygiang/Spotdog_champ/src/champ_teleop/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/champ_teleop" TYPE PROGRAM FILES "/home/ruyzang/spotdog/build/champ_teleop/catkin_generated/installspace/champ_teleop.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/champ_teleop" TYPE PROGRAM FILES "/home/duygiang/Spotdog_champ/build/champ_teleop/catkin_generated/installspace/champ_teleop.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/champ_teleop" TYPE DIRECTORY FILES "/home/ruyzang/spotdog/src/champ_teleop/launch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/champ_teleop" TYPE DIRECTORY FILES "/home/duygiang/Spotdog_champ/src/champ_teleop/launch")
 endif()
 

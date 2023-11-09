@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
-  "/home/ruyzang/spotdog/devel/include/yocs_velocity_smoother/paramsConfig.h"
-  "/home/ruyzang/spotdog/devel/lib/python3/dist-packages/yocs_velocity_smoother/cfg/paramsConfig.py"
-  "/home/ruyzang/spotdog/devel/share/yocs_velocity_smoother/docs/paramsConfig-usage.dox"
-  "/home/ruyzang/spotdog/devel/share/yocs_velocity_smoother/docs/paramsConfig.dox"
-  "/home/ruyzang/spotdog/devel/share/yocs_velocity_smoother/docs/paramsConfig.wikidoc"
+  "/home/duygiang/Spotdog_champ/devel/include/yocs_velocity_smoother/paramsConfig.h"
+  "/home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/yocs_velocity_smoother/cfg/paramsConfig.py"
+  "/home/duygiang/Spotdog_champ/devel/share/yocs_velocity_smoother/docs/paramsConfig-usage.dox"
+  "/home/duygiang/Spotdog_champ/devel/share/yocs_velocity_smoother/docs/paramsConfig.dox"
+  "/home/duygiang/Spotdog_champ/devel/share/yocs_velocity_smoother/docs/paramsConfig.wikidoc"
   "CMakeFiles/yocs_velocity_smoother_gencfg"
 )
 

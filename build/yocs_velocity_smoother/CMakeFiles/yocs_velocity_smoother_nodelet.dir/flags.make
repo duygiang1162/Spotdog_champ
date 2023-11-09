@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++11 -fPIC
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"yocs_velocity_smoother\" -Dyocs_velocity_smoother_nodelet_EXPORTS
 
-CXX_INCLUDES = -I/home/ruyzang/spotdog/devel/include -I/home/ruyzang/spotdog/src/yocs_velocity_smoother/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
+CXX_INCLUDES = -I/home/duygiang/Spotdog_champ/devel/include -I/home/duygiang/Spotdog_champ/src/yocs_velocity_smoother/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
 

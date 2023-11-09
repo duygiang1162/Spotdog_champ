@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ruyzang/spotdog/devel/lib/champ_base/state_estimation_node"
-  "/home/ruyzang/spotdog/devel/lib/champ_base/state_estimation_node.pdb"
+  "/home/duygiang/Spotdog_champ/devel/lib/champ_base/state_estimation_node"
+  "/home/duygiang/Spotdog_champ/devel/lib/champ_base/state_estimation_node.pdb"
   "CMakeFiles/state_estimation_node.dir/src/state_estimation_node.cpp.o"
 )
 

@@ -1,8 +1,8 @@
-prefix=/home/ruyzang/spotdog/devel
+prefix=/home/duygiang/Spotdog_champ/devel
 
 Name: yocs_velocity_smoother
 Description: Description of yocs_velocity_smoother
 Version: 0.12.1
-Cflags: -I/home/ruyzang/spotdog/devel/include -I/home/ruyzang/spotdog/src/yocs_velocity_smoother/include
+Cflags: -I/home/duygiang/Spotdog_champ/devel/include -I/home/duygiang/Spotdog_champ/src/yocs_velocity_smoother/include
 Libs: -L${prefix}/lib -lyocs_velocity_smoother_nodelet
 Requires: roscpp pluginlib nodelet ecl_threads dynamic_reconfigure geometry_msgs nav_msgs

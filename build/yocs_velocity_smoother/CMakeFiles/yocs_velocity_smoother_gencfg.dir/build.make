@@ -43,44 +43,44 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ruyzang/spotdog/src
+CMAKE_SOURCE_DIR = /home/duygiang/Spotdog_champ/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ruyzang/spotdog/build
+CMAKE_BINARY_DIR = /home/duygiang/Spotdog_champ/build
 
 # Utility rule file for yocs_velocity_smoother_gencfg.
 
 # Include the progress variables for this target.
 include yocs_velocity_smoother/CMakeFiles/yocs_velocity_smoother_gencfg.dir/progress.make
 
-yocs_velocity_smoother/CMakeFiles/yocs_velocity_smoother_gencfg: /home/ruyzang/spotdog/devel/include/yocs_velocity_smoother/paramsConfig.h
-yocs_velocity_smoother/CMakeFiles/yocs_velocity_smoother_gencfg: /home/ruyzang/spotdog/devel/lib/python3/dist-packages/yocs_velocity_smoother/cfg/paramsConfig.py
+yocs_velocity_smoother/CMakeFiles/yocs_velocity_smoother_gencfg: /home/duygiang/Spotdog_champ/devel/include/yocs_velocity_smoother/paramsConfig.h
+yocs_velocity_smoother/CMakeFiles/yocs_velocity_smoother_gencfg: /home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/yocs_velocity_smoother/cfg/paramsConfig.py
 
 
-/home/ruyzang/spotdog/devel/include/yocs_velocity_smoother/paramsConfig.h: /home/ruyzang/spotdog/src/yocs_velocity_smoother/cfg/params.cfg
-/home/ruyzang/spotdog/devel/include/yocs_velocity_smoother/paramsConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.py.template
-/home/ruyzang/spotdog/devel/include/yocs_velocity_smoother/paramsConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ruyzang/spotdog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating dynamic reconfigure files from cfg/params.cfg: /home/ruyzang/spotdog/devel/include/yocs_velocity_smoother/paramsConfig.h /home/ruyzang/spotdog/devel/lib/python3/dist-packages/yocs_velocity_smoother/cfg/paramsConfig.py"
-	cd /home/ruyzang/spotdog/build/yocs_velocity_smoother && ../catkin_generated/env_cached.sh /home/ruyzang/spotdog/build/yocs_velocity_smoother/setup_custom_pythonpath.sh /home/ruyzang/spotdog/src/yocs_velocity_smoother/cfg/params.cfg /opt/ros/noetic/share/dynamic_reconfigure/cmake/.. /home/ruyzang/spotdog/devel/share/yocs_velocity_smoother /home/ruyzang/spotdog/devel/include/yocs_velocity_smoother /home/ruyzang/spotdog/devel/lib/python3/dist-packages/yocs_velocity_smoother
+/home/duygiang/Spotdog_champ/devel/include/yocs_velocity_smoother/paramsConfig.h: /home/duygiang/Spotdog_champ/src/yocs_velocity_smoother/cfg/params.cfg
+/home/duygiang/Spotdog_champ/devel/include/yocs_velocity_smoother/paramsConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.py.template
+/home/duygiang/Spotdog_champ/devel/include/yocs_velocity_smoother/paramsConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/duygiang/Spotdog_champ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating dynamic reconfigure files from cfg/params.cfg: /home/duygiang/Spotdog_champ/devel/include/yocs_velocity_smoother/paramsConfig.h /home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/yocs_velocity_smoother/cfg/paramsConfig.py"
+	cd /home/duygiang/Spotdog_champ/build/yocs_velocity_smoother && ../catkin_generated/env_cached.sh /home/duygiang/Spotdog_champ/build/yocs_velocity_smoother/setup_custom_pythonpath.sh /home/duygiang/Spotdog_champ/src/yocs_velocity_smoother/cfg/params.cfg /opt/ros/noetic/share/dynamic_reconfigure/cmake/.. /home/duygiang/Spotdog_champ/devel/share/yocs_velocity_smoother /home/duygiang/Spotdog_champ/devel/include/yocs_velocity_smoother /home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/yocs_velocity_smoother
 
-/home/ruyzang/spotdog/devel/share/yocs_velocity_smoother/docs/paramsConfig.dox: /home/ruyzang/spotdog/devel/include/yocs_velocity_smoother/paramsConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/ruyzang/spotdog/devel/share/yocs_velocity_smoother/docs/paramsConfig.dox
+/home/duygiang/Spotdog_champ/devel/share/yocs_velocity_smoother/docs/paramsConfig.dox: /home/duygiang/Spotdog_champ/devel/include/yocs_velocity_smoother/paramsConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/duygiang/Spotdog_champ/devel/share/yocs_velocity_smoother/docs/paramsConfig.dox
 
-/home/ruyzang/spotdog/devel/share/yocs_velocity_smoother/docs/paramsConfig-usage.dox: /home/ruyzang/spotdog/devel/include/yocs_velocity_smoother/paramsConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/ruyzang/spotdog/devel/share/yocs_velocity_smoother/docs/paramsConfig-usage.dox
+/home/duygiang/Spotdog_champ/devel/share/yocs_velocity_smoother/docs/paramsConfig-usage.dox: /home/duygiang/Spotdog_champ/devel/include/yocs_velocity_smoother/paramsConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/duygiang/Spotdog_champ/devel/share/yocs_velocity_smoother/docs/paramsConfig-usage.dox
 
-/home/ruyzang/spotdog/devel/lib/python3/dist-packages/yocs_velocity_smoother/cfg/paramsConfig.py: /home/ruyzang/spotdog/devel/include/yocs_velocity_smoother/paramsConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/ruyzang/spotdog/devel/lib/python3/dist-packages/yocs_velocity_smoother/cfg/paramsConfig.py
+/home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/yocs_velocity_smoother/cfg/paramsConfig.py: /home/duygiang/Spotdog_champ/devel/include/yocs_velocity_smoother/paramsConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/yocs_velocity_smoother/cfg/paramsConfig.py
 
-/home/ruyzang/spotdog/devel/share/yocs_velocity_smoother/docs/paramsConfig.wikidoc: /home/ruyzang/spotdog/devel/include/yocs_velocity_smoother/paramsConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/ruyzang/spotdog/devel/share/yocs_velocity_smoother/docs/paramsConfig.wikidoc
+/home/duygiang/Spotdog_champ/devel/share/yocs_velocity_smoother/docs/paramsConfig.wikidoc: /home/duygiang/Spotdog_champ/devel/include/yocs_velocity_smoother/paramsConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/duygiang/Spotdog_champ/devel/share/yocs_velocity_smoother/docs/paramsConfig.wikidoc
 
 yocs_velocity_smoother_gencfg: yocs_velocity_smoother/CMakeFiles/yocs_velocity_smoother_gencfg
-yocs_velocity_smoother_gencfg: /home/ruyzang/spotdog/devel/include/yocs_velocity_smoother/paramsConfig.h
-yocs_velocity_smoother_gencfg: /home/ruyzang/spotdog/devel/share/yocs_velocity_smoother/docs/paramsConfig.dox
-yocs_velocity_smoother_gencfg: /home/ruyzang/spotdog/devel/share/yocs_velocity_smoother/docs/paramsConfig-usage.dox
-yocs_velocity_smoother_gencfg: /home/ruyzang/spotdog/devel/lib/python3/dist-packages/yocs_velocity_smoother/cfg/paramsConfig.py
-yocs_velocity_smoother_gencfg: /home/ruyzang/spotdog/devel/share/yocs_velocity_smoother/docs/paramsConfig.wikidoc
+yocs_velocity_smoother_gencfg: /home/duygiang/Spotdog_champ/devel/include/yocs_velocity_smoother/paramsConfig.h
+yocs_velocity_smoother_gencfg: /home/duygiang/Spotdog_champ/devel/share/yocs_velocity_smoother/docs/paramsConfig.dox
+yocs_velocity_smoother_gencfg: /home/duygiang/Spotdog_champ/devel/share/yocs_velocity_smoother/docs/paramsConfig-usage.dox
+yocs_velocity_smoother_gencfg: /home/duygiang/Spotdog_champ/devel/lib/python3/dist-packages/yocs_velocity_smoother/cfg/paramsConfig.py
+yocs_velocity_smoother_gencfg: /home/duygiang/Spotdog_champ/devel/share/yocs_velocity_smoother/docs/paramsConfig.wikidoc
 yocs_velocity_smoother_gencfg: yocs_velocity_smoother/CMakeFiles/yocs_velocity_smoother_gencfg.dir/build.make
 
 .PHONY : yocs_velocity_smoother_gencfg
@@ -91,10 +91,10 @@ yocs_velocity_smoother/CMakeFiles/yocs_velocity_smoother_gencfg.dir/build: yocs_
 .PHONY : yocs_velocity_smoother/CMakeFiles/yocs_velocity_smoother_gencfg.dir/build
 
 yocs_velocity_smoother/CMakeFiles/yocs_velocity_smoother_gencfg.dir/clean:
-	cd /home/ruyzang/spotdog/build/yocs_velocity_smoother && $(CMAKE_COMMAND) -P CMakeFiles/yocs_velocity_smoother_gencfg.dir/cmake_clean.cmake
+	cd /home/duygiang/Spotdog_champ/build/yocs_velocity_smoother && $(CMAKE_COMMAND) -P CMakeFiles/yocs_velocity_smoother_gencfg.dir/cmake_clean.cmake
 .PHONY : yocs_velocity_smoother/CMakeFiles/yocs_velocity_smoother_gencfg.dir/clean
 
 yocs_velocity_smoother/CMakeFiles/yocs_velocity_smoother_gencfg.dir/depend:
-	cd /home/ruyzang/spotdog/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ruyzang/spotdog/src /home/ruyzang/spotdog/src/yocs_velocity_smoother /home/ruyzang/spotdog/build /home/ruyzang/spotdog/build/yocs_velocity_smoother /home/ruyzang/spotdog/build/yocs_velocity_smoother/CMakeFiles/yocs_velocity_smoother_gencfg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/duygiang/Spotdog_champ/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/duygiang/Spotdog_champ/src /home/duygiang/Spotdog_champ/src/yocs_velocity_smoother /home/duygiang/Spotdog_champ/build /home/duygiang/Spotdog_champ/build/yocs_velocity_smoother /home/duygiang/Spotdog_champ/build/yocs_velocity_smoother/CMakeFiles/yocs_velocity_smoother_gencfg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : yocs_velocity_smoother/CMakeFiles/yocs_velocity_smoother_gencfg.dir/depend
 

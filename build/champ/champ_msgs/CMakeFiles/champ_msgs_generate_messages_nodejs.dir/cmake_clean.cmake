@@ -1,13 +1,13 @@
 file(REMOVE_RECURSE
-  "/home/ruyzang/spotdog/devel/share/gennodejs/ros/champ_msgs/msg/Contacts.js"
-  "/home/ruyzang/spotdog/devel/share/gennodejs/ros/champ_msgs/msg/ContactsStamped.js"
-  "/home/ruyzang/spotdog/devel/share/gennodejs/ros/champ_msgs/msg/Imu.js"
-  "/home/ruyzang/spotdog/devel/share/gennodejs/ros/champ_msgs/msg/Joints.js"
-  "/home/ruyzang/spotdog/devel/share/gennodejs/ros/champ_msgs/msg/PID.js"
-  "/home/ruyzang/spotdog/devel/share/gennodejs/ros/champ_msgs/msg/Point.js"
-  "/home/ruyzang/spotdog/devel/share/gennodejs/ros/champ_msgs/msg/PointArray.js"
-  "/home/ruyzang/spotdog/devel/share/gennodejs/ros/champ_msgs/msg/Pose.js"
-  "/home/ruyzang/spotdog/devel/share/gennodejs/ros/champ_msgs/msg/Velocities.js"
+  "/home/duygiang/Spotdog_champ/devel/share/gennodejs/ros/champ_msgs/msg/Contacts.js"
+  "/home/duygiang/Spotdog_champ/devel/share/gennodejs/ros/champ_msgs/msg/ContactsStamped.js"
+  "/home/duygiang/Spotdog_champ/devel/share/gennodejs/ros/champ_msgs/msg/Imu.js"
+  "/home/duygiang/Spotdog_champ/devel/share/gennodejs/ros/champ_msgs/msg/Joints.js"
+  "/home/duygiang/Spotdog_champ/devel/share/gennodejs/ros/champ_msgs/msg/PID.js"
+  "/home/duygiang/Spotdog_champ/devel/share/gennodejs/ros/champ_msgs/msg/Point.js"
+  "/home/duygiang/Spotdog_champ/devel/share/gennodejs/ros/champ_msgs/msg/PointArray.js"
+  "/home/duygiang/Spotdog_champ/devel/share/gennodejs/ros/champ_msgs/msg/Pose.js"
+  "/home/duygiang/Spotdog_champ/devel/share/gennodejs/ros/champ_msgs/msg/Velocities.js"
   "CMakeFiles/champ_msgs_generate_messages_nodejs"
 )
 
